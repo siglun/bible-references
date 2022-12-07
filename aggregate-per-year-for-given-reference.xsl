@@ -30,7 +30,17 @@
           <xsl:value-of select="td[2]"/>
         </xsl:for-each>
       </xsl:variable>
-      <xsl:value-of select="$year"/><xsl:text> </xsl:text><xsl:value-of select="count($refs-that-year)"/><xsl:text>
+      <xsl:variable name="refs-that-year-in-verse" as="xs:string *">
+        <xsl:for-each select="$big-table//tr[td[1][contains(.,$year)] and td[2][contains(.,$ref)] and td[3]='l' ]">
+          <xsl:value-of select="td[2]"/>
+        </xsl:for-each>
+      </xsl:variable>
+      <xsl:variable name="refs-that-year-in-prose" as="xs:string *">
+        <xsl:for-each select="$big-table//tr[td[1][contains(.,$year)] and td[2][contains(.,$ref)] and td[3]='p' ]">
+          <xsl:value-of select="td[2]"/>
+        </xsl:for-each>
+      </xsl:variable>
+      <xsl:value-of select="$year"/><xsl:text> </xsl:text><xsl:value-of select="count($refs-that-year)"/><xsl:text> </xsl:text><xsl:value-of select="count($refs-that-year-in-verse)"/><xsl:text> </xsl:text><xsl:value-of select="count($refs-that-year-in-prose)"/><xsl:text>
       </xsl:text>
     </xsl:for-each>
   </xsl:template>
