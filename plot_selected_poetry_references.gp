@@ -15,4 +15,10 @@ plot 'selected_poetry_ref_1.text' using 1:2 w l t "Matt 16,18", \
      'selected_poetry_ref_3.text' using 1:2 w l t "Joh 6,63", \
      'selected_poetry_ref_4.text' using 1:2 w l t "Ordsp 4,23"
 
-# , 'weekly_counts.txt' using 1:6 w l t "farsot"
+
+set ter pdfcairo
+set out "selected_poetry_refs_per_year.pdf"
+set monochrome 
+
+replot
+

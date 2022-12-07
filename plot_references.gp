@@ -15,4 +15,8 @@ set monochrome
 plot 'aggregated-references-per-year.text' using 1:2 w l t "total number"
 
 
-# , 'weekly_counts.txt' using 1:6 w l t "farsot"
+set ter pdfcairo
+set out "refs_per_year.pdf"
+set monochrome 
+
+replot

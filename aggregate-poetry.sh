@@ -9,4 +9,4 @@ $SAXON ref='1 Mos 2,7'   poetry-table.xml aggregate-per-year-for-given-reference
 $SAXON ref='Joh 6,63'   poetry-table.xml aggregate-per-year-for-given-reference.xsl > selected_poetry_ref_3.text
 $SAXON ref='Ordsp 4,23' poetry-table.xml aggregate-per-year-for-given-reference.xsl > selected_poetry_ref_4.text
 
-
+gnuplot < plot_selected_poetry_references.gp 
