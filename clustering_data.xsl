@@ -4,7 +4,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="3.0">
 
-  <xsl:output method="xml"/>
+  <xsl:output method="text"/>
   
   <xsl:variable name="year-list" as="xs:string *">
     <xsl:for-each select="//tr">
