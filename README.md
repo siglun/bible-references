@@ -127,6 +127,7 @@ year and 4637 columns, one for each bible location Grundtvig ever
 referred to. The values in the table refer to the number of times he
 referenced that locations. Most entries are zero, obviously. The
 [do-cluster-analysis.r](do-cluster-analysis.r) does the calculations.
+See Altuna Akalin (2020) [Computational Genomics with R](https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html)
 
 ```
 
