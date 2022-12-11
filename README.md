@@ -8,9 +8,7 @@ teacher and politician, as wikipedia describes him.
 
 This project includes a statical analysis of his use of bible
 references, as found in
-[https://tekster.kb.dk/](https://tekster.kb.dk/).
-
-The data comes from the [Center for
+[https://tekster.kb.dk/](https://tekster.kb.dk/). The data comes from the [Center for
 Grundtvigforskning](https://grundtvigcenteret.au.dk/) which is the
 publisher of [Grundtvigs Værker](http://www.grundtvigsværker.dk/) referred to as GV.
 
