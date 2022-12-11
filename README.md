@@ -21,7 +21,9 @@ number of bible locations that just appear once in a reference,
 whereas there are a number of favourates which is cited 50-60 in the
 corpus.
 
-What you find below is an outline of an analysis of bible references in his works.
+What you find below is an outline of my analysis of of his bible
+references from a technical point of view. Eventually there will
+appear a detailed paper here. I hope.
 
 ## Prerequisites
 
@@ -32,7 +34,8 @@ SAXON_JAR="/usr/share/maven-repo/net/sf/saxon/Saxon-HE/9.9.1.5/Saxon-HE-9.9.1.5.
 SAXON="java -jar $SAXON_JAR "
 ```
 
-or source [parameters.sh](parameters.sh)
+or source [parameters.sh](parameters.sh). This might have to be
+modified to your installation, obviously.
 
 Find references from texts using `find` and `xslt` which requires that
 you have access to the TEI source files. I cannot provide you with
