@@ -24,17 +24,23 @@
       <xsl:sort data-type="number"  select="."/>
       <xsl:variable name="year" select="."/>
       <xsl:value-of select="."/><xsl:text> </xsl:text>
-      <xsl:for-each select="$dom//tr[contains(td[1],$year)]">
-        <xsl:variable name="rows" select="." as="node() *"/>
-        <xsl:for-each select="distinct-values($all_refs)">
-          <xsl:variable name="rows_for_selected_ref" as="xs:string *">
-            <xsl:value-of select="$rows/tr[contains(td[2],.)]/td[2]/text()"/>
-          </xsl:variable>
-          <xsl:value-of select="$rows_for_selected_ref"/>        <xsl:text> </xsl:text>
+      <xsl:variable name="rows" as="node() *">
+        <xsl:for-each select="$dom//tr[contains(td[1],$year)]">
+          <xsl:copy-of select="."/>
         </xsl:for-each>
-        <xsl:text>
-        </xsl:text>
-      </xsl:for-each>
+      </xsl:variable>
+ 
+      <xsl:for-each select="distinct-values($all_refs)">
+        <xsl:variable name="ref" select="."/>
+
+        <xsl:variable name="counter" as="xs:integer *">
+          <xsl:for-each select="$rows//td[.=$ref]">1</xsl:for-each>
+        </xsl:variable>
+        <xsl:value-of select="sum($counter)"/><xsl:text> </xsl:text>
+
+        </xsl:for-each><xsl:text>
+      </xsl:text>
+      
     </xsl:for-each>
   </xsl:template>
   
