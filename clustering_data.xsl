@@ -23,7 +23,7 @@
     <xsl:for-each select="distinct-values($year-list)">
       <xsl:sort data-type="number"  select="."/>
       <xsl:variable name="year" select="."/>
-      <xsl:value-of select="."/><xsl:text> </xsl:text>
+      "<xsl:value-of select="."/>"<xsl:text> </xsl:text>
       <xsl:variable name="rows" as="node() *">
         <xsl:for-each select="$dom//tr[contains(td[1],$year)]">
           <xsl:copy-of select="."/>
