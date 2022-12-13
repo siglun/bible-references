@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="root">
+  <teiHeader xml:id="header">
+    <fileDesc xml:id="md">
+      <titleStmt xml:id="titles">
+        <title type="main">On Grundtvig and his use of bible references</title>
+        <title type="sub">Musings of a software developer</title>
+      </titleStmt>
+      <publicationStmt>
+        <p/>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart>
+          <title type="main">On Grundtvig and his use of bible
+          references</title>
+          <title type="sub">Musings of a software developer</title>
+        </titlePart>
+      </docTitle>
+      <docAuthor>
+        <name>Sigfrid Lundberg</name>
+        <address>
+          <addrLine>slu@kb.dk</addrLine>
+          <addrLine>Digital Transformation</addrLine>
+          <addrLine>Royal Danish Library</addrLine>
+          <addrLine>Post box 2149</addrLine>
+          <addrLine>1016 Copenhagen K</addrLine>
+          <addrLine>Denmark</addrLine>
+        </address>
+      </docAuthor>
+      <div type="abstract">
+      </div>
+    </front>
+    <body>
+      <head>Introduction</head>
+      <p>
+      </p>
+    </body>
+  </text>
+
+</TEI>
