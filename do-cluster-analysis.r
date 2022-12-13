@@ -9,16 +9,10 @@ yearly_quotes <- read.table(file = "clustering-data.text",
                      fill = TRUE,
                      comment.char = "#")
 
-# yearly_quotes
-
-
-
-
-
 # d=dist(yearly_quotes,method="euclidean")
 d=dist(yearly_quotes,method="minkowski")
-hc <- hclust(d,method="complete")
 
+hc <- hclust(d,method="complete")
 hcd <- as.dendrogram(hc)
 
 pdf( "cladogram.pdf", width = 15, height = 10 )
