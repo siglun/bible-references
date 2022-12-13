@@ -131,8 +131,8 @@ referenced that locations. Most entries are zero, obviously. The
 See Altuna Akalin (2020) [Computational Genomics with R](https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html)
 
 ```
-
 #!/usr/bin/Rscript
+
 
 yearly_quotes <- read.table(file = "clustering-data.text",
 	      	     row.names=1,
@@ -144,10 +144,18 @@ yearly_quotes <- read.table(file = "clustering-data.text",
 
 # yearly_quotes
 
+
+
 pdf( "cladogram.pdf", width = 15, height = 10 )
-d=dist(yearly_quotes,method="euclidean")
-hc=hclust(d,method="complete")
-plot(hc)
+
+# d=dist(yearly_quotes,method="euclidean")
+d=dist(yearly_quotes,method="minkowski")
+hc <- hclust(d,method="complete")
+
+hcd <- as.dendrogram(hc)
+
+plot(hcd,xlab="Years")
+
 
 ```
 

@@ -22,3 +22,10 @@ set monochrome
 
 replot
 
+
+set ter png
+set out "selected_poetry_refs_per_year.png"
+set monochrome 
+
+replot
+

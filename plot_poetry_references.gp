@@ -20,3 +20,10 @@ set out "refs_in_poetry_per_year.pdf"
 set monochrome 
 
 replot
+
+
+set ter png
+set out "refs_in_poetry_per_year.png"
+set monochrome 
+
+replot
