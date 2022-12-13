@@ -38,9 +38,44 @@
       </div>
     </front>
     <body>
-      <head>Introduction</head>
-      <p>
-      </p>
+      <div>
+        <head>Introduction</head>
+        <p>
+        </p>
+      </div>
+      <div>
+        <head>Analysis</head>
+        <p>
+          <figure>
+            <graphic url="https://github.com/siglun/bible-references/raw/main/refs_per_year.png"/>
+          </figure>
+        </p>
+        <p>
+          <figure>
+            <graphic url="https://github.com/siglun/bible-references/raw/main/selected_refs_per_year.png"/>
+          </figure>
+        </p>
+        <p>
+          <figure>
+            <graphic url="https://github.com/siglun/bible-references/raw/main/refs_in_poetry_per_year.png"/>
+          </figure>
+        </p>
+        <p>
+          <figure>
+            <graphic url="https://github.com/siglun/bible-references/raw/main/selected_poetry_refs_per_year.png"/>
+          </figure>
+        </p>
+        <p>
+          <figure>
+            <graphic url="https://github.com/siglun/bible-references/raw/main/cladogram.png"/>
+          </figure>
+        </p>
+      </div>
+      <div>
+        <head>Discussion</head>
+        <p>
+        </p>
+      </div>
     </body>
   </text>
 
