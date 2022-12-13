@@ -13,7 +13,7 @@ yearly_quotes <- read.table(file = "clustering-data.text",
 
 
 
-pdf( "cladogram.pdf", width = 15, height = 10 )
+
 
 # d=dist(yearly_quotes,method="euclidean")
 d=dist(yearly_quotes,method="minkowski")
@@ -21,4 +21,8 @@ hc <- hclust(d,method="complete")
 
 hcd <- as.dendrogram(hc)
 
+pdf( "cladogram.pdf", width = 15, height = 10 )
+plot(hcd,xlab="Years")
+
+png( "cladogram.png",width = 1200, height = 800, units = "px", pointsize = 12)
 plot(hcd,xlab="Years")
