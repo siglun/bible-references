@@ -11,3 +11,7 @@ $SAXON ref='Ordsp 4,23' poetry-table.xml aggregate-per-year-for-given-reference.
 
 gnuplot < plot_poetry_references.gp
 gnuplot < plot_selected_poetry_references.gp 
+
+ps2pdf  -dEPSCrop  refs_in_poetry_per_year.eps
+ps2pdf  -dEPSCrop  selected_poetry_refs_per_year.eps
+

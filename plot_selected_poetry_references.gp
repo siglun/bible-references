@@ -16,11 +16,10 @@ plot 'selected_poetry_ref_1.text' using 1:2 w l t "Matt 16,18", \
      'selected_poetry_ref_4.text' using 1:2 w l t "Ordsp 4,23"
 
 
-set ter pdfcairo
-set out "selected_poetry_refs_per_year.pdf"
-set monochrome 
-
-replot
+# set ter pdfcairo
+# set out "selected_poetry_refs_per_year.pdf"
+# set monochrome 
+# replot
 
 
 set ter png

@@ -15,12 +15,10 @@ set monochrome
 plot 'aggregated-poetry-references-per-year.text' using 1:2 w l t "total number in poetry"
 
 
-set ter pdfcairo
-set out "refs_in_poetry_per_year.pdf"
-set monochrome 
-
-replot
-
+# set ter pdfcairo
+# set out "refs_in_poetry_per_year.pdf"
+# set monochrome 
+# replot
 
 set ter png
 set out "refs_in_poetry_per_year.png"
