@@ -14,10 +14,13 @@ d=dist(yearly_quotes,method="minkowski")
 
 hc <- hclust(d,method="complete")
 hcd <- as.dendrogram(hc)
-postscript( "cladogram.eps", width = 8.0, height = 4.79,   horizontal = FALSE, onefile = FALSE )
-plot(hcd,xlab="Years")
 
-# system("ps2pdf  -dEPSCrop cladogram.eps")
+# postscript( "cladogram_eps.eps", width = 12.0, height = 8.0 , onefile = FALSE ,   horizontal = FALSE )
+# plot(hcd,xlab="Years")
+# system("ps2pdf  -dEPSCrop cladogram_eps.eps")
+
+pdf( "cladogram.pdf", width = 12.0, height = 8.0  )
+plot(hcd,xlab="Years")
 
 png( "cladogram.png",width = 1200, height = 800, units = "px", pointsize = 12)
 plot(hcd,xlab="Years")
