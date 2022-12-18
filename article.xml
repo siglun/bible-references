@@ -47,6 +47,11 @@
         <head>Analysis</head>
         <p>
           <figure>
+            <graphic url="https://github.com/siglun/bible-references/raw/main/distribution.png"/>
+          </figure>
+        </p>
+        <p>
+          <figure>
             <graphic url="https://github.com/siglun/bible-references/raw/main/refs_per_year.png"/>
           </figure>
         </p>

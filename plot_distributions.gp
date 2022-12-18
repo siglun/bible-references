@@ -16,10 +16,10 @@ plot 'distribution.text' using 2:1 w l t "total", \
      'distribution_poetry.text'  using 2:1 w l t "verse only" 
 
 
-set ter pdfcairo
-set out "distribution.pdf"
-set monochrome 
-replot
+# set ter pdfcairo
+# set out "distribution.pdf"
+# set monochrome 
+# replot
 
 set ter png
 set out "distribution.png"

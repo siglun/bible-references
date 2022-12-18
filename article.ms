@@ -20,6 +20,11 @@ Introduction
 Analysis
 .LP
 .KF
+.PDFPIC distribution.pdf 12.0c 7.2c
+.KE
+.sp
+.LP
+.KF
 .PDFPIC refs_per_year.pdf 12.0c 7.2c
 .KE
 .sp
