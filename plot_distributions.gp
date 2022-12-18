@@ -17,7 +17,7 @@ plot 'distribution.text' using 2:1 w l t "total", \
 
 
 set ter pdfcairo
-set out "refs_per_year.pdf"
+set out "distribution.pdf"
 set monochrome 
 replot
 
