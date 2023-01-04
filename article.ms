@@ -79,7 +79,8 @@ Center for Grundtvigforskning,  and Det Kgl. Bibliotek,
 \fP\s+2
 .XP
 .pdfhref M -N grundtvig-vaerker
-Center for Grundtvigforskning\fIGrundtvigs Værker\fP 
+Center for Grundtvigforskning,
+2010. \fIGrundtvigs Værker\fP 
 .br  
 \s-2\f(CR
 .pdfhref W -D http://grundtvigsvaerker.dk/ http://grundtvigsvaerker.dk/
