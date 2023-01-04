@@ -48,18 +48,48 @@
         target="#nfsgrundtvig">Wikipedia (2003-)</ref> describes
         him.</p>
 
-        <p>This paper present some statical analyses of his use of bible
-        references over time, as found in Center for
+        <p>In this paper I present some statical analyses of his use
+        of bible references in his writing. The background to this
+        study is that Grundtvig used, referred to or quoted the bible
+        intensively. However, his references to different locations in
+        the scripture varied a lot over time. I discovered this when
+        developing and testing the <hi rend='italic'>find bible references</hi> feature for the Center for
         Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref
-        target="#grundtvig-texter"><title>Grundtvigs Værker</title></ref>.
-        The Grundtvig data for the portal comes from the Århus
+        target="#grundtvig-texter"><title>Grundtvigs
+        Værker</title></ref>.</p>
+
+        <p>A bible reference is typically a string like <hi
+        rend='monospaced'>1 Kor 13,13</hi> in some text.
+        This refers to a unique target location in the scripture,
+        namely:
+        <hi rend='italic'><quote>And now these three remain: faith, hope and love. But the greatest of these is love.</quote></hi><note><ref target="https://biblehub.com/bsb/1_corinthians/13.htm"/> (English)<lb/>
+        <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note>
+        Grundtvig used that target 41 times, but he liked verse before that one even more, since he referred to
+        <hi rend='monospaced'>1 Kor 13,12</hi> 54 times.</p>
+
+        <p>The number of times a given bible location is referred to
+        as presented in this paper depends on two factors, where the
+        number of times he actually used is just one. The other one is
+        the philologists effort to identify the references, and their
+        ability to identify a reference which is perhaps only vaguely
+        .</p>
+        
+        <p>The Grundtvig data for the portal comes from the Århus
         university's (2009) <ref
         target="#grundtvig-center"><title>Center for
-        Grundtvigforskning</title></ref>, the publisher of <ref
-        target="#grundtvig-vaerker">Grundtvigs Værker</ref>. (I refer
+        Grundtvigforskning</title>,</ref> the publisher of <ref
+        target="#grundtvig-vaerker">Grundtvigs Værker.</ref> (I refer
         to the scientific edition of Grundtvig's works as GV in the
         following.)</p>
 
+        <p>What you find below is an outline of my analysis of of his
+        bible references from a technical point of view.</p>
+        
+      </div>
+      
+      <div>
+        <head>Analyses</head>
+        
         <p>I use the counts of individual bible references to compare
         all the years of Grundtvig's professional life. The
         philologists at the Grundtig centre has identified 11499
@@ -70,43 +100,30 @@
         there are a number of favourates which is cited 50-60 in the
         corpus.</p>
 
-        <p>What you find below is an outline of my analysis of of his
-        bible references from a technical point of view.</p>
-        
-      </div>
-      
-      <div>
-        <head>Analyses</head>
-        <p>
-          <figure>
+        <figure>
             <graphic url="https://github.com/siglun/bible-references/raw/main/distribution.png"/>
-          </figure>
-        </p>
-        <p>
-          <figure>
+        </figure>
+
+        <figure>
             <graphic url="https://github.com/siglun/bible-references/raw/main/refs_per_year.png"/>
-          </figure>
-        </p>
-        <p>
-          <figure>
+        </figure>
+
+        <figure>
             <graphic url="https://github.com/siglun/bible-references/raw/main/selected_refs_per_year.png"/>
-          </figure>
-        </p>
-        <p>
-          <figure>
-            <graphic url="https://github.com/siglun/bible-references/raw/main/refs_in_poetry_per_year.png"/>
-          </figure>
-        </p>
-        <p>
-          <figure>
+        </figure>
+
+        <figure>
+          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_in_poetry_per_year.png"/>
+        </figure>
+
+        <figure>
             <graphic url="https://github.com/siglun/bible-references/raw/main/selected_poetry_refs_per_year.png"/>
-          </figure>
-        </p>
-        <p>
-          <figure>
-            <graphic url="https://github.com/siglun/bible-references/raw/main/cladogram.png"/>
-          </figure>
-        </p>
+        </figure>
+
+        <figure>
+          <graphic url="https://github.com/siglun/bible-references/raw/main/cladogram.png"/>
+        </figure>
+
       </div>
       <div>
         <head>Discussion</head>

@@ -95,7 +95,7 @@ Notes
 
 </xsl:template>
 
-<xsl:template match="t:note"><xsl:text>\**
+<xsl:template match="t:note">\**<xsl:text>
 .FS
 </xsl:text><xsl:apply-templates/><xsl:text>
 .FE
@@ -121,6 +121,10 @@ Notes
 <xsl:apply-templates/>
 .br
 </xsl:template>
+
+<xsl:template match="t:lb"><xsl:text>
+.br
+</xsl:text></xsl:template>
 
 
 <xsl:template match="t:p">

@@ -20,45 +20,61 @@ Nikolaj Frederik Severin Grundtvig is one of the most influential persons in Dan
 .pdfhref L -D nfsgrundtvig Wikipedia (2003-)
 \&describes him.
 .LP
-This paper present some statical analyses of his use of bible references over time, as found in Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
+In this paper I present some statical analyses of his use of bible references in his writing. The background to this study is that Grundtvig used, referred to or quoted the bible intensively. However, his references to different locations in the scripture varied a lot over time. I discovered this when developing and testing the
+\fIfind bible references\fP
+feature for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
 .pdfhref L -D grundtvig-texter Grundtvigs Værker
-\&. The Grundtvig data for the portal comes from the Århus university's (2009)
-.pdfhref L -D grundtvig-center Center for Grundtvigforskning
-\&, the publisher of
-.pdfhref L -D grundtvig-vaerker Grundtvigs Værker
-\&. (I refer to the scientific edition of Grundtvig's works as GV in the following.)
+\&.
 .LP
-I use the counts of individual bible references to compare all the years of Grundtvig's professional life. The philologists at the Grundtig centre has identified 11499 references to the bible in the GV. They refer to 4637 different locations in the bible, i.e., he uses each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas there are a number of favourates which is cited 50-60 in the corpus.
+A bible reference is typically a string like
+\f(CR1 Kor 13,13\fP
+in some text. This refers to a unique target location in the scripture, namely:
+\fIAnd now these three remain: faith, hope and love. But the greatest of these is love.\fP
+\**
+.FS
+.pdfhref W -D https://biblehub.com/bsb/1_corinthians/13.htm https://biblehub.com/bsb/1_corinthians/13.htm
+(English)
+.br
+.pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13
+(Danish)
+.FE
+Grundtvig used that target 41 times, but he liked verse before that one even more, since he referred to
+\f(CR1 Kor 13,12\fP
+54 times.
+.LP
+The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify a reference which is perhaps only vaguely .
+.LP
+The Grundtvig data for the portal comes from the Århus university's (2009)
+.pdfhref L -D grundtvig-center Center for Grundtvigforskning,
+\&the publisher of
+.pdfhref L -D grundtvig-vaerker Grundtvigs Værker.
+\&(I refer to the scientific edition of Grundtvig's works as GV in the following.)
 .LP
 What you find below is an outline of my analysis of of his bible references from a technical point of view.
 .SH
 Analyses
 .LP
+I use the counts of individual bible references to compare all the years of Grundtvig's professional life. The philologists at the Grundtig centre has identified 11499 references to the bible in the GV. They refer to 4637 different locations in the bible, i.e., he uses each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas there are a number of favourates which is cited 50-60 in the corpus.
 .KF
 .PDFPIC distribution.pdf 12.0c 7.2c
 .KE
 .sp
-.LP
 .KF
 .PDFPIC refs_per_year.pdf 12.0c 7.2c
 .KE
 .sp
-.LP
 .KF
 .PDFPIC selected_refs_per_year.pdf 12.0c 7.2c
 .KE
 .sp
-.LP
 .KF
 .PDFPIC refs_in_poetry_per_year.pdf 12.0c 7.2c
 .KE
 .sp
-.LP
 .KF
 .PDFPIC selected_poetry_refs_per_year.pdf 12.0c 7.2c
 .KE
 .sp
-.LP
 .KF
 .PDFPIC cladogram.pdf 12.0c 7.2c
 .KE
