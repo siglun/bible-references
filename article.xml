@@ -44,13 +44,16 @@
         <p>Nikolaj Frederik Severin Grundtvig is one of the most
         influential persons in Danish history. He was a polymath and
         very prolific, <quote>a pastor, author, poet, philosopher,
-        historian, teacher and politician</quote>, as wikipedia (<ref
-        target="#nfsgrundtvig"></ref>) describes him.</p>
+        historian, teacher and politician</quote>, as <ref
+        target="#nfsgrundtvig">Wikipedia (2003-)</ref> describes
+        him.</p>
 
-        <p>This project includes a statical analysis of his use of
-        bible references, as found in Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter">Grundtvigs Værker</ref>
-        [https://tekster.kb.dk/](https://tekster.kb.dk/). The Grundtvig data for the portal
-        comes from the [Center for
+        <p>This paper present statical analyses of his use of bible
+        references over time, as found in Center for
+        Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref
+        target="#grundtvig-texter">Grundtvigs Værker</ref>
+
+        The Grundtvig data for the portal comes from the [Center for
         Grundtvigforskning](https://grundtvigcenteret.au.dk/) which is
         the publisher of [Grundtvigs
         Værker](http://www.grundtvigsværker.dk/) referred to as GV.
@@ -122,8 +125,8 @@ references from a technical point of view.</p>
           </bibl>
 
           <bibl xml:id="grundtvig-texter">
-            <author>Det Kgl. Bibliotek</author>
             <author>Center for Grundtvigforskning</author>
+            <author>Det Kgl. Bibliotek</author>
             <date>2020</date>
             <title level="a">Grundtvigs Værker</title>
             <title level="m">Det Kgl. Biblioteks tekstportal</title>
