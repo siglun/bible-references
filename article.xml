@@ -40,8 +40,36 @@
     <body>
       <div>
         <head>Introduction</head>
-        <p>
+
+        <p>Nikolaj Frederik Severin Grundtvig is one of the most
+        influential persons in Danish history. He was a polymath and
+        very prolific, <quote>a pastor, author, poet, philosopher,
+        historian, teacher and politician</quote>, as wikipedia (<ref
+        target="#nfsgrundtvig"></ref>) describes him.</p>
+
+        <p>This project includes a statical analysis of his use of
+        bible references, as found in Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter">Grundtvigs Værker</ref>
+        [https://tekster.kb.dk/](https://tekster.kb.dk/). The Grundtvig data for the portal
+        comes from the [Center for
+        Grundtvigforskning](https://grundtvigcenteret.au.dk/) which is
+        the publisher of [Grundtvigs
+        Værker](http://www.grundtvigsværker.dk/) referred to as GV.
         </p>
+
+        <p>I use the counts of individual bible references to compare all the
+years of Grundtvig's professional life. The philologists at the
+Grundtig centre has identified 11499 references to the bible in the
+GV. They refer to 4637 different locations in the bible, i.e., he uses
+each location 2.5 times on the average. In reality there are large
+number of bible locations that just appear once in a reference,
+whereas there are a number of favourates which is cited 50-60 in the
+corpus.</p>
+
+<p>What you find below is an outline of my analysis of of his bible
+references from a technical point of view.</p>
+
+
+        
       </div>
       <div>
         <head>Analysis</head>
@@ -81,6 +109,30 @@
         <p>
         </p>
       </div>
+
+      <div>
+        <head>References</head>
+        <listBibl>
+          <bibl xml:id="nfsgrundtvig">
+            <author>Wikipedia</author>
+            <date>2003-</date>
+            <title level="a">N. F. S. Grundtvig</title>
+            <title level="m">Wikipedia, the free encyclopedia</title>
+            <ref target="https://en.wikipedia.org/wiki/N._F._S._Grundtvig"/>
+          </bibl>
+
+          <bibl xml:id="grundtvig-texter">
+            <author>Det Kgl. Bibliotek</author>
+            <author>Center for Grundtvigforskning</author>
+            <date>2020</date>
+            <title level="a">Grundtvigs Værker</title>
+            <title level="m">Det Kgl. Biblioteks tekstportal</title>
+            <ref target="https://tekster.kb.dk/gv"/>
+          </bibl>
+
+        </listBibl>
+      </div>
+      
     </body>
   </text>
 
