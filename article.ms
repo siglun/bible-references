@@ -22,6 +22,8 @@ Nikolaj Frederik Severin Grundtvig is one of the most influential persons in Dan
 .LP
 His use of different locations in the scripture varied a lot over time. I found that, Grundtvig referred to
 \f(CR1 Kor 13,12\fP
+, i.e.,
+\fIFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\fP
 \**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-12.htm https://biblehub.com/1_corinthians/13-12.htm
@@ -73,7 +75,7 @@ Grundtvig referred to
 \f(CR1 Kor 13,12\fP
 41 times, but he liked verse before that one even more, since he referred to
 \f(CR1 Kor 13,12\fP
-(as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify a reference in a text which is only vaguely hinting to the location.
+(as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify a reference in a text which is only vaguely hinting to the location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than others. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references. Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.
 .LP
 The Grundtvig data for the portal comes from the Århus university's (2009)
 .pdfhref L -D grundtvig-center Center for Grundtvigforskning,
@@ -83,7 +85,7 @@ The Grundtvig data for the portal comes from the Århus university's (2009)
 .SH
 Analyses
 .LP
-The philologists at the Grundtig centre has identified 11499 references to the bible in the GV. They refer to 4637 different locations in the bible, i.e., he uses each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas there are a number of favourates which is cited 60 to 70 times in the corpus
+The philologists at the Grundtig centre has identified 11499 bible references in the GV. They refer to 4637 bible locations, i.e., Grundtvig used each location bible 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus
 .pdfhref L -D figure1 (Figure 1)
 \&.
 .KF  
@@ -92,7 +94,7 @@ The philologists at the Grundtig centre has identified 11499 references to the b
 .sp
 .QP
 .vs -2
-\s-2Figure 1. The distributions showing the bible location counts for different numbers of references, for all references (solid curve) and references occuring i verse (dashed curves). Note the logarithmic scale on the y-axis. For the former distribution, there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times. At the other end, only one location
+\s-2Figure 1. The distributions showing the bible location counts for different numbers of references, for all references (solid curve) and references occurring i verse (dashed curves). Note the logarithmic scale on the y-axis. For the former distribution, there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times. At the other end, only one location
 \f(CRMatt 16,18\fP
 is referenced 66 times. There are 227 bible locations that are referenced 7 and more times. The main difference between the two distributions is that the one related to verse has much lower proportion of bible locations that are referenced at the low end. Note that the dashed curve starts lower and actually increases towards a peak.\s+2
 .vs

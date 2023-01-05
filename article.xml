@@ -50,7 +50,8 @@
 
         <p>His use of different locations in the scripture varied a lot over time.
         I found that, Grundtvig referred to
-        <hi rend='monospaced'>1 Kor 13,12</hi><note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/> (English)<lb/>  <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note> in more works than any other bible reference,
+        <hi rend='monospaced'>1 Kor 13,12</hi>, i.e.,
+        <hi rend="italic"><quote>For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.</quote></hi> <note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/> (English)<lb/>  <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note> in more works than any other bible reference,
         but he did so mostly before 1820.
         Intrigued by this observation I checked other references
         and found that he quoted <hi rend='monospaced'>1 Mos 1,27</hi> (or  <hi rend='monospaced'>1 genesis 1:27</hi>)  <note><ref target="https://biblehub.com/genesis/1-27.htm"/> (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/></note> (i.e., <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>) mostly from 1855 to 1859.
@@ -72,7 +73,12 @@
         as presented in this paper depends on two factors, where the
         number of times he actually used is just one. The other one is
         the philologists effort to identify the references, and their
-        ability to identify a reference in a text which is only vaguely hinting to the location.</p>
+        ability to identify a reference in a text which is only vaguely hinting to the location.
+        Hence there are some possible systematic errors hidden here:
+        Not all works are equal and philologists might invest more in some important ones than others.
+        Also, I can imagine that bible references could be more difficult to identify
+        in poetry and fiction where the intellectual practice does not force an author to make clear references.
+        Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.</p>
 
         <p>The Grundtvig data for the portal comes from the Århus
         university's (2009) <ref
@@ -88,11 +94,11 @@
         <head>Analyses</head>
         
         <p>The philologists at the Grundtig centre has identified
-        11499 references to the bible in the GV. They refer to 4637
-        different locations in the bible, i.e., he uses each location
-        2.5 times on the average. In reality there are large number of
-        bible locations that just appear once in a reference, whereas
-        there are a number of favourates which is cited 60 to 70 times
+        11499 bible references in the GV.
+        They refer to 4637 bible locations,
+        i.e., Grundtvig used each location bible 2.5 times on the average.
+        In reality there are large number of bible locations that just appear once in a reference,
+        whereas he had a number of favourites which is cited 60 to 70 times
         in the corpus <ref target="#figure1">(Figure 1)</ref>.</p>
 
 
@@ -101,7 +107,7 @@
           <graphic url="https://github.com/siglun/bible-references/raw/main/distribution.png"/>
           <head>Figure 1. The distributions showing the bible location
           counts for different numbers of references, for all
-          references (solid curve) and references occuring i verse
+          references (solid curve) and references occurring i verse
           (dashed curves).
           Note the logarithmic scale on the y-axis.
           For the former distribution,
