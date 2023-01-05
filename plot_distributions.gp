@@ -12,8 +12,8 @@ set monochrome
 
 set log y
 
-plot 'distribution.text' using 2:1 w l t "total", \
-     'distribution_poetry.text'  using 2:1 w l t "verse only" 
+plot 'distribution.text' using 2:1 w linespoints  pt 6 t "total", \
+     'distribution_poetry.text'  using 2:1 w linespoints pt 7  t "verse only" 
 
 
 # set ter pdfcairo
