@@ -179,8 +179,10 @@ Notes
 </xsl:template>
 
 <xsl:template match="t:figure"><xsl:text>
-.KF
-</xsl:text><xsl:apply-templates/><xsl:text>
+.KF</xsl:text>
+<xsl:if test="@xml:id"><xsl:text>  
+.pdfhref M -N </xsl:text> <xsl:value-of select="@xml:id"/><xsl:text>
+</xsl:text></xsl:if><xsl:apply-templates/><xsl:text>
 .KE
 .sp
 </xsl:text></xsl:template>
@@ -188,7 +190,9 @@ Notes
 <xsl:template match="t:figure/t:head"><xsl:text>
 .sp
 .QP
+.vs -2
 </xsl:text>\s-2<xsl:apply-templates/><xsl:text>\s+2
+.vs
 </xsl:text></xsl:template>
 
 <xsl:template match="t:graphic"><xsl:text>

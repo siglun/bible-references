@@ -83,16 +83,19 @@ The Grundtvig data for the portal comes from the Århus university's (2009)
 .SH
 Analyses
 .LP
-The philologists at the Grundtig centre has identified 11499 references to the bible in the GV. They refer to 4637 different locations in the bible, i.e., he uses each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas there are a number of favourates which is cited 60 to 70 times in the corpus. (
-.pdfhref L -D figure1 Figure 1
-\&)
-.KF
+The philologists at the Grundtig centre has identified 11499 references to the bible in the GV. They refer to 4637 different locations in the bible, i.e., he uses each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas there are a number of favourates which is cited 60 to 70 times in the corpus
+.pdfhref L -D figure1 (Figure 1)
+\&.
+.KF  
+.pdfhref M -N figure1
 .PDFPIC distribution.pdf 12.0c 7.2c
 .sp
 .QP
+.vs -2
 \s-2Figure 1. The distributions showing the bible location counts for different numbers of references, for all references (solid curve) and references occuring i verse (dashed curves). Note the logarithmic scale on the y-axis. For the former distribution, there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times. At the other end, only one location
 \f(CRMatt 16,18\fP
 is referenced 66 times. There are 227 bible locations that are referenced 7 and more times. The main difference between the two distributions is that the one related to verse has much lower proportion of bible locations that are referenced at the low end. Note that the dashed curve starts lower and actually increases towards a peak.\s+2
+.vs
 .KE
 .sp
 .LP
@@ -101,35 +104,45 @@ I use the counts of individual bible references to compare all the years of Grun
 .PDFPIC refs_per_year.pdf 12.0c 7.2c
 .sp
 .QP
+.vs -2
 \s-2Figure 2.\s+2
+.vs
 .KE
 .sp
 .KF
 .PDFPIC selected_refs_per_year.pdf 12.0c 7.2c
 .sp
 .QP
+.vs -2
 \s-2Figure 3.\s+2
+.vs
 .KE
 .sp
 .KF
 .PDFPIC refs_in_poetry_per_year.pdf 12.0c 7.2c
 .sp
 .QP
+.vs -2
 \s-2Figure 4.\s+2
+.vs
 .KE
 .sp
 .KF
 .PDFPIC selected_poetry_refs_per_year.pdf 12.0c 7.2c
 .sp
 .QP
+.vs -2
 \s-2Figure 5.\s+2
+.vs
 .KE
 .sp
 .KF
 .PDFPIC cladogram.pdf 12.0c 7.2c
 .sp
 .QP
+.vs -2
 \s-2Figure 6.\s+2
+.vs
 .KE
 .sp
 .SH
