@@ -55,7 +55,7 @@
         Intrigued by this observation I checked other references
         and found that he quoted <hi rend='monospaced'>1 Mos 1,27</hi> <note><ref target="https://biblehub.com/genesis/1-27.htm"/> (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/></note> (i.e., <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>) mostly from 1855 to 1859.
         I discovered this when developing and testing the <hi rend='italic'>find bible references</hi>
-        feature for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title></ref>.</p>
+        feature for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title></ref>, which is a part of the Royal Danish Library's Text Collections.</p>
 
         <p>A bible reference is typically a string such as <hi rend='monospaced'>1 Kor 13,13</hi> (or  <hi rend='monospaced'>1 chorintians 13:13</hi>).
         There is an ambiguity in the usage, since we use it both to denote the reference to the scripture,
@@ -76,11 +76,7 @@
 
         <p>What you find below is an outline of my analysis of of his
         bible references from a technical point of view.</p>
-        
-      </div>
-      <div>
-        <head>The data</head>
-        
+
         <p>The Grundtvig data for the portal comes from the Århus
         university's (2009) <ref
         target="#grundtvig-center"><title>Center for
@@ -88,7 +84,7 @@
         target="#grundtvig-vaerker">Grundtvigs Værker.</ref> (I refer
         to the scientific edition of Grundtvig's works as GV in the
         following.)</p>
-
+        
       </div>
       
       <div>

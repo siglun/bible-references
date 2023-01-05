@@ -45,7 +45,7 @@ in more works than any other bible reference, but he did so mostly before 1820. 
 \fIfind bible references\fP
 feature for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
 .pdfhref L -D grundtvig-texter Grundtvigs Værker
-\&.
+\&, which is a part of the Royal Danish Library's Text Collections.
 .LP
 A bible reference is typically a string such as
 \f(CR1 Kor 13,13\fP
@@ -71,11 +71,9 @@ Grundtvig referred to
 \f(CR1 Kor 13,12\fP
 41 times, but he liked verse before that one even more, since he referred to
 \f(CR1 Kor 13,12\fP
-(as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify a reference which is perhaps only vaguely.
+(as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify a reference which is perhaps only vaguely hinting to the bible.
 .LP
 What you find below is an outline of my analysis of of his bible references from a technical point of view.
-.SH
-The data
 .LP
 The Grundtvig data for the portal comes from the Århus university's (2009)
 .pdfhref L -D grundtvig-center Center for Grundtvigforskning,
