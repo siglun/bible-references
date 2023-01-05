@@ -16,41 +16,72 @@ Denmark
 .SH
 Introduction
 .LP
-Nikolaj Frederik Severin Grundtvig is one of the most influential persons in Danish history. He was a polymath and very prolific, \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
-.pdfhref L -D nfsgrundtvig Wikipedia (2003-)
-\&describes him.
+Nikolaj Frederik Severin Grundtvig is one of the most influential persons in Danish history. He was a polymath and very prolific writer, \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
+.pdfhref L -D nfsgrundtvig Wikipedia (2003)
+\&describes him. In this paper I present some data analyses on his use of the bible in his writing.
 .LP
-In this paper I present some statical analyses of his use of bible references in his writing. The background to this study is that Grundtvig used, referred to or quoted the bible intensively. However, his references to different locations in the scripture varied a lot over time. I discovered this when developing and testing the
-\fIfind bible references\fP
-feature for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
-.pdfhref L -D grundtvig-texter Grundtvigs Værker
-\&.
-.LP
-A bible reference is typically a string like
-\f(CR1 Kor 13,13\fP
-in some text. This refers to a unique target location in the scripture, namely:
-\fIAnd now these three remain: faith, hope and love. But the greatest of these is love.\fP
+His use of different locations in the scripture varied a lot over time. I found that, Grundtvig referred to
+\f(CR1 Kor 13,12\fP
 \**
 .FS
-.pdfhref W -D https://biblehub.com/bsb/1_corinthians/13.htm https://biblehub.com/bsb/1_corinthians/13.htm
+.pdfhref W -D https://biblehub.com/1_corinthians/13-12.htm https://biblehub.com/1_corinthians/13-12.htm
 (English)
 .br
 .pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13
 (Danish)
 .FE
-Grundtvig used that target 41 times, but he liked verse before that one even more, since he referred to
-\f(CR1 Kor 13,12\fP
-54 times.
+in more works than any other bible reference, but he did so mostly before 1820. Intrigued by this observation I checked other references and found that he quoted
+\f(CR1 Mos 1,27\fP
+\**
+.FS
+.pdfhref W -D https://biblehub.com/genesis/1-27.htm https://biblehub.com/genesis/1-27.htm
+(English)
+.br
+.pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1
+.FE
+(i.e.,
+\fISo God created man in his own image, in the image of God he created him; male and female he created them\fP
+) mostly from 1855 to 1859. I discovered this when developing and testing the
+\fIfind bible references\fP
+feature for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
+.pdfhref L -D grundtvig-texter Grundtvigs Værker
+\&.
 .LP
-The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify a reference which is perhaps only vaguely .
+A bible reference is typically a string such as
+\f(CR1 Kor 13,13\fP
+(or
+\f(CR1 chorintians 13:13\fP
+). There is an ambiguity in the usage, since we use it both to denote the reference to the scripture, and the actual text it refers to. Namely:
+\fIAnd now these three remain: faith, hope and love. But the greatest of these is love.\fP
+\**
+.FS
+.pdfhref W -D https://biblehub.com/1_corinthians/13-13.htm https://biblehub.com/1_corinthians/13-13.htm
+(English)
+.br
+.pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13
+(Danish)
+.FE
+I will try to use the term
+\fIbible reference\fP
+when discussing how Grundtvig is using it, whereas use
+\fIbible location\fP
+when talking on the scripture.
+.LP
+Grundtvig referred to
+\f(CR1 Kor 13,12\fP
+41 times, but he liked verse before that one even more, since he referred to
+\f(CR1 Kor 13,12\fP
+(as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify a reference which is perhaps only vaguely.
+.LP
+What you find below is an outline of my analysis of of his bible references from a technical point of view.
+.SH
+The data
 .LP
 The Grundtvig data for the portal comes from the Århus university's (2009)
 .pdfhref L -D grundtvig-center Center for Grundtvigforskning,
 \&the publisher of
 .pdfhref L -D grundtvig-vaerker Grundtvigs Værker.
 \&(I refer to the scientific edition of Grundtvig's works as GV in the following.)
-.LP
-What you find below is an outline of my analysis of of his bible references from a technical point of view.
 .SH
 Analyses
 .LP
@@ -104,7 +135,7 @@ Center for Grundtvigforskning,
 .XP
 .pdfhref M -N nfsgrundtvig
 Wikipedia,
-2003-. N. F. S. Grundtvig.  In:
+2003. N. F. S. Grundtvig.  In:
 \fIWikipedia, the free encyclopedia\fP 
 .br  
 \s-2\f(CR
