@@ -32,7 +32,9 @@ His use of different locations in the scripture varied a lot over time. I found 
 .FE
 in more works than any other bible reference, but he did so mostly before 1820. Intrigued by this observation I checked other references and found that he quoted
 \f(CR1 Mos 1,27\fP
-\**
+(or
+\f(CR1 genesis 1:27\fP
+)\**
 .FS
 .pdfhref W -D https://biblehub.com/genesis/1-27.htm https://biblehub.com/genesis/1-27.htm
 (English)
@@ -50,7 +52,7 @@ feature for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
 A bible reference is typically a string such as
 \f(CR1 Kor 13,13\fP
 (or
-\f(CR1 chorintians 13:13\fP
+\f(CR1 chorinthians 13:13\fP
 ). There is an ambiguity in the usage, since we use it both to denote the reference to the scripture, and the actual text it refers to. Namely:
 \fIAnd now these three remain: faith, hope and love. But the greatest of these is love.\fP
 \**
@@ -71,41 +73,63 @@ Grundtvig referred to
 \f(CR1 Kor 13,12\fP
 41 times, but he liked verse before that one even more, since he referred to
 \f(CR1 Kor 13,12\fP
-(as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify a reference which is perhaps only vaguely hinting to the bible.
-.LP
-What you find below is an outline of my analysis of of his bible references from a technical point of view.
+(as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify a reference in a text which is only vaguely hinting to the location.
 .LP
 The Grundtvig data for the portal comes from the Århus university's (2009)
 .pdfhref L -D grundtvig-center Center for Grundtvigforskning,
 \&the publisher of
 .pdfhref L -D grundtvig-vaerker Grundtvigs Værker.
-\&(I refer to the scientific edition of Grundtvig's works as GV in the following.)
+\&(I refer to the scientific edition of Grundtvig's works as GV in the following.) What you find below is an outline of my analysis of of his bible references.
 .SH
 Analyses
 .LP
-I use the counts of individual bible references to compare all the years of Grundtvig's professional life. The philologists at the Grundtig centre has identified 11499 references to the bible in the GV. They refer to 4637 different locations in the bible, i.e., he uses each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas there are a number of favourates which is cited 50-60 in the corpus.
+The philologists at the Grundtig centre has identified 11499 references to the bible in the GV. They refer to 4637 different locations in the bible, i.e., he uses each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas there are a number of favourates which is cited 60 to 70 times in the corpus. (
+.pdfhref L -D figure1 Figure 1
+\&)
 .KF
 .PDFPIC distribution.pdf 12.0c 7.2c
+.sp
+.QP
+\s-2Figure 1. The distributions showing the bible location counts for different numbers of references, for all references (solid curve) and references occuring i verse (dashed curves). Note the logarithmic scale on the y-axis. For the former distribution, there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times. At the other end, only one location
+\f(CRMatt 16,18\fP
+is referenced 66 times. There are 227 bible locations that are referenced 7 and more times. The main difference between the two distributions is that the one related to verse has much lower proportion of bible locations that are referenced at the low end. Note that the dashed curve starts lower and actually increases towards a peak.\s+2
 .KE
 .sp
+.LP
+I use the counts of individual bible references to compare all the years of Grundtvig's professional life.
 .KF
 .PDFPIC refs_per_year.pdf 12.0c 7.2c
+.sp
+.QP
+\s-2Figure 2.\s+2
 .KE
 .sp
 .KF
 .PDFPIC selected_refs_per_year.pdf 12.0c 7.2c
+.sp
+.QP
+\s-2Figure 3.\s+2
 .KE
 .sp
 .KF
 .PDFPIC refs_in_poetry_per_year.pdf 12.0c 7.2c
+.sp
+.QP
+\s-2Figure 4.\s+2
 .KE
 .sp
 .KF
 .PDFPIC selected_poetry_refs_per_year.pdf 12.0c 7.2c
+.sp
+.QP
+\s-2Figure 5.\s+2
 .KE
 .sp
 .KF
 .PDFPIC cladogram.pdf 12.0c 7.2c
+.sp
+.QP
+\s-2Figure 6.\s+2
 .KE
 .sp
 .SH

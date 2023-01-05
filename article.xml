@@ -53,11 +53,11 @@
         <hi rend='monospaced'>1 Kor 13,12</hi><note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/> (English)<lb/>  <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note> in more works than any other bible reference,
         but he did so mostly before 1820.
         Intrigued by this observation I checked other references
-        and found that he quoted <hi rend='monospaced'>1 Mos 1,27</hi> <note><ref target="https://biblehub.com/genesis/1-27.htm"/> (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/></note> (i.e., <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>) mostly from 1855 to 1859.
+        and found that he quoted <hi rend='monospaced'>1 Mos 1,27</hi> (or  <hi rend='monospaced'>1 genesis 1:27</hi>)  <note><ref target="https://biblehub.com/genesis/1-27.htm"/> (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/></note> (i.e., <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>) mostly from 1855 to 1859.
         I discovered this when developing and testing the <hi rend='italic'>find bible references</hi>
         feature for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title></ref>, which is a part of the Royal Danish Library's Text Collections.</p>
 
-        <p>A bible reference is typically a string such as <hi rend='monospaced'>1 Kor 13,13</hi> (or  <hi rend='monospaced'>1 chorintians 13:13</hi>).
+        <p>A bible reference is typically a string such as <hi rend='monospaced'>1 Kor 13,13</hi> (or  <hi rend='monospaced'>1 chorinthians 13:13</hi>).
         There is an ambiguity in the usage, since we use it both to denote the reference to the scripture,
         and the actual text it refers to. 
         Namely:
@@ -72,56 +72,73 @@
         as presented in this paper depends on two factors, where the
         number of times he actually used is just one. The other one is
         the philologists effort to identify the references, and their
-        ability to identify a reference which is perhaps only vaguely hinting to the bible.</p>
-
-        <p>What you find below is an outline of my analysis of of his
-        bible references from a technical point of view.</p>
+        ability to identify a reference in a text which is only vaguely hinting to the location.</p>
 
         <p>The Grundtvig data for the portal comes from the Århus
         university's (2009) <ref
         target="#grundtvig-center"><title>Center for
         Grundtvigforskning</title>,</ref> the publisher of <ref
-        target="#grundtvig-vaerker">Grundtvigs Værker.</ref> (I refer
-        to the scientific edition of Grundtvig's works as GV in the
-        following.)</p>
-        
+        target="#grundtvig-vaerker">Grundtvigs Værker.</ref>
+        (I refer to the scientific edition of Grundtvig's works as GV in the following.)
+        What you find below is an outline of my analysis of of his bible references.</p>
+
       </div>
       
       <div>
         <head>Analyses</head>
         
-        <p>I use the counts of individual bible references to compare
-        all the years of Grundtvig's professional life. The
-        philologists at the Grundtig centre has identified 11499
-        references to the bible in the GV. They refer to 4637
+        <p>The philologists at the Grundtig centre has identified
+        11499 references to the bible in the GV. They refer to 4637
         different locations in the bible, i.e., he uses each location
         2.5 times on the average. In reality there are large number of
         bible locations that just appear once in a reference, whereas
-        there are a number of favourates which is cited 50-60 in the
-        corpus.</p>
+        there are a number of favourates which is cited 60 to 70 times
+        in the corpus. (<ref target="#figure1">Figure 1</ref>)</p>
 
+
+        
+        <figure xml:id="figure1">
+          <graphic url="https://github.com/siglun/bible-references/raw/main/distribution.png"/>
+          <head>Figure 1. The distributions showing the bible location
+          counts for different numbers of references, for all
+          references (solid curve) and references occuring i verse
+          (dashed curves).
+          Note the logarithmic scale on the y-axis.
+          For the former distribution,
+          there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times.
+          At the other end, only one location <hi  rend='monospaced'>Matt 16,18</hi> is referenced 66 times.
+          There are 227 bible locations that are referenced 7 and more times.
+          The main difference between the two distributions is that the one related to verse has much lower proportion of bible locations that are referenced at the low end.
+          Note that the dashed curve starts lower and actually increases towards a peak.</head>
+        </figure>
+
+        <p>I use the counts of individual bible references to compare
+        all the years of Grundtvig's professional life. </p>
+
+        
         <figure>
-            <graphic url="https://github.com/siglun/bible-references/raw/main/distribution.png"/>
+          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_per_year.png"/>
+          <head>Figure 2.</head>
         </figure>
 
         <figure>
-            <graphic url="https://github.com/siglun/bible-references/raw/main/refs_per_year.png"/>
-        </figure>
-
-        <figure>
-            <graphic url="https://github.com/siglun/bible-references/raw/main/selected_refs_per_year.png"/>
+          <graphic url="https://github.com/siglun/bible-references/raw/main/selected_refs_per_year.png"/>
+          <head>Figure 3.</head>
         </figure>
 
         <figure>
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_in_poetry_per_year.png"/>
+          <head>Figure 4.</head>
         </figure>
 
         <figure>
-            <graphic url="https://github.com/siglun/bible-references/raw/main/selected_poetry_refs_per_year.png"/>
+          <graphic url="https://github.com/siglun/bible-references/raw/main/selected_poetry_refs_per_year.png"/>
+          <head>Figure 5.</head>
         </figure>
 
         <figure>
           <graphic url="https://github.com/siglun/bible-references/raw/main/cladogram.png"/>
+          <head>Figure 6.</head>
         </figure>
 
       </div>
