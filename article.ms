@@ -16,11 +16,11 @@ Denmark
 .SH
 Introduction
 .LP
-Nikolaj Frederik Severin Grundtvig is one of the most influential persons in Danish 19th-century history. A polymath and very prolific writer and \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
+Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential persons in Danish 19th-century history. A polymath and very prolific writer and \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
 .pdfhref L -D nfsgrundtvig Wikipedia (2003)
 \&describes him. In this paper I present some data analyses on his use of the bible in his writing.
 .LP
-His use of different locations in the scripture varied a lot over time. I found that, Grundtvig referred to \f(CR1 Kor 13,12\fP: \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP\**
+His use of different bible references in the scripture varied a lot over time. I found that, Grundtvig referred to \f(CR1 Kor 13,12\fP: \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-12.htm https://biblehub.com/1_corinthians/13-12.htm
 (English)
@@ -38,6 +38,12 @@ in more works than any other bible reference, but he did so mostly before 1820. 
 That is, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fPwhich occured mostly from 1855 to 1859. I discovered this when developing and testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
 .pdfhref L -D grundtvig-texter Grundtvigs Værker
 \&, a part of the Royal Danish Library's Text Collections.
+.LP
+The are some debaten on important dates in Grundvigs career. \fI \(lqWithin the ever-growing bulk of Grundtvig studies, the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.\(rq\fP, writes
+.pdfhref L -D entropicdecay Nielbo et al. (2019)
+\&. In a detailed schedule of events in his life,
+.pdfhref L -D crisis1810 Engebretsen (2008)
+\&points out the years 1810, 1844, 1853, 1867 as life crises.
 .LP
 A bible reference is typically a string such as \f(CR1 Kor 13,13\fP  (or \f(CR1 chorinthians 13:13\fP). There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture, where it refers to \fI \(lqAnd now these three remain: faith, hope and love. But the greatest of these is love.\(rq\fP\**
 .FS
@@ -145,6 +151,15 @@ Center for Grundtvigforskning,
 \s-2\f(CR
 .pdfhref W -D http://grundtvigsvaerker.dk/ http://grundtvigsvaerker.dk/
 \fP\s+2
+.XP
+.pdfhref M -N crisis1810
+Engebretsen, Else Bang,
+2008. \fIGrundtvig Kriseåret 1810/1811 - Anfægtelser eller galskab?\fP 
+.XP
+.pdfhref M -N entropicdecay
+Nielbo, Kristoffer L., Katrine F. Baunvig, Bin Liu,  and Jianbo Gao,
+2019. A curious case of entropic decay: Persistent complexity in textual cultural heritage.  In:
+\fIDigital Scholarship in the Humanities, Vol. 34, No. 3, 2019\fP 
 .XP
 .pdfhref M -N nfsgrundtvig
 Wikipedia,
