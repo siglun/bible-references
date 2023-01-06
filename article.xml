@@ -58,7 +58,7 @@
         <p>The are some debaten on important dates in Grundvigs career. <hi rend='italic'><quote>Within the ever-growing bulk of Grundtvig studies, the
         years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are
         competing for scholarly attention.</quote></hi>, writes <ref target="#entropicdecay">Nielbo et al. (2019)</ref>.
-        In a detailed schedule of events in his life, <ref target="#crisis1810">Engebretsen (2008)</ref> points out the years 1810, 1844, 1853, 1867 as life crises.
+        In a detailed schedule of events in his life, <ref target="#crisis1810">Engebretsen (2008)</ref> points out the years 1810, 1844, 1853, 1867 as life crises. <ref target="#crisis1844">Thodberg (2005)</ref> writes about the crisis 1844.
         </p>
 
         <p>A bible reference is typically a string such as <hi rend='monospaced'>1 Kor 13,13</hi>  &#xa0; (or  <hi rend='monospaced'>1 chorinthians 13:13</hi>).
@@ -195,14 +195,18 @@
             <author>Jianbo Gao</author>
             <date>2019</date>
             <title level="a">A curious case of entropic decay: Persistent complexity in textual cultural heritage</title>
-            <title level="j">Digital Scholarship in the Humanities, Vol. 34, No. 3, 2019</title>
-            
+            <title level="j">Digital Scholarship in the Humanities</title>
+            <biblScope type='volume'>34</biblScope>
+            <biblScope type='number'>3</biblScope>
+            <biblScope type='pp'>542-557</biblScope>
+            <ref target="https://doi.org/10.1093/llc/fqy054"/>
           </bibl>
 
           <bibl xml:id="crisis1810">
             <author>Engebretsen, Else Bang</author>
             <date>2008</date>
             <title level="m">Grundtvig Kriseåret 1810/1811 - Anfægtelser eller galskab?</title>
+            <ref target="http://urn.nb.no/URN:NBN:no-21152"/>
           </bibl>
           
           <bibl xml:id="grundtvig-vaerker">
@@ -217,6 +221,16 @@
             <date>2010</date>
             <title level="m">Center for Grundtvigforskning</title>
             <ref target="https://grundtvigcenteret.au.dk/"/>
+          </bibl>
+
+          <bibl xml:id="crisis1844">
+            <author>Thodberg, Christian</author>
+            <title level="a">Grundtvigs krise i foråret 1844. Forholdet mellem prædiken og salme med henblik på “Sov sødt, Barnlille”</title>
+            <title level="j">Grundtvig-Studier</title>
+            <biblScope type='volume'>56</biblScope>
+            <biblScope type='number'>1</biblScope>
+            <biblScope type='pp'>38-67</biblScope>
+            <ref target="https://doi.org/10.7146/grs.v56i1.16469"/>
           </bibl>
           
         </listBibl>
