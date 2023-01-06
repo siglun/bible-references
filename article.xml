@@ -42,8 +42,8 @@
         <head>Introduction</head>
 
         <p>Nikolaj Frederik Severin Grundtvig is one of the most
-        influential persons in Danish history. He was a polymath and
-        very prolific writer, <quote>a pastor, author, poet, philosopher,
+        influential persons in Danish 19th-century history. A polymath and
+        very prolific writer and <quote>a pastor, author, poet, philosopher,
         historian, teacher and politician</quote>, as <ref
         target="#nfsgrundtvig">Wikipedia (2003)</ref> describes him.
         In this paper I present some data analyses on his use of the bible in his writing.</p>
@@ -52,26 +52,28 @@
         I found that, Grundtvig referred to <hi rend='monospaced'>1 Kor 13,12</hi>: <hi rend="italic"><quote>For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.</quote></hi> <note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/> (English)<lb/>  <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note> in more works than any other bible reference,
         but he did so mostly before 1820.
         Intrigued by this observation I checked other references
-        and found that he quoted <hi rend='monospaced'>1 Mos 1,27</hi> (or  <hi rend='monospaced'>1 genesis 1:27</hi>)  <note><ref target="https://biblehub.com/genesis/1-27.htm"/> (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/></note> (i.e., <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>) mostly from 1855 to 1859.
-        I discovered this when developing and testing the <hi rend='italic'>find bible references</hi>
-        feature for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title></ref>, which is a part of the Royal Danish Library's Text Collections.</p>
+        and found that he quoted <hi rend='monospaced'>1 Mos 1,27</hi> &#xa0;   (or  <hi rend='monospaced'>1 genesis 1:27</hi>)<note><ref target="https://biblehub.com/genesis/1-27.htm"/> (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/></note> That is, <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi> which occured mostly from 1855 to 1859.
+        I discovered this when developing and testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title></ref>, a part of the Royal Danish Library's Text Collections.</p>
 
-        <p>A bible reference is typically a string such as <hi rend='monospaced'>1 Kor 13,13</hi> (or  <hi rend='monospaced'>1 chorinthians 13:13</hi>).
-        There is an ambiguity in the usage, since we use it both to denote the reference to the scripture,
-        and the actual text it refers to. 
-        Namely:
+        <p>A bible reference is typically a string such as <hi rend='monospaced'>1 Kor 13,13</hi>  &#xa0; (or  <hi rend='monospaced'>1 chorinthians 13:13</hi>).
+        There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture,
+        where it refers to
         <hi rend='italic'><quote>And now these three remain: faith, hope and love. But the greatest of these is love.</quote></hi><note><ref target="https://biblehub.com/1_corinthians/13-13.htm"/> (English)<lb/>
         <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note>
-        I will try to use the term  <hi rend='italic'>bible reference</hi> when discussing how Grundtvig is using it, whereas use  <hi rend='italic'>bible location</hi> when talking on the scripture.</p>
+        I will try to use the term  <hi rend='italic'>bible reference</hi>  &#xa0; when discussing how Grundtvig is using it, whereas use  <hi rend='italic'>bible location</hi>  &#xa0; when talking on the scripture. This is somewhat like a word in the text and the same word in a dictionary.</p>
 
-        <p>Grundtvig referred to <hi rend='monospaced'>1 Kor 13,12</hi> 41 times,
-        but he liked verse before that one even more,
-        since he referred to <hi rend='monospaced'>1 Kor 13,12</hi> (as mentioned above) 54 times.
+        <p>The complexity of bible references and locations is that
+        they are semantic units, hypertext links and intertextual
+        objects, all at the same time.</p>
+
+        <p>Grundtvig referred to <hi rend='monospaced'>1 Kor 13,12</hi>  &#xa0; 41 times,
+        but he liked the preceeding verse even more,
+        since he referred to <hi rend='monospaced'>1 Kor 13,12</hi>  &#xa0; (as mentioned above) 54 times.
         The number of times a given bible location is referred to
         as presented in this paper depends on two factors, where the
         number of times he actually used is just one. The other one is
         the philologists effort to identify the references, and their
-        ability to identify a reference in a text which is only vaguely hinting to the location.
+        ability to identify them in a text where there might be references that just vague hints of a location.
         Hence there are some possible systematic errors hidden here:
         Not all works are equal and philologists might invest more in some important ones than others.
         Also, I can imagine that bible references could be more difficult to identify
@@ -93,11 +95,24 @@
         
         <p>The philologists at the Grundtig centre has identified
         11499 bible references in the GV.
-        They refer to 4637 bible locations,
-        i.e., Grundtvig used each location bible 2.5 times on the average.
+        They refer to 4637 locations,
+        i.e., Grundtvig referred to each location 2.5 times on the average.
         In reality there are large number of bible locations that just appear once in a reference,
         whereas he had a number of favourites which is cited 60 to 70 times
-        in the corpus <ref target="#figure1">(Figure 1)</ref>.</p>
+        in the corpus.
+        The distribution of bible references for text in verse and the entire corpus can be seen in <ref target="#figure1">Figure 1</ref>.
+        For the latter distribution,
+        there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times.
+        At the other end, only one location <hi  rend='monospaced'>Matt 16,18</hi>  &#xa0; is referenced 66 times.
+        Of those 4637 locations, only a small fraction, 227 bible locations, are referenced 7 and more times.</p>
+
+        <p>Note that the dashed curve, related to references occurring in verse, starts lower and actually increases towards a peak.
+        The main difference between the two distributions is that Grundtvig is more inclined to use his favourite bible locations in verse,
+        and he is not 
+
+        
+
+        </p>
 
 
         
@@ -108,12 +123,7 @@
           references (solid curve) and references occurring i verse
           (dashed curves).
           Note the logarithmic scale on the y-axis.
-          For the former distribution,
-          there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times.
-          At the other end, only one location <hi  rend='monospaced'>Matt 16,18</hi> is referenced 66 times.
-          There are 227 bible locations that are referenced 7 and more times.
-          The main difference between the two distributions is that the one related to verse has much lower proportion of bible locations that are referenced at the low end.
-          Note that the dashed curve starts lower and actually increases towards a peak.</head>
+        </head>
         </figure>
 
         <p>I use the counts of individual bible references to compare

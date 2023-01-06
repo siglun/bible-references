@@ -200,13 +200,13 @@ Notes
 </xsl:text></xsl:template>
   
 
-<xsl:template match="t:emph[@rend='bold']"> \fB<xsl:apply-templates/>\fP </xsl:template>
+<xsl:template match="t:emph[@rend='bold']"> \fB<xsl:apply-templates/>\fP</xsl:template>
 
-<xsl:template match="t:p/t:title"><xsl:text> \fI</xsl:text><xsl:apply-templates/><xsl:text>\fP </xsl:text></xsl:template>
+<xsl:template match="t:p/t:title"><xsl:text> \fI</xsl:text><xsl:apply-templates/><xsl:text>\fP</xsl:text></xsl:template>
 
-<xsl:template match="t:hi[@rend='italic']|t:hi[@rend='italics']"> \fI<xsl:apply-templates/>\fP </xsl:template>
-<xsl:template match="t:hi[@rend='bold']"> \fB<xsl:apply-templates/>\fP </xsl:template>
-<xsl:template match="t:hi[@rend='monospaced']"> \f(CR<xsl:apply-templates/>\fP </xsl:template>
+<xsl:template match="t:hi[@rend='italic']|t:hi[@rend='italics']"> \fI<xsl:apply-templates/>\fP</xsl:template>
+<xsl:template match="t:hi[@rend='bold']"> \fB<xsl:apply-templates/>\fP</xsl:template>
+<xsl:template match="t:hi[@rend='monospaced']"> \f(CR<xsl:apply-templates/>\fP</xsl:template>
 
 
 <xsl:template match="t:eg[@xml:space='preserve']">

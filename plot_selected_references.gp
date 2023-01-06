@@ -13,14 +13,15 @@ set key left top
 plot 'selected_ref_1.text' using 1:2 w l t "Matt 16,18", \
      'selected_ref_2.text' using 1:2 w l t "1 Kor 13,12", \
      'selected_ref_3.text' using 1:2 w l t "1 Kor 13,13", \
-     'selected_ref_4.text' using 1:2 w l t "Matt 28,18-20"
+     'selected_ref_4.text' using 1:2 w l t "Matt 28,18-20", \
+     'selected_ref_5.text' using 1:2 w l t "Sl 23,4"
 
 
-set ter pdfcairo
-set out "selected_refs_per_year.pdf"
-set monochrome 
+# set ter pdfcairo
+# set out "selected_refs_per_year.pdf"
+# set monochrome 
 
-replot
+# replot
 
 
 set ter png

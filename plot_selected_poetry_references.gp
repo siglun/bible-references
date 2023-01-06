@@ -13,7 +13,8 @@ set monochrome
 plot 'selected_poetry_ref_1.text' using 1:2 w l t "Matt 16,18", \
      'selected_poetry_ref_2.text' using 1:2 w l t "1 Mos 2,7", \
      'selected_poetry_ref_3.text' using 1:2 w l t "Joh 6,63", \
-     'selected_poetry_ref_4.text' using 1:2 w l t "Ordsp 4,23"
+     'selected_poetry_ref_4.text' using 1:2 w l t "Ordsp 4,23", \
+     'selected_poetry_ref_5.text' using 1:2 w l t "Sl 23,4" 
 
 
 # set ter pdfcairo

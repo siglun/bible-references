@@ -8,6 +8,7 @@ $SAXON big-table.xml aggregate-per-year-for-given-reference.xsl > selected_ref_1
 $SAXON ref='1 Kor 13,12'   big-table.xml aggregate-per-year-for-given-reference.xsl > selected_ref_2.text
 $SAXON ref='1 Kor 13,13'   big-table.xml aggregate-per-year-for-given-reference.xsl > selected_ref_3.text
 $SAXON ref='Matt 28,18-20' big-table.xml aggregate-per-year-for-given-reference.xsl > selected_ref_4.text
+$SAXON ref='Sl 23,4' poetry-table.xml aggregate-per-year-for-given-reference.xsl > selected_ref_5.text
 
 gnuplot < plot_distributions.gp
 

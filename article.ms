@@ -16,11 +16,11 @@ Denmark
 .SH
 Introduction
 .LP
-Nikolaj Frederik Severin Grundtvig is one of the most influential persons in Danish history. He was a polymath and very prolific writer, \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
+Nikolaj Frederik Severin Grundtvig is one of the most influential persons in Danish 19th-century history. A polymath and very prolific writer and \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
 .pdfhref L -D nfsgrundtvig Wikipedia (2003)
 \&describes him. In this paper I present some data analyses on his use of the bible in his writing.
 .LP
-His use of different locations in the scripture varied a lot over time. I found that, Grundtvig referred to \f(CR1 Kor 13,12\fP : \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP \**
+His use of different locations in the scripture varied a lot over time. I found that, Grundtvig referred to \f(CR1 Kor 13,12\fP: \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-12.htm https://biblehub.com/1_corinthians/13-12.htm
 (English)
@@ -28,18 +28,18 @@ His use of different locations in the scripture varied a lot over time. I found 
 .pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13
 (Danish)
 .FE
-in more works than any other bible reference, but he did so mostly before 1820. Intrigued by this observation I checked other references and found that he quoted \f(CR1 Mos 1,27\fP (or \f(CR1 genesis 1:27\fP )\**
+in more works than any other bible reference, but he did so mostly before 1820. Intrigued by this observation I checked other references and found that he quoted \f(CR1 Mos 1,27\fP  (or \f(CR1 genesis 1:27\fP)\**
 .FS
 .pdfhref W -D https://biblehub.com/genesis/1-27.htm https://biblehub.com/genesis/1-27.htm
 (English)
 .br
 .pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1
 .FE
-(i.e., \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP ) mostly from 1855 to 1859. I discovered this when developing and testing the \fIfind bible references\fP feature for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
+That is, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fPwhich occured mostly from 1855 to 1859. I discovered this when developing and testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
 .pdfhref L -D grundtvig-texter Grundtvigs Værker
-\&, which is a part of the Royal Danish Library's Text Collections.
+\&, a part of the Royal Danish Library's Text Collections.
 .LP
-A bible reference is typically a string such as \f(CR1 Kor 13,13\fP (or \f(CR1 chorinthians 13:13\fP ). There is an ambiguity in the usage, since we use it both to denote the reference to the scripture, and the actual text it refers to. Namely: \fI \(lqAnd now these three remain: faith, hope and love. But the greatest of these is love.\(rq\fP \**
+A bible reference is typically a string such as \f(CR1 Kor 13,13\fP  (or \f(CR1 chorinthians 13:13\fP). There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture, where it refers to \fI \(lqAnd now these three remain: faith, hope and love. But the greatest of these is love.\(rq\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-13.htm https://biblehub.com/1_corinthians/13-13.htm
 (English)
@@ -47,9 +47,11 @@ A bible reference is typically a string such as \f(CR1 Kor 13,13\fP (or \f(CR1 c
 .pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13
 (Danish)
 .FE
-I will try to use the term \fIbible reference\fP when discussing how Grundtvig is using it, whereas use \fIbible location\fP when talking on the scripture.
+I will try to use the term \fIbible reference\fP  when discussing how Grundtvig is using it, whereas use \fIbible location\fP  when talking on the scripture. This is somewhat like a word in the text and the same word in a dictionary.
 .LP
-Grundtvig referred to \f(CR1 Kor 13,12\fP 41 times, but he liked verse before that one even more, since he referred to \f(CR1 Kor 13,12\fP (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify a reference in a text which is only vaguely hinting to the location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than others. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references. Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.
+The complexity of bible references and locations is that they are semantic units, hypertext links and intertextual objects, all at the same time.
+.LP
+Grundtvig referred to \f(CR1 Kor 13,12\fP  41 times, but he liked the preceeding verse even more, since he referred to \f(CR1 Kor 13,12\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify them in a text where there might be references that just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than others. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references. Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.
 .LP
 The Grundtvig data for the portal comes from the Århus university's (2009)
 .pdfhref L -D grundtvig-center Center for Grundtvigforskning,
@@ -59,16 +61,18 @@ The Grundtvig data for the portal comes from the Århus university's (2009)
 .SH
 Analyses
 .LP
-The philologists at the Grundtig centre has identified 11499 bible references in the GV. They refer to 4637 bible locations, i.e., Grundtvig used each location bible 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus
-.pdfhref L -D figure1 (Figure 1)
-\&.
+The philologists at the Grundtig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus. The distribution of bible references for text in verse and the entire corpus can be seen in
+.pdfhref L -D figure1 Figure 1
+\&. For the latter distribution, there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times. At the other end, only one location \f(CRMatt 16,18\fP  is referenced 66 times. Of those 4637 locations, only a small fraction, 227 bible locations, are referenced 7 and more times.
+.LP
+Note that the dashed curve, related to references occurring in verse, starts lower and actually increases towards a peak. The main difference between the two distributions is that Grundtvig is more inclined to use his favourite bible locations in verse, and he is not
 .KF  
 .pdfhref M -N figure1
 .PDFPIC distribution.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 1. The distributions showing the bible location counts for different numbers of references, for all references (solid curve) and references occurring i verse (dashed curves). Note the logarithmic scale on the y-axis. For the former distribution, there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times. At the other end, only one location \f(CRMatt 16,18\fP is referenced 66 times. There are 227 bible locations that are referenced 7 and more times. The main difference between the two distributions is that the one related to verse has much lower proportion of bible locations that are referenced at the low end. Note that the dashed curve starts lower and actually increases towards a peak.\s+2
+\s-2Figure 1. The distributions showing the bible location counts for different numbers of references, for all references (solid curve) and references occurring i verse (dashed curves). Note the logarithmic scale on the y-axis.\s+2
 .vs
 .KE
 .sp
