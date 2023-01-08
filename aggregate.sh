@@ -58,9 +58,12 @@ perl -ne 's/^\s*//;s/\s.*$//;print;' < sorted_uniq_keys_for_prose.text   | uniq 
 gnuplot < plot_distributions.gp
 
 gnuplot < plot_references.gp
-gnuplot < plot_selected_references.gp
+gnuplot < plot_selected_prose_references.gp
+gnuplot < plot_selected_poetry_references.gp
 
 ps2pdf  -dEPSCrop  distribution.eps
 ps2pdf  -dEPSCrop  refs_per_year.eps
 ps2pdf  -dEPSCrop  selected_refs_per_year.eps
+ps2pdf  -dEPSCrop  selected_prose_refs_per_year.eps
+ps2pdf  -dEPSCrop  selected_poetry_refs_per_year.eps
 
