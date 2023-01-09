@@ -67,3 +67,8 @@ ps2pdf  -dEPSCrop  selected_refs_per_year.eps
 ps2pdf  -dEPSCrop  selected_prose_refs_per_year.eps
 ps2pdf  -dEPSCrop  selected_poetry_refs_per_year.eps
 
+ps2pdf  -dEPSCrop  refs_1_Genesis_2_7.eps
+ps2pdf  -dEPSCrop  refs_matt_16_18.eps
+ps2pdf  -dEPSCrop  refs_psalm_23_4.eps
+ps2pdf  -dEPSCrop  refs_john_6_23.eps
+ps2pdf  -dEPSCrop  refs_proverbs_4_23.eps
