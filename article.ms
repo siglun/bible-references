@@ -5,7 +5,7 @@ Musings of a software developer
 .AU
 Sigfrid Lundberg
 .AI
-sigfrid@sigfrid-lundberg.se
+sigfrid at sigfrid-lundberg.se
 .AB
 .AE
 .SH
