@@ -26,10 +26,6 @@ d=dist(yearly_quotes,method="minkowski")
 hc <- hclust(d,method="complete")
 hcd <- as.dendrogram(hc)
 
-# postscript( "cladogram_eps.eps", width = 12.0, height = 8.0 , onefile = FALSE ,   horizontal = FALSE )
-# plot(hcd,xlab="Years")
-# system("ps2pdf  -dEPSCrop cladogram_eps.eps")
-
 pdf( opt$out, width = 12.0, height = 8.0  )
 plot(hcd,xlab="Years")
 
