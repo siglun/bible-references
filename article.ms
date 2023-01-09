@@ -5,12 +5,7 @@ Musings of a software developer
 .AU
 Sigfrid Lundberg
 .AI
-slu@kb.dk
-Digital Transformation
-Royal Danish Library
-Post box 2149
-1016 Copenhagen K
-Denmark
+sigfrid@sigfrid-lundberg.se
 .AB
 .AE
 .SH
@@ -44,6 +39,8 @@ The are some debaten on important dates in Grundvigs career. \fI \(lqWithin the 
 \&. In a detailed schedule of events in his life,
 .pdfhref L -D crisis1810 Engebretsen (2008)
 \&points out the years 1810, 1844, 1853, 1867 as life crises.
+.pdfhref L -D crisis1844 Thodberg (2005)
+\&writes about the crisis 1844.
 .LP
 A bible reference is typically a string such as \f(CR1 Kor 13,13\fP  (or \f(CR1 chorinthians 13:13\fP). There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture, where it refers to \fI \(lqAnd now these three remain: faith, hope and love. But the greatest of these is love.\(rq\fP\**
 .FS
@@ -64,6 +61,36 @@ The Grundtvig data for the portal comes from the Århus university's (2009)
 \&the publisher of
 .pdfhref L -D grundtvig-vaerker Grundtvigs Værker.
 \&(I refer to the scientific edition of Grundtvig's works as GV in the following.) What you find below is an outline of my analysis of of his bible references.
+.SH
+.SH
+Table 1. The five most frequest bible references for verse
+.LP
+.TS
+tab(;);
+lb lb ;
+l l .
+T{
+\s-2Frequencey\s+2
+T};T{
+\s-2Bible location\s+2
+T}
+_
+.TE
+.SH
+.SH
+Table 2. The five most frequest bible references for prose
+.LP
+.TS
+tab(;);
+lb lb ;
+l l .
+T{
+\s-2Frequencey\s+2
+T};T{
+\s-2Bible location\s+2
+T}
+_
+.TE
 .SH
 Analyses
 .LP
@@ -155,11 +182,27 @@ Center for Grundtvigforskning,
 .pdfhref M -N crisis1810
 Engebretsen, Else Bang,
 2008. \fIGrundtvig Kriseåret 1810/1811 - Anfægtelser eller galskab?\fP 
+.br  
+\s-2\f(CR
+.pdfhref W -D http://urn.nb.no/URN:NBN:no-21152 http://urn.nb.no/URN:NBN:no-21152
+\fP\s+2
 .XP
 .pdfhref M -N entropicdecay
 Nielbo, Kristoffer L., Katrine F. Baunvig, Bin Liu,  and Jianbo Gao,
 2019. A curious case of entropic decay: Persistent complexity in textual cultural heritage.  In:
-\fIDigital Scholarship in the Humanities, Vol. 34, No. 3, 2019\fP 
+\fIDigital Scholarship in the Humanities\fP Vol. 34(3), pp. 542-557. 
+.br  
+\s-2\f(CR
+.pdfhref W -D https://doi.org/10.1093/llc/fqy054 https://doi.org/10.1093/llc/fqy054
+\fP\s+2
+.XP
+.pdfhref M -N crisis1844
+Thodberg, ChristianGrundtvigs krise i foråret 1844. Forholdet mellem prædiken og salme med henblik på “Sov sødt, Barnlille”.  In:
+\fIGrundtvig-Studier\fP Vol. 56(1), pp. 38-67. 
+.br  
+\s-2\f(CR
+.pdfhref W -D https://doi.org/10.7146/grs.v56i1.16469 https://doi.org/10.7146/grs.v56i1.16469
+\fP\s+2
 .XP
 .pdfhref M -N nfsgrundtvig
 Wikipedia,
