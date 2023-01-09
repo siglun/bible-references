@@ -95,7 +95,7 @@
         What you find below is an outline of my analysis of of his bible references.</p>
 
       </div>
-
+      <div>
       <table xml:id="table1" rows="5" cols="2">
         <head>Table 1. The five most frequest bible references for verse</head>
         <row role="label">
@@ -121,7 +121,8 @@
           <cell>34</cell><cell>1 Mos 2,7</cell>
         </row>
       </table>
-
+      </div>
+      <div>
       <table xml:id="table1" rows="5" cols="2">
         <head>Table 2. The five most frequest bible references for prose</head>
         <row role="label">
@@ -147,6 +148,7 @@
           <cell>52</cell><cell>1 Mos 1,27</cell>
         </row>
       </table>
+      </div>
       
       <div>
         <head>Analyses</head>
