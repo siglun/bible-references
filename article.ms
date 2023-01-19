@@ -5,17 +5,17 @@ Musings of a software developer
 .AU
 Sigfrid Lundberg
 .AI
-sigfrid at sigfrid-lundberg.se
+https://sigfrid-lundberg.se
 .AB
-.AE
-.SH
-Introduction
 .LP
 Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential persons in Danish 19th-century history. A polymath and very prolific writer and \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
 .pdfhref L -D nfsgrundtvig Wikipedia (2003)
 \&describes him. In this paper I present some data analyses on his use of the bible in his writing.
+.AE
+.SH
+Introduction
 .LP
-His use of different bible references in the scripture varied a lot over time. I found that, Grundtvig referred to \f(CR1 Kor 13,12\fP: \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP\**
+Nikolaj Frederik Severin Grundtvig's use of different references to the bible varied a lot over time. I found that, Grundtvig referred to \f(CR1 Kor 13,12\fP: \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-12.htm https://biblehub.com/1_corinthians/13-12.htm
 (English)
@@ -34,14 +34,6 @@ That is, \fI \(lqSo God created man in his own image, in the image of God he cre
 .pdfhref L -D grundtvig-texter Grundtvigs Værker
 \&, a part of the Royal Danish Library's Text Collections.
 .LP
-The are some debaten on important dates in Grundvigs career. \fI \(lqWithin the ever-growing bulk of Grundtvig studies, the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.\(rq\fP, writes
-.pdfhref L -D entropicdecay Nielbo et al. (2019)
-\&. In a detailed schedule of events in his life,
-.pdfhref L -D crisis1810 Engebretsen (2008)
-\&points out the years 1810, 1844, 1853, 1867 as life crises.
-.pdfhref L -D crisis1844 Thodberg (2005)
-\&writes about the crisis 1844.
-.LP
 A bible reference is typically a string such as \f(CR1 Kor 13,13\fP  (or \f(CR1 chorinthians 13:13\fP). There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture, where it refers to \fI \(lqAnd now these three remain: faith, hope and love. But the greatest of these is love.\(rq\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-13.htm https://biblehub.com/1_corinthians/13-13.htm
@@ -54,43 +46,113 @@ I will try to use the term \fIbible reference\fP  when discussing how Grundtvig
 .LP
 The complexity of bible references and locations is that they are semantic units, hypertext links and intertextual objects, all at the same time.
 .LP
-Grundtvig referred to \f(CR1 Kor 13,12\fP  41 times, but he liked the preceeding verse even more, since he referred to \f(CR1 Kor 13,12\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to identify them in a text where there might be references that just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than others. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references. Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.
+Grundtvig referred to \f(CR1 Kor 13,12\fP  41 times, but he liked the preceeding verse even more, since he referred to \f(CR1 Kor 13,12\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to do so in a text where the references are just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than in other. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references. Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.
 .LP
 The Grundtvig data for the portal comes from the Århus university's (2009)
 .pdfhref L -D grundtvig-center Center for Grundtvigforskning,
 \&the publisher of
 .pdfhref L -D grundtvig-vaerker Grundtvigs Værker.
 \&(I refer to the scientific edition of Grundtvig's works as GV in the following.) What you find below is an outline of my analysis of of his bible references.
-.SH
-.SH
-Table 1. The five most frequest bible references for verse
-.LP
+.KF
+.pdfhref M -N table1
+.sp
+.QP
+.vs -2
+\s-2Table 1. The five most frequent bible references for verse\s+2
+.vs
+.sp
 .TS
 tab(;);
 lb lb ;
 l l .
 T{
-\s-2Frequencey\s+2
+\s-2Frequency\s+2
 T};T{
 \s-2Bible location\s+2
 T}
 _
+T{
+\s-216\s+2
+T};T{
+\s-2Ordsp 20,28\s+2
+T}
+T{
+\s-217\s+2
+T};T{
+\s-2Sl 23,4\s+2
+T}
+T{
+\s-218\s+2
+T};T{
+\s-2Ordsp 4,23\s+2
+T}
+T{
+\s-219\s+2
+T};T{
+\s-2Joh 6,63\s+2
+T}
+T{
+\s-220\s+2
+T};T{
+\s-2Matt 16,18\s+2
+T}
+T{
+\s-234\s+2
+T};T{
+\s-21 Mos 2,7\s+2
+T}
 .TE
-.SH
-.SH
-Table 2. The five most frequest bible references for prose
-.LP
+.KE
+.KF
+.pdfhref M -N table2
+.sp
+.QP
+.vs -2
+\s-2Table 2. The five most frequent bible references for prose\s+2
+.vs
+.sp
 .TS
 tab(;);
 lb lb ;
 l l .
 T{
-\s-2Frequencey\s+2
+\s-2Frequency\s+2
 T};T{
 \s-2Bible location\s+2
 T}
 _
+T{
+\s-231\s+2
+T};T{
+\s-21 Kor 13,13\s+2
+T}
+T{
+\s-231\s+2
+T};T{
+\s-2Joh 1,14\s+2
+T}
+T{
+\s-239\s+2
+T};T{
+\s-2Matt 16,18\s+2
+T}
+T{
+\s-240\s+2
+T};T{
+\s-2Joh 8,44\s+2
+T}
+T{
+\s-243\s+2
+T};T{
+\s-2Matt 28,18-20 og Matt 26,26-29\s+2
+T}
+T{
+\s-252\s+2
+T};T{
+\s-21 Mos 1,27\s+2
+T}
 .TE
+.KE
 .SH
 Analyses
 .LP
@@ -99,6 +161,14 @@ The philologists at the Grundtig centre has identified 11499 bible references in
 \&. For the latter distribution, there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times. At the other end, only one location \f(CRMatt 16,18\fP  is referenced 66 times. Of those 4637 locations, only a small fraction, 227 bible locations, are referenced 7 and more times.
 .LP
 Note that the dashed curve, related to references occurring in verse, starts lower and actually increases towards a peak. The main difference between the two distributions is that Grundtvig is more inclined to use his favourite bible locations in verse, and he is not
+.LP
+The are some debaten on important dates in Grundvigs career. \fI \(lqWithin the ever-growing bulk of Grundtvig studies, the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.\(rq\fP, writes
+.pdfhref L -D entropicdecay Nielbo et al. (2019)
+\&. In a detailed schedule of events in his life,
+.pdfhref L -D crisis1810 Engebretsen (2008)
+\&points out the years 1810, 1844, 1853, 1867 as life crises.
+.pdfhref L -D crisis1844 Thodberg (2005)
+\&writes about the crisis 1844.
 .KF  
 .pdfhref M -N figure1
 .PDFPIC distribution.pdf 12.0c 7.2c
@@ -107,6 +177,7 @@ Note that the dashed curve, related to references occurring in verse, starts low
 .vs -2
 \s-2Figure 1. The distributions showing the bible location counts for different numbers of references, for all references (solid curve) and references occurring i verse (dashed curves). Note the logarithmic scale on the y-axis.\s+2
 .vs
+.sp
 .KE
 .sp
 .LP
@@ -118,6 +189,7 @@ I use the counts of individual bible references to compare all the years of Grun
 .vs -2
 \s-2Figure 2.\s+2
 .vs
+.sp
 .KE
 .sp
 .KF
@@ -127,6 +199,7 @@ I use the counts of individual bible references to compare all the years of Grun
 .vs -2
 \s-2Figure 3.\s+2
 .vs
+.sp
 .KE
 .sp
 .KF
@@ -136,6 +209,7 @@ I use the counts of individual bible references to compare all the years of Grun
 .vs -2
 \s-2Figure 4.\s+2
 .vs
+.sp
 .KE
 .sp
 .KF
@@ -145,6 +219,7 @@ I use the counts of individual bible references to compare all the years of Grun
 .vs -2
 \s-2Figure 5.\s+2
 .vs
+.sp
 .KE
 .sp
 .KF
@@ -154,6 +229,7 @@ I use the counts of individual bible references to compare all the years of Grun
 .vs -2
 \s-2Figure 6.\s+2
 .vs
+.sp
 .KE
 .sp
 .SH

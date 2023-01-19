@@ -187,12 +187,13 @@ Notes
 .sp
 </xsl:text></xsl:template>
 
-<xsl:template match="t:figure/t:head"><xsl:text>
+<xsl:template match="t:figure/t:head|t:table/t:head"><xsl:text>
 .sp
 .QP
 .vs -2
 </xsl:text>\s-2<xsl:apply-templates/><xsl:text>\s+2
 .vs
+.sp
 </xsl:text></xsl:template>
 
 <xsl:template match="t:graphic"><xsl:text>
@@ -217,10 +218,12 @@ Notes
 
 <xsl:template match="t:eg"><xsl:text>\&amp; </xsl:text><xsl:value-of disable-output-escaping="yes"  select="concat('\f(CR',normalize-space(.),'\fP')"/><xsl:text> </xsl:text></xsl:template>
 
-<xsl:template match="t:table">
-.SH
+<xsl:template match="t:table"><xsl:text>
+.KF</xsl:text>
+<xsl:if test="@xml:id"><xsl:text>
+.pdfhref M -N </xsl:text> <xsl:value-of select="@xml:id"/><xsl:text>
+</xsl:text></xsl:if>
 <xsl:apply-templates select="t:head"/>
-.LP
 .TS
 tab(;);
 <xsl:for-each select="t:row[@role='label']/t:cell[not(position()=3 or position()=4)]">lb </xsl:for-each>;
@@ -237,6 +240,7 @@ T}</xsl:text><xsl:choose><xsl:when test="position() &lt; last()">;</xsl:when><xs
 </xsl:text></xsl:otherwise></xsl:choose></xsl:for-each>
 </xsl:for-each>
 .TE
+.KE
 </xsl:template>
 
 <xsl:template mode="preserve"  match="text()">
