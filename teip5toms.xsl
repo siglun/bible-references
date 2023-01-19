@@ -226,15 +226,16 @@ Notes
 <xsl:apply-templates select="t:head"/>
 .TS
 tab(;);
-<xsl:for-each select="t:row[@role='label']/t:cell[not(position()=3 or position()=4)]">lb </xsl:for-each>;
-<xsl:for-each select="t:row[@role='label']/t:cell[not(position()=3 or position()=4)]">l </xsl:for-each>.
-<xsl:for-each select="t:row[@role='label']/t:cell[not(position()=3 or position()=4)]"><xsl:text>T{
+<xsl:for-each select="t:row[@role='label']/t:cell">lb </xsl:for-each>;
+<xsl:for-each select="t:row[@role='label']/t:cell">l </xsl:for-each>.
+<xsl:for-each select="t:row[@role='label']/t:cell"><xsl:text>T{
 </xsl:text>\s-2<xsl:apply-templates/>\s+2<xsl:text>
 T}</xsl:text><xsl:choose><xsl:when test="position() &lt; last()">;</xsl:when><xsl:otherwise><xsl:text>
 </xsl:text></xsl:otherwise></xsl:choose></xsl:for-each>
 _
 <xsl:for-each select="t:row[@role='data']">
-<xsl:for-each select="t:cell[not(position()=3 or position()=4)]"><xsl:text>T{
+<xsl:for-each select="t:cell"><xsl:text>T{
+.na
 </xsl:text>\s-2<xsl:apply-templates/>\s+2<xsl:text>
 T}</xsl:text><xsl:choose><xsl:when test="position() &lt; last()">;</xsl:when><xsl:otherwise><xsl:text>
 </xsl:text></xsl:otherwise></xsl:choose></xsl:for-each>
