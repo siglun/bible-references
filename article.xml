@@ -43,7 +43,7 @@
         target="#nfsgrundtvig">Wikipedia (2003)</ref> describes him.
         In this paper I present some data analyses on his use of the bible in his writing.</p>
 
-        <p>His use of different bible references in the scripture varied a lot over time.
+        <p>His use of different references tp the scriptures varied a lot over time.
         I found that, Grundtvig referred to <hi rend='monospaced'>1 Kor 13,12</hi>: <hi rend="italic"><quote>For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.</quote></hi> <note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/> (English)<lb/>  <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note> in more works than any other bible reference,
         but he did so mostly before 1820.
         Intrigued by this observation I checked other references
@@ -74,9 +74,9 @@
         as presented in this paper depends on two factors, where the
         number of times he actually used is just one. The other one is
         the philologists effort to identify the references, and their
-        ability to identify them in a text where there might be references that just vague hints of a location.
+        ability to do so in a text where the references are just vague hints of a location.
         Hence there are some possible systematic errors hidden here:
-        Not all works are equal and philologists might invest more in some important ones than others.
+        Not all works are equal and philologists might invest more in some important ones than in other.
         Also, I can imagine that bible references could be more difficult to identify
         in poetry and fiction where the intellectual practice does not force an author to make clear references.
         Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.</p>
@@ -92,9 +92,9 @@
       </div>
       <div>
       <table xml:id="table1" rows="5" cols="2">
-        <head>Table 1. The five most frequest bible references for verse</head>
+        <head>Table 1. The five most frequent bible references for verse</head>
         <row role="label">
-          <cell>Frequencey</cell>
+          <cell>Frequency</cell>
           <cell>Bible location</cell>
         </row>
         <row>
@@ -119,9 +119,9 @@
       </div>
       <div>
       <table xml:id="table1" rows="5" cols="2">
-        <head>Table 2. The five most frequest bible references for prose</head>
+        <head>Table 2. The five most frequent bible references for prose</head>
         <row role="label">
-          <cell>Frequencey</cell>
+          <cell>Frequency</cell>
           <cell>Bible location</cell>
         </row>
         <row>
