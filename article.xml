@@ -127,6 +127,16 @@
         Grundtvig seem to have more or less different favourite bible locations in verse and prose.
         See <ref target="#table1">Table 1</ref> and <ref target="#table2">Table 2</ref>, respectively.</p>
 
+        <p>It is interesting that it is these two locations in Genesis that holds the top positions.
+        Grundtvig's choice for prose is from the Priestly narrative,
+        and his preference for verse comes the Jahwist story (see <ref target="#creation-narratives">Wikipedia 2004</ref>).
+        The two quotes reads,  <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>  &#xa0; (<hi  rend='monospaced'>1 Mos 1,27</hi>) and  <hi rend="italic"><quote>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature</quote></hi>  &#xa0; (<hi rend='monospaced'>1 Mos 2,7</hi>) respectivly.</p>
+
+        <p>Obviously,
+        we cannot know,
+        but somehow the two fill the same role in his writing of prose and verse,
+        and that he basically find that the Jahwist narrative more poetic.</p>
+        
         <p>I use the counts of individual bible references to compare
         all the years of Grundtvig's professional life. </p>
 
@@ -137,35 +147,40 @@
         <ref target="#crisis1810">Engebretsen (2008)</ref> points out the years 1810, 1844, 1853, 1867 as life crises.
         <ref target="#crisis1844">Thodberg (2005)</ref> writes about the crisis 1844.</p>
 
-        <figure>
-          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_1_Genesis_2_7.png"/>
-          <head>Figure 2. Grundtvig's use of 1 Genesis 2:7 in verse (solid curve) and prose (dashed curve)</head>
-        </figure>
-
-        <figure>
-          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_john_6_23.png"/>
-          <head>Figure 3. Grundtvig's use of John 6:23.</head>
-        </figure>
-
-        <figure>
-          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_matt_16_18.png"/>
-          <head>Figure 4. Grundtvig's use of Matthew 16:18.</head>
-        </figure>
-
-        <figure>
-          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_proverbs_4_23.png"/>
-          <head>Figure 5. Grundtvig's use of Proverbs 4:23.</head>
-        </figure>
-
-        <figure>
-          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_psalm_23_4.png"/>
-          <head>Figure 6. Grundtvig's use of Psalm 23:4.</head>
+        <figure xml:id="figure2">
+          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_1_Genesis_1_27.png"/>
+          <head>Figure 2. Grundtvig's use of 1 Genesis 1:27 in verse (solid curve) and prose (dashed curve)</head>
         </figure>
         
-        <figure>
+        <figure xml:id="figure3">
+          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_1_Genesis_2_7.png"/>
+          <head>Figure 3. Grundtvig's use of 1 Genesis 2:7 in verse (solid curve) and prose (dashed curve)</head>
+        </figure>
+
+        <figure xml:id="figure4">
+          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_john_6_23.png"/>
+          <head>Figure 4. Grundtvig's use of John 6:23.</head>
+        </figure>
+
+        <figure xml:id="figure5">
+          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_matt_16_18.png"/>
+          <head>Figure 5. Grundtvig's use of Matthew 16:18.</head>
+        </figure>
+
+        <figure xml:id="figure6">
+          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_proverbs_4_23.png"/>
+          <head>Figure 6. Grundtvig's use of Proverbs 4:23.</head>
+        </figure>
+
+        <figure xml:id="figure7">
+          <graphic url="https://github.com/siglun/bible-references/raw/main/refs_psalm_23_4.png"/>
+          <head>Figure 7. Grundtvig's use of Psalm 23:4.</head>
+        </figure>
+        
+        <figure xml:id="figure8">
           <graphic url="https://github.com/siglun/bible-references/raw/main/cladogram-prose.png"/>
           <graphic url="https://github.com/siglun/bible-references/raw/main/cladogram-poetry.png"/>
-          <head>Figure 7.</head>
+          <head>Figure 8.</head>
         </figure>
 
       </div>
@@ -186,6 +201,14 @@
             <ref target="https://en.wikipedia.org/wiki/N._F._S._Grundtvig"/>
           </bibl>
 
+          <bibl xml:id="creation-narratives">
+            <author>Wikipedia</author>
+            <date>2004</date>
+            <title level="a">Genesis creation narrative</title>
+            <title level="m">Wikipedia, the free encyclopedia</title>
+            <ref target="https://en.wikipedia.org/wiki/Genesis_creation_narrative"/>
+          </bibl>
+          
           <bibl xml:id="grundtvig-texter">
             <author>Center for Grundtvigforskning</author>
             <author>Det Kgl. Bibliotek</author>

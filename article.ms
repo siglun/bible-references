@@ -81,6 +81,12 @@ The distributions of bible references for verse and prose can be seen in
 .pdfhref L -D table2 Table 2
 \&, respectively.
 .LP
+It is interesting that it is these two locations in Genesis that holds the top positions. Grundtvig's choice for prose is from the Priestly narrative, and his preference for verse comes the Jahwist story (see
+.pdfhref L -D creation-narratives Wikipedia 2004
+\&). The two quotes reads, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP  ( \f(CR\s-11 Mos 1,27\s+1\fP) and \fI \(lqthen the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature\(rq\fP  ( \f(CR\s-11 Mos 2,7\s+1\fP) respectivly.
+.LP
+Obviously, we cannot know, but somehow the two fill the same role in his writing of prose and verse, and that he basically find that the Jahwist narrative more poetic.
+.LP
 I use the counts of individual bible references to compare all the years of Grundtvig's professional life.
 .LP
 The are some debate on important dates in Grundtvig's career. \fI \(lqWithin the ever-growing bulk of Grundtvig studies, the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.\(rq\fP, writes
@@ -90,63 +96,80 @@ The are some debate on important dates in Grundtvig's career. \fI \(lqWithin the
 \&points out the years 1810, 1844, 1853, 1867 as life crises.
 .pdfhref L -D crisis1844 Thodberg (2005)
 \&writes about the crisis 1844.
-.KF
+.KF  
+.pdfhref M -N figure2
+.PDFPIC refs_1_Genesis_1_27.pdf 12.0c 7.2c
+.sp
+.QP
+.vs -2
+\s-2Figure 2. Grundtvig's use of 1 Genesis 1:27 in verse (solid curve) and prose (dashed curve)\s+2
+.vs
+.sp
+.KE
+.sp
+.KF  
+.pdfhref M -N figure3
 .PDFPIC refs_1_Genesis_2_7.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 2. Grundtvig's use of 1 Genesis 2:7 in verse (solid curve) and prose (dashed curve)\s+2
+\s-2Figure 3. Grundtvig's use of 1 Genesis 2:7 in verse (solid curve) and prose (dashed curve)\s+2
 .vs
 .sp
 .KE
 .sp
-.KF
+.KF  
+.pdfhref M -N figure4
 .PDFPIC refs_john_6_23.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 3. Grundtvig's use of John 6:23.\s+2
+\s-2Figure 4. Grundtvig's use of John 6:23.\s+2
 .vs
 .sp
 .KE
 .sp
-.KF
+.KF  
+.pdfhref M -N figure5
 .PDFPIC refs_matt_16_18.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 4. Grundtvig's use of Matthew 16:18.\s+2
+\s-2Figure 5. Grundtvig's use of Matthew 16:18.\s+2
 .vs
 .sp
 .KE
 .sp
-.KF
+.KF  
+.pdfhref M -N figure6
 .PDFPIC refs_proverbs_4_23.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 5. Grundtvig's use of Proverbs 4:23.\s+2
+\s-2Figure 6. Grundtvig's use of Proverbs 4:23.\s+2
 .vs
 .sp
 .KE
 .sp
-.KF
+.KF  
+.pdfhref M -N figure7
 .PDFPIC refs_psalm_23_4.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 6. Grundtvig's use of Psalm 23:4.\s+2
+\s-2Figure 7. Grundtvig's use of Psalm 23:4.\s+2
 .vs
 .sp
 .KE
 .sp
-.KF
+.KF  
+.pdfhref M -N figure8
 .PDFPIC cladogram-prose.pdf 12.0c 7.2c
 .PDFPIC cladogram-poetry.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 7.\s+2
+\s-2Figure 8.\s+2
 .vs
 .sp
 .KE
@@ -206,6 +229,15 @@ Wikipedia,
 .br  
 \s-2\f(CR
 .pdfhref W -D https://en.wikipedia.org/wiki/N._F._S._Grundtvig https://en.wikipedia.org/wiki/N._F._S._Grundtvig
+\fP\s+2
+.XP
+.pdfhref M -N creation-narratives
+Wikipedia,
+2004. Genesis creation narrative.  In:
+\fIWikipedia, the free encyclopedia\fP 
+.br  
+\s-2\f(CR
+.pdfhref W -D https://en.wikipedia.org/wiki/Genesis_creation_narrative https://en.wikipedia.org/wiki/Genesis_creation_narrative
 \fP\s+2
 .XP
 .pdfhref M -N grundtvig-center
