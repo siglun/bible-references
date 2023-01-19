@@ -1,7 +1,7 @@
 #
 # plot grand totals
 #
-set ylabel "Number of locations"
+set ylabel "Frequncy"
 set xlabel "Number of references"
 
 set ter eps
@@ -12,9 +12,13 @@ set monochrome
 
 set log y
 
-plot 'distribution.text' using 2:1 w linespoints  pt 6 t "all", \
-     'distribution_poetry.text'  using 2:1 w linespoints pt 7  t "verse", \
-     'distribution_prose.text'   using 2:1 w linespoints pt 8  t "prose" 
+# plot 'distribution.text' using 2:1 w linespoints  pt 6 t "all", \
+#     'distribution_poetry.text'  using 2:1 w linespoints pt 7  t "verse", \
+#     'distribution_prose.text'   using 2:1 w linespoints pt 8  t "prose" 
+
+plot \
+     'distribution_poetry.text'  using 3:1 w linespoints pt 7  t "verse", \
+     'distribution_prose.text'   using 3:1 w linespoints pt 8  t "prose" 
 
 
 # set ter pdfcairo
