@@ -156,11 +156,24 @@ T}
 .SH
 Analyses
 .LP
-The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus. The distribution of bible references for text in verse and the entire corpus can be seen in
+The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus. The distributions of bible references for text in verse and in prose can be seen in
 .pdfhref L -D figure1 Figure 1
 \&. For the latter distribution, there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times. At the other end, only one location \f(CR\s-1Matt 16,18\s+1\fP  is referenced 66 times. Of those 4637 locations, only a small fraction, 227 bible locations, are referenced 7 and more times.
 .LP
 Note that the dashed curve, related to references occurring in verse, starts lower and actually increases towards a peak. The main difference between the two distributions is that Grundtvig is more inclined to use his favourite bible locations in verse, and he is not
+.KF  
+.pdfhref M -N figure1
+.PDFPIC distribution.pdf 12.0c 7.2c
+.sp
+.QP
+.vs -2
+\s-2Figure 1. The distributions showing the frequency for different numbers of references, for in verse references (solid curve, bullets) and references occurring i prose (dashed curves, open triangels). Note the logarithmic scale on the y-axis.\s+2
+.vs
+.sp
+.KE
+.sp
+.LP
+I use the counts of individual bible references to compare all the years of Grundtvig's professional life.
 .LP
 The are some debate on important dates in Grundtvig's career. \fI \(lqWithin the ever-growing bulk of Grundtvig studies, the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.\(rq\fP, writes
 .pdfhref L -D entropicdecay Nielbo et al. (2019)
@@ -169,19 +182,6 @@ The are some debate on important dates in Grundtvig's career. \fI \(lqWithin the
 \&points out the years 1810, 1844, 1853, 1867 as life crises.
 .pdfhref L -D crisis1844 Thodberg (2005)
 \&writes about the crisis 1844.
-.KF  
-.pdfhref M -N figure1
-.PDFPIC distribution.pdf 12.0c 7.2c
-.sp
-.QP
-.vs -2
-\s-2Figure 1. The distributions showing the bible location counts for different numbers of references, for all references (solid curve) and references occurring i verse (dashed curves). Note the logarithmic scale on the y-axis.\s+2
-.vs
-.sp
-.KE
-.sp
-.LP
-I use the counts of individual bible references to compare all the years of Grundtvig's professional life.
 .KF
 .PDFPIC refs_per_year.pdf 12.0c 7.2c
 .sp
@@ -223,7 +223,8 @@ I use the counts of individual bible references to compare all the years of Grun
 .KE
 .sp
 .KF
-.PDFPIC cladogram.pdf 12.0c 7.2c
+.PDFPIC cladogram_prose.pdf 12.0c 7.2c
+.PDFPIC cladogram_poetry.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
