@@ -4,6 +4,7 @@
     <fileDesc xml:id="md">
       <titleStmt xml:id="titles">
         <title type="main">On Grundtvig and his use of bible references</title>
+        <title type="sub">Musings of a software developer</title>
       </titleStmt>
       <publicationStmt>
         <p/>
@@ -42,22 +43,21 @@
         <p>Nikolaj Frederik Severin Grundtvig's use of different references to the bible varied a lot over time.
         I found that, Grundtvig referred to <hi rend='monospaced'>1 Kor 13,12</hi>: <hi rend="italic"><quote>For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.</quote></hi> <note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/> (English)<lb/>  <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note> in more works than any other bible reference,
         but he did so mostly before 1820.
-        Intrigued by this observation I checked other references
-        and found that he quoted <hi rend='monospaced'>1 Mos 1,27</hi> &#xa0;   (or  <hi rend='monospaced'>1 genesis 1:27</hi>)<note><ref target="https://biblehub.com/genesis/1-27.htm"/> (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/></note> That is, <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi> which occured mostly from 1855 to 1859.
+        Intrigued by this observation I checked other references and found that he quoted <hi rend='monospaced'>1 Mos 1,27</hi> &#xa0;   (or  <hi rend='monospaced'>1 genesis 1:27</hi>)<note><ref target="https://biblehub.com/genesis/1-27.htm"/> (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/></note> That is, <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi> which occurred mostly from 1855 to 1859.
         I discovered this when developing and testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title></ref>, a part of the Royal Danish Library's Text Collections.</p>
 
-        <p>A bible reference is typically a string such as <hi rend='monospaced'>1 Kor 13,13</hi>  &#xa0; (or  <hi rend='monospaced'>1 chorinthians 13:13</hi>).
+        <p>A bible reference is typically a string such as <hi rend='monospaced'>1 Kor 13,13</hi>  &#xa0; (or  <hi rend='monospaced'>1 Corinthians 13:13</hi>).
         There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture,
         where it refers to <hi rend='italic'><quote>And now these three remain: faith, hope and love. But the greatest of these is love.</quote></hi><note><ref target="https://biblehub.com/1_corinthians/13-13.htm"/> (English)<lb/>
         <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note>
         I will try to use the term  <hi rend='italic'>bible reference</hi>  &#xa0; when discussing how Grundtvig is using it, whereas use  <hi rend='italic'>bible location</hi>  &#xa0; when talking on the scripture. This is somewhat like a word in the text and the same word in a dictionary.</p>
 
         <p>The complexity of bible references and locations is that
-        they are semantic units, hypertext links and intertextual
+        they are semantic units, hypertext links and inter-textual
         objects, all at the same time.</p>
 
         <p>Grundtvig referred to <hi rend='monospaced'>1 Kor 13,12</hi>  &#xa0; 41 times,
-        but he liked the preceeding verse even more,
+        but he liked the preceding verse even more,
         since he referred to <hi rend='monospaced'>1 Kor 13,12</hi>  &#xa0; (as mentioned above) 54 times.
         The number of times a given bible location is referred to
         as presented in this paper depends on two factors, where the
@@ -137,7 +137,7 @@
       <div>
         <head>Analyses</head>
         
-        <p>The philologists at the Grundtig centre has identified
+        <p>The philologists at the Grundtvig centre has identified
         11499 bible references in the GV.
         They refer to 4637 locations,
         i.e., Grundtvig referred to each location 2.5 times on the average.
@@ -154,7 +154,7 @@
         The main difference between the two distributions is that Grundtvig is more inclined to use his favourite bible locations in verse,
         and he is not</p>
 
-        <p>The are some debaten on important dates in Grundvigs career.
+        <p>The are some debate on important dates in Grundtvig's career.
         <hi rend='italic'><quote>Within the ever-growing bulk of Grundtvig studies, the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.</quote></hi>,
         writes <ref target="#entropicdecay">Nielbo et al. (2019)</ref>.
         In a detailed schedule of events in his life,
