@@ -207,7 +207,7 @@ Notes
 
 <xsl:template match="t:hi[@rend='italic']|t:hi[@rend='italics']"> \fI<xsl:apply-templates/>\fP</xsl:template>
 <xsl:template match="t:hi[@rend='bold']"> \fB<xsl:apply-templates/>\fP</xsl:template>
-<xsl:template match="t:hi[@rend='monospaced']"> \f(CR<xsl:apply-templates/>\fP</xsl:template>
+<xsl:template match="t:hi[@rend='monospaced']"> \f(CR\s-1<xsl:apply-templates/>\s+1\fP</xsl:template>
 
 
 <xsl:template match="t:eg[@xml:space='preserve']">

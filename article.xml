@@ -50,11 +50,14 @@
         There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture,
         where it refers to <hi rend='italic'><quote>And now these three remain: faith, hope and love. But the greatest of these is love.</quote></hi><note><ref target="https://biblehub.com/1_corinthians/13-13.htm"/> (English)<lb/>
         <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note>
-        I will try to use the term  <hi rend='italic'>bible reference</hi>  &#xa0; when discussing how Grundtvig is using it, whereas use  <hi rend='italic'>bible location</hi>  &#xa0; when talking on the scripture. This is somewhat like a word in the text and the same word in a dictionary.</p>
+        I will try to use the term  <hi rend='italic'>bible reference</hi>  &#xa0; when discussing Grundtvig's usage it, whereas use  <hi rend='italic'>bible location</hi>  &#xa0; when referring to the scripture.
+        This is somewhat like a word in the text and the same word in a dictionary.</p>
 
-        <p>The complexity of bible references and locations is that
-        they are semantic units, hypertext links and inter-textual
-        objects, all at the same time.</p>
+        <p>The complexity of bible references and locations is that they are semantic units,
+        hypertext links and inter-textual objects, all at the same time.
+        As semantic units they are abstract indicator of what a text is about,
+        an indicator of its aboutishness (in Digital Library jargon).
+        They are almost certainly also adornment, text jewellery if you like.</p>
 
         <p>Grundtvig referred to <hi rend='monospaced'>1 Kor 13,12</hi>  &#xa0; 41 times,
         but he liked the preceding verse even more,
@@ -62,13 +65,13 @@
         The number of times a given bible location is referred to
         as presented in this paper depends on two factors, where the
         number of times he actually used is just one. The other one is
-        the philologists effort to identify the references, and their
-        ability to do so in a text where the references are just vague hints of a location.
+        the philologists effort to identify the references,
+        and their ability to do so in a text where the references are just vague hints of a location.
         Hence there are some possible systematic errors hidden here:
         Not all works are equal and philologists might invest more in some important ones than in other.
-        Also, I can imagine that bible references could be more difficult to identify
-        in poetry and fiction where the intellectual practice does not force an author to make clear references.
-        Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.</p>
+        Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references.
+        Finally,
+        the goal of an edition project is not to provide data for text mining and quantitative analyses.</p>
 
         <p>The Grundtvig data for the portal comes from the Århus
         university's (2009) <ref
