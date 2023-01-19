@@ -8,7 +8,7 @@ Sigfrid Lundberg
 https://sigfrid-lundberg.se
 .AB
 .LP
-Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential persons in Danish 19th-century history. A polymath and very prolific writer and \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
+Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential persons in Danish 19th century history. A polymath and very prolific writer and \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
 .pdfhref L -D nfsgrundtvig Wikipedia (2003)
 \&describes him. In this paper I present some data analyses on his use of the bible in his writing.
 .AE
@@ -56,11 +56,7 @@ The Grundtvig data for the portal comes from the Århus university's (2009)
 .SH
 Analyses
 .LP
-The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus. The distributions of bible references for text in verse and in prose can be seen in
-.pdfhref L -D figure1 Figure 1
-\&. For the latter distribution, there are some 3605 locations that are referenced once or twice and 805 more locations used 3 to 6 times. At the other end, only one location \f(CR\s-1Matt 16,18\s+1\fP  is referenced 66 times. Of those 4637 locations, only a small fraction, 227 bible locations, are referenced 7 and more times.
-.LP
-Note that the dashed curve, related to references occurring in verse, starts lower and actually increases towards a peak. The main difference between the two distributions is that Grundtvig is more inclined to use his favourite bible locations in verse, and he is not
+The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus.
 .KF  
 .pdfhref M -N figure1
 .PDFPIC distribution.pdf 12.0c 7.2c
@@ -72,6 +68,18 @@ Note that the dashed curve, related to references occurring in verse, starts low
 .sp
 .KE
 .sp
+.LP
+For the prose there are in total 2663 bible locations. The distribution is such that there are 1477 locations that are referenced once, 670 twice and 468 locations used 3 to 9 times. At the other end, one location \f(CR\s-11 Mos 1,27\s+1\fP  (i.e., \f(CR\s-11 Genesis 1:27\s+1\fP) is referenced 52 times. Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times.
+.LP
+For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 to 9 times, and 21 are used 10 or more times. His absolute favorite for verse is \f(CR\s-11 Mos 2,7\s+1\fP  (i.e., \f(CR\s-11 Genesis 2:7\s+1\fP).
+.LP
+The distributions of bible references for verse and prose can be seen in
+.pdfhref L -D figure1 Figure 1
+\&. It visualizes the observations mentioned. For references occurring in verse, the distribution starts lower and actually increases towards a peak, whereas for prose it decreases initially. Grundtvig seem to have more or less different favourite bible locations in verse and prose. See
+.pdfhref L -D table1 Table 1
+\&and
+.pdfhref L -D table2 Table 2
+\&, respectively.
 .LP
 I use the counts of individual bible references to compare all the years of Grundtvig's professional life.
 .LP
