@@ -63,25 +63,25 @@ replot
 # "1 Mos 2,7"
 set monochrome 
 set ter eps
-set out "refs_1_Genesis_2_7.eps"
+set out "refs_genesis_2_7.eps"
 plot \
 'selected_poetry_ref_5.text' using 1:2 w lp pt 7 t "Verse", \
 'selected_prose_ref_5.text' using 1:2 w lp pt 8 t "Prose"
 
 set color
 set ter png
-set out "refs_1_Genesis_2_7.png"
+set out "refs_genesis_2_7.png"
 replot
 
 # "1 Mos 1,27"
 set monochrome 
 set ter eps
-set out "refs_1_Genesis_1_27.eps"
+set out "refs_genesis_1_27.eps"
 plot \
 'selected_poetry_ref_6.text' using 1:2 w lp pt 7 t "Verse", \
 'selected_prose_ref_6.text'  using 1:2 w lp pt 8 t "Prose"
 
 set color
 set ter png
-set out "refs_1_Genesis_1_27.png"
+set out "refs_genesis_1_27.png"
 replot

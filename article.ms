@@ -23,7 +23,7 @@ Nikolaj Frederik Severin Grundtvig's use of different references to the bible va
 .pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13
 (Danish)
 .FE
-in more works than any other bible reference, but he did so mostly before 1820. Intrigued by this observation I checked other references and found that he quoted \f(CR\s-11 Mos 1,27\s+1\fP  ( \f(CR\s-11 Genesis 1:27\s+1\fP)\**
+in more works than any other bible reference, but he did so mostly before 1820. Intrigued by this observation I checked other references and found that he quoted \f(CR\s-11 Mos 1,27\s+1\fP  ( \f(CR\s-1Genesis 1:27\s+1\fP)\**
 .FS
 .pdfhref W -D https://biblehub.com/genesis/1-27.htm https://biblehub.com/genesis/1-27.htm
 (English)
@@ -69,9 +69,9 @@ The philologists at the Grundtvig centre has identified 11499 bible references i
 .KE
 .sp
 .LP
-For the prose there are in total 2663 bible locations. The distribution is such that there are 1477 locations that are referenced once, 670 twice and 468 locations used 3 to 9 times. At the other end, one location \f(CR\s-11 Mos 1,27\s+1\fP  (i.e., \f(CR\s-11 Genesis 1:27\s+1\fP) is referenced 52 times. Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times.
+For the prose there are in total 2663 bible locations. The distribution is such that there are 1477 locations that are referenced once, 670 twice and 468 locations used 3 to 9 times. At the other end, one location \f(CR\s-11 Mos 1,27\s+1\fP  (i.e., \f(CR\s-1Genesis 1:27\s+1\fP) is referenced 52 times. Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times.
 .LP
-For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 to 9 times, and 21 are used 10 or more times. His absolute favorite for verse is \f(CR\s-11 Mos 2,7\s+1\fP  (i.e., \f(CR\s-11 Genesis 2:7\s+1\fP).
+For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 to 9 times, and 21 are used 10 or more times. His absolute favorite for verse is \f(CR\s-11 Mos 2,7\s+1\fP  (i.e., \f(CR\s-1Genesis 2:7\s+1\fP).
 .LP
 The distributions of bible references for verse and prose can be seen in
 .pdfhref L -D figure1 Figure 1
@@ -98,22 +98,22 @@ The are some debate on important dates in Grundtvig's career. \fI \(lqWithin the
 \&writes about the crisis 1844.
 .KF  
 .pdfhref M -N figure2
-.PDFPIC refs_1_Genesis_1_27.pdf 12.0c 7.2c
+.PDFPIC refs_genesis_1_27.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 2. Grundtvig's use of 1 Genesis 1:27 in verse (solid curve) and prose (dashed curve)\s+2
+\s-2Figure 2. Grundtvig's use of Genesis 1:27 in verse (solid curve) and prose (dashed curve)\s+2
 .vs
 .sp
 .KE
 .sp
 .KF  
 .pdfhref M -N figure3
-.PDFPIC refs_1_Genesis_2_7.pdf 12.0c 7.2c
+.PDFPIC refs_genesis_2_7.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 3. Grundtvig's use of 1 Genesis 2:7 in verse (solid curve) and prose (dashed curve)\s+2
+\s-2Figure 3. Grundtvig's use of Genesis 2:7 in verse (solid curve) and prose (dashed curve)\s+2
 .vs
 .sp
 .KE
@@ -322,7 +322,7 @@ T{
 \s-234\s+2
 T};T{
 .na
-\s-21 Mos 2,7 (1 Genesis 2:7)\s+2
+\s-21 Mos 2,7 (Genesis 2:7)\s+2
 T};T{
 .na
 \s-2then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.\s+2
@@ -436,7 +436,7 @@ T{
 \s-252\s+2
 T};T{
 .na
-\s-21 Mos 1,27 (1 Genesis 1:27)\s+2
+\s-21 Mos 1,27 (Genesis 1:27)\s+2
 T};T{
 .na
 \s-2So God created man in his own image, in the image of God he created him; male and female he created them\s+2
