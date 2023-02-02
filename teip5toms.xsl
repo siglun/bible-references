@@ -225,7 +225,7 @@ Notes
 </xsl:text></xsl:if>
 <xsl:apply-templates select="t:head"/>
 .TS
-tab(;);
+tab(;) expand ;
 <xsl:for-each select="t:row[@role='label']/t:cell">lb </xsl:for-each>;
 <xsl:for-each select="t:row[@role='label']/t:cell">l </xsl:for-each>.
 <xsl:for-each select="t:row[@role='label']/t:cell"><xsl:text>T{

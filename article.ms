@@ -15,38 +15,27 @@ Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential pe
 .SH
 Introduction
 .LP
-Nikolaj Frederik Severin Grundtvig's use of different references to the bible varied a lot over time. I found that, Grundtvig referred to \f(CR\s-11 Kor 13,12\s+1\fP( \f(CR\s-11 Corinthians 13:12\s+1\fP): \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP\**
+Nikolaj Frederik Severin Grundtvig's use bible references in his own writings varied a lot over time. I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
+.pdfhref L -D grundtvig-texter Grundtvigs Værker,
+\&a part of the Royal Danish Library's Text Collections. It turned out that Grundtvig referred to \f(CR\s-11 Corinthians 13:12\s+1\fP \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-12.htm https://biblehub.com/1_corinthians/13-12.htm
-(English)
-.br
-.pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13
-(Danish)
 .FE
-in more works than any other bible reference, but he did so mostly before 1820. Intrigued by this observation I checked other references and found that he quoted \f(CR\s-11 Mos 1,27\s+1\fP  ( \f(CR\s-1Genesis 1:27\s+1\fP)\**
+in more works than any other bible reference, but he did so mostly before 1820. Intrigued by this observation I checked other references and found that he quoted \f(CR\s-1Genesis 1:27\s+1\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/genesis/1-27.htm https://biblehub.com/genesis/1-27.htm
-(English)
-.br
-.pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1
 .FE
-That is, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fPwhich occurred mostly from 1855 to 1859. I discovered this when developing and testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
-.pdfhref L -D grundtvig-texter Grundtvigs Værker
-\&, a part of the Royal Danish Library's Text Collections.
+That is, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fPwhich occurred mostly from 1855 to 1859.
 .LP
-A bible reference is typically a string such as \f(CR\s-11 Kor 13,13\s+1\fP  (or \f(CR\s-11 Corinthians 13:13\s+1\fP). There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture, where it refers to \fI \(lqAnd now these three remain: faith, hope and love. But the greatest of these is love.\(rq\fP\**
+A bible reference is typically a string such as \f(CR\s-11 Corinthians 13:13\s+1\fP. There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture, where it refers to \fI \(lqAnd now these three remain: faith, hope and love. But the greatest of these is love.\(rq\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-13.htm https://biblehub.com/1_corinthians/13-13.htm
-(English)
-.br
-.pdfhref W -D https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13 https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13
-(Danish)
 .FE
 I will try to use the term \fIbible reference\fP  when discussing Grundtvig's usage it, whereas use \fIbible location\fP  when referring to the scripture. This is somewhat like a word in the text and the same word in a dictionary. The naming of bible locations differs between Danish and English. I will try to give both references when it is needed for following the text.
 .LP
 The complexity of bible references and locations is that they are semantic units, hypertext links and inter-textual objects, all at the same time. As semantic units they are abstract indicator of what a text is about, an indicator of its aboutishness (in Digital Library jargon). They are almost certainly also a text adornment, a piece of jewellery if you like.
 .LP
-Grundtvig referred to \f(CR\s-11 Kor 13,12\s+1\fP  41 times, but he liked the preceding verse even more, since he referred to \f(CR\s-11 Kor 13,12\s+1\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to do so in a text where the references are just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than in other. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references. Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.
+Grundtvig referred to \f(CR\s-11 Corinthians 13:13\s+1\fP  41 times, but he liked the preceding verse even more, since he referred to \f(CR\s-11 Corinthians 13:12\s+1\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to do so in a text where the references are just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than in other. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references. Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.
 .LP
 The Grundtvig data for the portal comes from the Århus university's (2009)
 .pdfhref L -D grundtvig-center Center for Grundtvigforskning,
@@ -69,9 +58,9 @@ The philologists at the Grundtvig centre has identified 11499 bible references i
 .KE
 .sp
 .LP
-For the prose there are in total 2663 bible locations. The distribution is such that there are 1477 locations that are referenced once, 670 twice and 468 locations used 3 to 9 times. At the other end, one location \f(CR\s-11 Mos 1,27\s+1\fP  (i.e., \f(CR\s-1Genesis 1:27\s+1\fP) is referenced 52 times. Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times.
+For the prose there are in total 2663 bible locations. The distribution is such that there are 1477 locations that are referenced once, 670 twice and 468 locations used 3 to 9 times. At the other end, one location \f(CR\s-1Genesis 1:27\s+1\fP  is referenced 52 times. Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times. Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ. He repeats the references.
 .LP
-For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 to 9 times, and 21 are used 10 or more times. His absolute favorite for verse is \f(CR\s-11 Mos 2,7\s+1\fP  (i.e., \f(CR\s-1Genesis 2:7\s+1\fP).
+For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 to 9 times, and 21 are used 10 or more times. His absolute favorite for verse is \f(CR\s-1Genesis 2:7\s+1\fP.
 .LP
 The distributions of bible references for verse and prose can be seen in
 .pdfhref L -D figure1 Figure 1
@@ -83,7 +72,7 @@ The distributions of bible references for verse and prose can be seen in
 .LP
 It is interesting that it is these two locations in Genesis that holds the top positions. Grundtvig's choice for prose is from the Priestly narrative, and his preference for verse comes the Jahwist story (see
 .pdfhref L -D creation-narratives Wikipedia 2004
-\&). The two quotes reads, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP  ( \f(CR\s-11 Mos 1,27\s+1\fP) and \fI \(lqthen the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature\(rq\fP  ( \f(CR\s-11 Mos 2,7\s+1\fP) respectivly.
+\&). The two quotes reads, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP  ( \f(CR\s-1Genesis 1:27\s+1\fP) and \fI \(lqthen the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature\(rq\fP  ( \f(CR\s-1Genesis 2,7\s+1\fP) respectivly.
 .LP
 Obviously, we cannot know, but somehow the two fill the same role in his writing of prose and verse, and that he basically find that the Jahwist narrative more poetic.
 .LP
@@ -252,80 +241,72 @@ Wikipedia,
 .sp
 .QP
 .vs -2
-\s-2Table 1. The five most frequent bible references for verse\s+2
+\s-2Table 1. The six most frequent bible references for verse\s+2
 .vs
 .sp
 .TS
-tab(;);
-lb lb lb ;
-l l l .
+tab(;) expand ;
+lb lb ;
+l l .
 T{
-\s-2Number of usages\s+2
-T};T{
 \s-2Bible location\s+2
 T};T{
-\s-2Text\s+2
+\s-2Number of usages\s+2
 T}
 _
 T{
 .na
+\s-2Proverbs 20:28
+.br
+Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.\s+2
+T};T{
+.na
 \s-216\s+2
-T};T{
-.na
-\s-2Ordsp 20,28 (Proverbs 20:28)\s+2
-T};T{
-.na
-\s-2Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.\s+2
 T}
 T{
+.na
+\s-2Psalm 23:4
+.br
+Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.\s+2
+T};T{
 .na
 \s-217\s+2
-T};T{
-.na
-\s-2Sl 23,4 (Psalm 23:4)\s+2
-T};T{
-.na
-\s-2Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.\s+2
 T}
 T{
+.na
+\s-2Proverbs 4:23
+.br
+Keep your heart with all vigilance, for from it flow the springs of life.\s+2
+T};T{
 .na
 \s-218\s+2
-T};T{
-.na
-\s-2Ordsp 4,23 (Proverbs 4:23)\s+2
-T};T{
-.na
-\s-2Keep your heart with all vigilance, for from it flow the springs of life.\s+2
 T}
 T{
+.na
+\s-2John 6:63
+.br
+It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.\s+2
+T};T{
 .na
 \s-219\s+2
-T};T{
-.na
-\s-2Joh 6,63 (John 6:63)\s+2
-T};T{
-.na
-\s-2It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.\s+2
 T}
 T{
+.na
+\s-2Matthew 16:18
+.br
+And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
+T};T{
 .na
 \s-220\s+2
-T};T{
-.na
-\s-2Matt 16,18 (Matthew 16:18)\s+2
-T};T{
-.na
-\s-2And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
 T}
 T{
 .na
+\s-2Genesis 2:7
+.br
+then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.\s+2
+T};T{
+.na
 \s-234\s+2
-T};T{
-.na
-\s-21 Mos 2,7 (Genesis 2:7)\s+2
-T};T{
-.na
-\s-2then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.\s+2
 T}
 .TE
 .KE
@@ -338,15 +319,13 @@ T}
 .vs
 .sp
 .TS
-tab(;);
-lb lb lb ;
-l l l .
+tab(;) expand ;
+lb lb ;
+l l .
 T{
 \s-2Number of usages\s+2
 T};T{
 \s-2Bible location\s+2
-T};T{
-\s-2Text\s+2
 T}
 _
 T{
@@ -354,40 +333,36 @@ T{
 \s-231\s+2
 T};T{
 .na
-\s-21 Kor 13,13 (1 Corinthians 13:13)\s+2
-T};T{
-.na
-\s-2So now faith, hope, and love abide, these three; but the greatest of these is love.\s+2
+\s-21 Corinthians 13:13
+.br
+So now faith, hope, and love abide, these three; but the greatest of these is love.\s+2
 T}
 T{
 .na
 \s-231\s+2
 T};T{
 .na
-\s-2Joh 1,14 (John 1:14)\s+2
-T};T{
-.na
-\s-2And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.\s+2
+\s-2John 1:14
+.br
+And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.\s+2
 T}
 T{
 .na
 \s-239\s+2
 T};T{
 .na
-\s-2Matt 16,18 (Matthew 16:18)\s+2
-T};T{
-.na
-\s-2And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
+\s-2Matthew 16:18
+.br
+And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
 T}
 T{
 .na
 \s-240\s+2
 T};T{
 .na
-\s-2Joh 8,44 (John 8:44)\s+2
-T};T{
-.na
-\s-2You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.\s+2
+\s-2John 8:44
+.br
+You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.\s+2
 T}
 .TE
 .KE
@@ -400,15 +375,13 @@ T}
 .vs
 .sp
 .TS
-tab(;);
-lb lb lb ;
-l l l .
+tab(;) expand ;
+lb lb ;
+l l .
 T{
 \s-2Number of usages\s+2
 T};T{
 \s-2Bible location\s+2
-T};T{
-\s-2Text\s+2
 T}
 _
 T{
@@ -416,15 +389,11 @@ T{
 \s-243\s+2
 T};T{
 .na
-\s-2Matt 28,18-20 og Matt 26,26-29 (Matthew 28:18-20 and Matthew 26:26-29)\s+2
-T};T{
-.na
-\s-2And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.”\s+2
+\s-2Matthew 28:18-20 and Matthew 26:26-29
+.br
+And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.”\s+2
 T}
 T{
-.na
-\s-2\s+2
-T};T{
 .na
 \s-2\s+2
 T};T{
@@ -436,10 +405,9 @@ T{
 \s-252\s+2
 T};T{
 .na
-\s-21 Mos 1,27 (Genesis 1:27)\s+2
-T};T{
-.na
-\s-2So God created man in his own image, in the image of God he created him; male and female he created them\s+2
+\s-2Genesis 1:27
+.br
+So God created man in his own image, in the image of God he created him; male and female he created them\s+2
 T}
 .TE
 .KE

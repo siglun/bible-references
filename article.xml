@@ -40,16 +40,17 @@
       <div>
         <head>Introduction</head>
 
-        <p>Nikolaj Frederik Severin Grundtvig's use of different references to the bible varied a lot over time.
-        I found that, Grundtvig referred to <hi rend='monospaced'>1 Kor 13,12</hi> (<hi rend='monospaced'>1 Corinthians 13:12</hi>): <hi rend="italic"><quote>For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.</quote></hi> <note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/> (English)<lb/>  <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note> in more works than any other bible reference,
+        <p>Nikolaj Frederik Severin Grundtvig's use bible references in his own writings varied a lot over time.
+        I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title>,</ref>
+        a part of the Royal Danish Library's Text Collections.
+        It turned out that Grundtvig referred to <hi rend='monospaced'>1 Corinthians 13:12</hi> <hi rend="italic"><quote>For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.</quote></hi> <note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/> <!-- (English)<lb/>  <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish) --></note> in more works than any other bible reference,
         but he did so mostly before 1820.
-        Intrigued by this observation I checked other references and found that he quoted <hi rend='monospaced'>1 Mos 1,27</hi> &#xa0;   (<hi rend='monospaced'>Genesis 1:27</hi>)<note><ref target="https://biblehub.com/genesis/1-27.htm"/> (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/></note> That is, <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi> which occurred mostly from 1855 to 1859.
-        I discovered this when developing and testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title></ref>, a part of the Royal Danish Library's Text Collections.</p>
+        Intrigued by this observation I checked other references and found that he quoted <hi rend='monospaced'>Genesis 1:27</hi><note><ref target="https://biblehub.com/genesis/1-27.htm"/> <!-- (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/ --></note> That is, <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi> which occurred mostly from 1855 to 1859.</p>
 
-        <p>A bible reference is typically a string such as <hi rend='monospaced'>1 Kor 13,13</hi>  &#xa0; (or  <hi rend='monospaced'>1 Corinthians 13:13</hi>).
+        <p>A bible reference is typically a string such as <hi rend='monospaced'>1 Corinthians 13:13</hi>.
         There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture,
-        where it refers to <hi rend='italic'><quote>And now these three remain: faith, hope and love. But the greatest of these is love.</quote></hi><note><ref target="https://biblehub.com/1_corinthians/13-13.htm"/> (English)<lb/>
-        <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish)</note>
+        where it refers to <hi rend='italic'><quote>And now these three remain: faith, hope and love. But the greatest of these is love.</quote></hi><note><ref target="https://biblehub.com/1_corinthians/13-13.htm"/> <!-- (English)<lb/>
+        <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish) --></note>
         I will try to use the term  <hi rend='italic'>bible reference</hi>  &#xa0; when discussing Grundtvig's usage it, whereas use  <hi rend='italic'>bible location</hi>  &#xa0; when referring to the scripture.
         This is somewhat like a word in the text and the same word in a dictionary.
         The naming of bible locations differs between Danish and English.
@@ -62,9 +63,9 @@
         They are almost certainly also a text adornment,
         a piece of jewellery if you like.</p>
 
-        <p>Grundtvig referred to <hi rend='monospaced'>1 Kor 13,12</hi>  &#xa0; 41 times,
+        <p>Grundtvig referred to <hi rend='monospaced'>1 Corinthians 13:13</hi>  &#xa0; 41 times,
         but he liked the preceding verse even more,
-        since he referred to <hi rend='monospaced'>1 Kor 13,12</hi>  &#xa0; (as mentioned above) 54 times.
+        since he referred to <hi rend='monospaced'>1 Corinthians 13:12</hi>  &#xa0; (as mentioned above) 54 times.
         The number of times a given bible location is referred to
         as presented in this paper depends on two factors, where the
         number of times he actually used is just one. The other one is
@@ -109,16 +110,17 @@
         The distribution is such that there are 1477 locations that are referenced once,
         670 twice and
         468 locations used 3 to 9 times.
-        At the other end, one location <hi  rend='monospaced'>1 Mos 1,27</hi>  &#xa0;  (i.e., <hi  rend='monospaced'>Genesis 1:27</hi>) is referenced 52 times.
-        Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times.</p>
+        At the other end, one location <hi  rend='monospaced'>Genesis 1:27</hi>  &#xa0; is referenced 52 times.
+        Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times.
+        Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ.
+        He repeats the references.</p>
 
         <p>For verse there are 2094 locations.
         431 are referenced once,
         1321 twice,
         313 3 to 9 times,
         and 21 are used 10 or more times.
-        His absolute favorite for verse is  <hi  rend='monospaced'>1 Mos 2,7</hi>
-        &#xa0; (i.e., <hi  rend='monospaced'>Genesis 2:7</hi>).</p>
+        His absolute favorite for verse is <hi  rend='monospaced'>Genesis 2:7</hi>.</p>
 
         <p>The distributions of bible references for verse and prose can be seen in <ref target="#figure1">Figure 1</ref>.
         It visualizes the observations mentioned. For references occurring in verse,
@@ -130,7 +132,7 @@
         <p>It is interesting that it is these two locations in Genesis that holds the top positions.
         Grundtvig's choice for prose is from the Priestly narrative,
         and his preference for verse comes the Jahwist story (see <ref target="#creation-narratives">Wikipedia 2004</ref>).
-        The two quotes reads,  <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>  &#xa0; (<hi  rend='monospaced'>1 Mos 1,27</hi>) and  <hi rend="italic"><quote>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature</quote></hi>  &#xa0; (<hi rend='monospaced'>1 Mos 2,7</hi>) respectivly.</p>
+        The two quotes reads,  <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>  &#xa0; (<hi  rend='monospaced'>Genesis 1:27</hi>) and  <hi rend="italic"><quote>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature</quote></hi>  &#xa0; (<hi rend='monospaced'>Genesis 2,7</hi>) respectivly.</p>
 
         <p>Obviously,
         we cannot know,
@@ -267,69 +269,66 @@
       </div>
 
       <div>
-      <table xml:id="table1" rows="5" cols="3">
-        <head>Table 1. The five most frequent bible references for verse</head>
+      <table xml:id="table1" rows="5" cols="2">
+        <head>Table 1. The six most frequent bible references for verse</head>
         <row role="label">
-          <cell>Number of usages</cell>
           <cell>Bible location</cell>
-          <cell>Text</cell>
+          <cell>Number of usages</cell>
         </row>
         <row role='data'>
-          <cell>16</cell><cell>Ordsp 20,28 (Proverbs 20:28)</cell><cell>Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.</cell>
+          <cell>Proverbs 20:28<lb/>Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.</cell><cell>16</cell>
         </row>
         <row role='data'>
-          <cell>17</cell><cell>Sl 23,4 (Psalm 23:4)</cell><cell>Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.</cell>
+          <cell>Psalm 23:4<lb/>Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.</cell><cell>17</cell>
         </row>
         <row role='data'>
-          <cell>18</cell><cell>Ordsp 4,23 (Proverbs 4:23)</cell><cell>Keep your heart with all vigilance, for from it flow the springs of life.</cell>
+          <cell>Proverbs 4:23<lb/>Keep your heart with all vigilance, for from it flow the springs of life.</cell><cell>18</cell>
         </row>
         <row role='data'>
-          <cell>19</cell><cell>Joh 6,63 (John 6:63)</cell><cell>It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.</cell>
+           <cell>John 6:63<lb/>It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.</cell><cell>19</cell>
         </row>
         <row role='data'>
-          <cell>20</cell><cell>Matt 16,18 (Matthew 16:18)</cell><cell>And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell>
+          <cell>Matthew 16:18<lb/>And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell><cell>20</cell>
         </row>
         <row role='data'>
-          <cell>34</cell><cell>1 Mos 2,7 (Genesis 2:7)</cell><cell>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.</cell>
+          <cell>Genesis 2:7<lb/>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.</cell><cell>34</cell>
         </row>
       </table>
       </div>
       <div>
-      <table xml:id="table2" rows="4" cols="3">
+      <table xml:id="table2" rows="4" cols="2">
         <head>Table 2. The two most frequent bible references for prose is in Table 2 (ctd), these are the remaining three.</head>
         <row role="label">
           <cell>Number of usages</cell>
           <cell>Bible location</cell>
-          <cell>Text</cell>
         </row>
         <row role='data'>
-          <cell>31</cell><cell>1 Kor 13,13 (1 Corinthians 13:13)</cell><cell>So now faith, hope, and love abide, these three; but the greatest of these is love.</cell>
+          <cell>31</cell><cell>1 Corinthians 13:13<lb/>So now faith, hope, and love abide, these three; but the greatest of these is love.</cell>
         </row>
         <row role='data'>
-          <cell>31</cell><cell>Joh 1,14 (John 1:14)</cell><cell>And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.</cell>
+          <cell>31</cell><cell>John 1:14<lb/>And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.</cell>
         </row>
         <row role='data'>
-          <cell>39</cell><cell>Matt 16,18 (Matthew 16:18)</cell><cell>And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell>
+          <cell>39</cell><cell>Matthew 16:18<lb/> And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell>
         </row>
         <row role='data'>
-          <cell>40</cell><cell>Joh 8,44 (John 8:44)</cell><cell>You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.</cell>
+          <cell>40</cell><cell>John 8:44<lb/>You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.</cell>
         </row>
       </table>
-      <table xml:id="table2ctd" rows="3" cols="3">
+      <table xml:id="table2ctd" rows="3" cols="2">
         <head>Table 2 (ctd). The two most frequent bible references for prose. The second used one contains references to two locations. See Table 2 for the rest.</head>
         <row role="label">
           <cell>Number of usages</cell>
           <cell>Bible location</cell>
-          <cell>Text</cell>
         </row>
         <row role='data'>
-          <cell>43</cell><cell>Matt 28,18-20 og Matt 26,26-29 (Matthew 28:18-20 and Matthew 26:26-29)</cell><cell>And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.”</cell>
+          <cell>43</cell><cell>Matthew 28:18-20 and Matthew 26:26-29<lb/>And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.”</cell>
         </row>
         <row  role='data'>
-          <cell> </cell><cell> </cell><cell>Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” And he took a cup, and when he had given thanks he gave it to them, saying, “Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.”</cell>
+          <cell> </cell><cell>Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” And he took a cup, and when he had given thanks he gave it to them, saying, “Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.”</cell>
         </row>
         <row role='data'>
-          <cell>52</cell><cell>1 Mos 1,27 (Genesis 1:27)</cell><cell>So God created man in his own image, in the image of God he created him; male and female he created them</cell>
+          <cell>52</cell><cell>Genesis 1:27<lb/>So God created man in his own image, in the image of God he created him; male and female he created them</cell>
         </row>
       </table>
       </div>

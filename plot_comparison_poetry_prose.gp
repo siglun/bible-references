@@ -71,6 +71,7 @@ replot
 
 set ter eps
 set out "refs_genesis_2_7.eps"
+set monochrome
 
 plot \
 'selected_poetry_ref_5.text' using 1:2 w lp pt 7 t "Verse", \
@@ -84,8 +85,8 @@ replot
 # "1 Mos 1,27"
 
 set ter eps
-
 set out "refs_genesis_1_27.eps"
+set monochrome
 
 plot \
 'selected_poetry_ref_6.text' using 1:2 w lp pt 7 t "Verse", \
