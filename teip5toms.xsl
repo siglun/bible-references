@@ -218,6 +218,35 @@ Notes
 
 <xsl:template match="t:eg"><xsl:text>\&amp; </xsl:text><xsl:value-of disable-output-escaping="yes"  select="concat('\f(CR',normalize-space(.),'\fP')"/><xsl:text> </xsl:text></xsl:template>
 
+<xsl:template match="t:table[@rendition]">
+<xsl:variable name="rendition" select="@rendition"/>
+<xsl:text>
+.KF</xsl:text>
+<xsl:if test="@xml:id"><xsl:text>
+.pdfhref M -N </xsl:text> <xsl:value-of select="@xml:id"/><xsl:text>
+</xsl:text></xsl:if>
+<xsl:apply-templates select="t:head"/>
+.TS
+<xsl:value-of select="//t:tagsDecl/t:rendition[@xml:id = $rendition]"/><xsl:for-each select="t:row[@role='label']/t:cell"><xsl:text>T{
+.ps -2
+</xsl:text><xsl:apply-templates/>
+.ps +2<xsl:text>
+T}</xsl:text><xsl:choose><xsl:when test="position() &lt; last()">;</xsl:when><xsl:otherwise><xsl:text>
+</xsl:text></xsl:otherwise></xsl:choose></xsl:for-each>
+_
+<xsl:for-each select="t:row[@role='data']">
+<xsl:for-each select="t:cell"><xsl:choose><xsl:when test="@rend='text'"><xsl:text>T{
+.na
+</xsl:text>\s-2<xsl:apply-templates/>\s+2<xsl:text>
+T}</xsl:text></xsl:when><xsl:otherwise><xsl:apply-templates/></xsl:otherwise></xsl:choose><xsl:choose><xsl:when test="position() &lt; last()">;</xsl:when><xsl:otherwise><xsl:text>
+</xsl:text></xsl:otherwise></xsl:choose></xsl:for-each>
+</xsl:for-each>
+.TE
+.KE
+</xsl:template>
+
+
+
 <xsl:template match="t:table"><xsl:text>
 .KF</xsl:text>
 <xsl:if test="@xml:id"><xsl:text>

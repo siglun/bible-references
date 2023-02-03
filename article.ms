@@ -245,13 +245,17 @@ Wikipedia,
 .vs
 .sp
 .TS
-tab(;) expand ;
+tab(;) ;
 lb lb ;
-l l .
+lw(7c) lw(3c) .
 T{
-\s-2Bible location\s+2
+.ps -2
+Bible location
+.ps +2
 T};T{
-\s-2Number of usages\s+2
+.ps -2
+Number of usages
+.ps +2
 T}
 _
 T{
@@ -259,55 +263,37 @@ T{
 \s-2Proverbs 20:28
 .br
 Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.\s+2
-T};T{
-.na
-\s-216\s+2
-T}
+T};16
 T{
 .na
 \s-2Psalm 23:4
 .br
 Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.\s+2
-T};T{
-.na
-\s-217\s+2
-T}
+T};17
 T{
 .na
 \s-2Proverbs 4:23
 .br
 Keep your heart with all vigilance, for from it flow the springs of life.\s+2
-T};T{
-.na
-\s-218\s+2
-T}
+T};18
 T{
 .na
 \s-2John 6:63
 .br
 It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.\s+2
-T};T{
-.na
-\s-219\s+2
-T}
+T};19
 T{
 .na
 \s-2Matthew 16:18
 .br
 And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
-T};T{
-.na
-\s-220\s+2
-T}
+T};20
 T{
 .na
 \s-2Genesis 2:7
 .br
 then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.\s+2
-T};T{
-.na
-\s-234\s+2
-T}
+T};34
 .TE
 .KE
 .KF

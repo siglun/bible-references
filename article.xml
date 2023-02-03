@@ -12,7 +12,16 @@
       <sourceDesc>
         <p/>
       </sourceDesc>
+
     </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <rendition xml:id="bible-references-table"><![CDATA[tab(;) ;
+lb lb ;
+lw(7c) lw(3c) .
+]]></rendition>
+      </tagsDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <front>
@@ -269,29 +278,29 @@
       </div>
 
       <div>
-      <table xml:id="table1" rows="5" cols="2">
+      <table rendition="bible-references-table" xml:id="table1" rows="5" cols="2">
         <head>Table 1. The six most frequent bible references for verse</head>
         <row role="label">
           <cell>Bible location</cell>
           <cell>Number of usages</cell>
         </row>
         <row role='data'>
-          <cell>Proverbs 20:28<lb/>Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.</cell><cell>16</cell>
+          <cell rend="text">Proverbs 20:28<lb/>Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.</cell><cell rend="number">16</cell>
         </row>
         <row role='data'>
-          <cell>Psalm 23:4<lb/>Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.</cell><cell>17</cell>
+          <cell  rend="text">Psalm 23:4<lb/>Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.</cell><cell rend="number">17</cell>
         </row>
         <row role='data'>
-          <cell>Proverbs 4:23<lb/>Keep your heart with all vigilance, for from it flow the springs of life.</cell><cell>18</cell>
+          <cell rend="text">Proverbs 4:23<lb/>Keep your heart with all vigilance, for from it flow the springs of life.</cell><cell rend="number">18</cell>
         </row>
         <row role='data'>
-           <cell>John 6:63<lb/>It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.</cell><cell>19</cell>
+           <cell rend="text">John 6:63<lb/>It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.</cell><cell rend="number">19</cell>
         </row>
         <row role='data'>
-          <cell>Matthew 16:18<lb/>And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell><cell>20</cell>
+          <cell rend="text">Matthew 16:18<lb/>And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell><cell rend="number">20</cell>
         </row>
         <row role='data'>
-          <cell>Genesis 2:7<lb/>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.</cell><cell>34</cell>
+          <cell rend="text" >Genesis 2:7<lb/>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.</cell><cell rend="number">34</cell>
         </row>
       </table>
       </div>
