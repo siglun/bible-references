@@ -245,19 +245,18 @@ Wikipedia,
 .vs
 .sp
 .TS
-tab(;) ;
+allbox tab(;) ;
 lb lb ;
-lw(7c) lw(3c) .
+lw(10c) lw(2c) .
 T{
 .ps -2
 Bible location
 .ps +2
 T};T{
 .ps -2
-Number of usages
+# usages
 .ps +2
 T}
-_
 T{
 .na
 \s-2Proverbs 20:28
@@ -297,103 +296,63 @@ T};34
 .TE
 .KE
 .KF
-.pdfhref M -N table2
-.sp
-.QP
-.vs -2
-\s-2Table 2. The two most frequent bible references for prose is in Table 2 (ctd), these are the remaining three.\s+2
-.vs
-.sp
-.TS
-tab(;) expand ;
-lb lb ;
-l l .
-T{
-\s-2Number of usages\s+2
-T};T{
-\s-2Bible location\s+2
-T}
-_
-T{
-.na
-\s-231\s+2
-T};T{
-.na
-\s-21 Corinthians 13:13
-.br
-So now faith, hope, and love abide, these three; but the greatest of these is love.\s+2
-T}
-T{
-.na
-\s-231\s+2
-T};T{
-.na
-\s-2John 1:14
-.br
-And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.\s+2
-T}
-T{
-.na
-\s-239\s+2
-T};T{
-.na
-\s-2Matthew 16:18
-.br
-And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
-T}
-T{
-.na
-\s-240\s+2
-T};T{
-.na
-\s-2John 8:44
-.br
-You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.\s+2
-T}
-.TE
-.KE
-.KF
 .pdfhref M -N table2ctd
 .sp
 .QP
 .vs -2
-\s-2Table 2 (ctd). The two most frequent bible references for prose. The second used one contains references to two locations. See Table 2 for the rest.\s+2
+\s-2Table 2. The six most frequent bible references for prose.\s+2
 .vs
 .sp
 .TS
-tab(;) expand ;
+allbox tab(;) ;
 lb lb ;
-l l .
+lw(10c) lw(2c) .
 T{
-\s-2Number of usages\s+2
+.ps -2
+Bible location
+.ps +2
 T};T{
-\s-2Bible location\s+2
+.ps -2
+# usages
+.ps +2
 T}
-_
 T{
 .na
-\s-243\s+2
-T};T{
+\s-21 Corinthians 13:13
+.br
+So now faith, hope, and love abide, these three; but the greatest of these is love.\s+2
+T};31
+T{
+.na
+\s-2John 1:14
+.br
+And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.\s+2
+T};31
+T{
+.na
+\s-2Matthew 16:18
+.br
+And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
+T};39
+T{
+.na
+\s-2John 8:44
+.br
+You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.\s+2
+T};40
+T{
 .na
 \s-2Matthew 28:18-20 and Matthew 26:26-29
 .br
-And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.”\s+2
-T}
+And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” and
+.br
+Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” And he took a cup, and when he had given thanks he gave it to them, saying, “Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.”\s+2
+T};43
 T{
-.na
-\s-2\s+2
-T};T{
-.na
-\s-2Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” And he took a cup, and when he had given thanks he gave it to them, saying, “Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.”\s+2
-T}
-T{
-.na
-\s-252\s+2
-T};T{
 .na
 \s-2Genesis 1:27
 .br
 So God created man in his own image, in the image of God he created him; male and female he created them\s+2
-T}
+T};52
 .TE
 .KE

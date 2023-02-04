@@ -233,7 +233,7 @@ Notes
 .ps +2<xsl:text>
 T}</xsl:text><xsl:choose><xsl:when test="position() &lt; last()">;</xsl:when><xsl:otherwise><xsl:text>
 </xsl:text></xsl:otherwise></xsl:choose></xsl:for-each>
-_
+
 <xsl:for-each select="t:row[@role='data']">
 <xsl:for-each select="t:cell"><xsl:choose><xsl:when test="@rend='text'"><xsl:text>T{
 .na

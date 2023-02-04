@@ -16,9 +16,9 @@
     </fileDesc>
     <encodingDesc>
       <tagsDecl>
-        <rendition xml:id="bible-references-table"><![CDATA[tab(;) ;
+        <rendition xml:id="bible-references-table"><![CDATA[allbox tab(;) ;
 lb lb ;
-lw(7c) lw(3c) .
+lw(10c) lw(2c) .
 ]]></rendition>
       </tagsDecl>
     </encodingDesc>
@@ -277,12 +277,11 @@ lw(7c) lw(3c) .
         </listBibl>
       </div>
 
-      <div>
       <table rendition="bible-references-table" xml:id="table1" rows="5" cols="2">
         <head>Table 1. The six most frequent bible references for verse</head>
         <row role="label">
           <cell>Bible location</cell>
-          <cell>Number of usages</cell>
+          <cell># usages</cell>
         </row>
         <row role='data'>
           <cell rend="text">Proverbs 20:28<lb/>Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.</cell><cell rend="number">16</cell>
@@ -303,44 +302,33 @@ lw(7c) lw(3c) .
           <cell rend="text" >Genesis 2:7<lb/>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.</cell><cell rend="number">34</cell>
         </row>
       </table>
-      </div>
-      <div>
-      <table xml:id="table2" rows="4" cols="2">
-        <head>Table 2. The two most frequent bible references for prose is in Table 2 (ctd), these are the remaining three.</head>
-        <row role="label">
-          <cell>Number of usages</cell>
-          <cell>Bible location</cell>
-        </row>
-        <row role='data'>
-          <cell>31</cell><cell>1 Corinthians 13:13<lb/>So now faith, hope, and love abide, these three; but the greatest of these is love.</cell>
-        </row>
-        <row role='data'>
-          <cell>31</cell><cell>John 1:14<lb/>And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.</cell>
-        </row>
-        <row role='data'>
-          <cell>39</cell><cell>Matthew 16:18<lb/> And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell>
-        </row>
-        <row role='data'>
-          <cell>40</cell><cell>John 8:44<lb/>You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.</cell>
-        </row>
-      </table>
-      <table xml:id="table2ctd" rows="3" cols="2">
-        <head>Table 2 (ctd). The two most frequent bible references for prose. The second used one contains references to two locations. See Table 2 for the rest.</head>
-        <row role="label">
-          <cell>Number of usages</cell>
-          <cell>Bible location</cell>
-        </row>
-        <row role='data'>
-          <cell>43</cell><cell>Matthew 28:18-20 and Matthew 26:26-29<lb/>And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.”</cell>
-        </row>
-        <row  role='data'>
-          <cell> </cell><cell>Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” And he took a cup, and when he had given thanks he gave it to them, saying, “Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.”</cell>
-        </row>
-        <row role='data'>
-          <cell>52</cell><cell>Genesis 1:27<lb/>So God created man in his own image, in the image of God he created him; male and female he created them</cell>
-        </row>
-      </table>
-      </div>
+
+        <table  rendition="bible-references-table" xml:id="table2ctd" rows="3" cols="2">
+          <head>Table 2. The six most frequent bible references for prose.</head>
+          <row  rend="text" role="label">
+            <cell>Bible location</cell>
+            <cell># usages</cell>
+          </row>
+          <row  rend="text" role='data'>
+            <cell  rend="text">1 Corinthians 13:13<lb/>So now faith, hope, and love abide, these three; but the greatest of these is love.</cell><cell  rend="number">31</cell>
+          </row>
+          <row  rend="text" role='data'>
+            <cell  rend="text">John 1:14<lb/>And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.</cell><cell  rend="number">31</cell>
+          </row>
+          <row  rend="text" role='data'>
+            <cell  rend="text">Matthew 16:18<lb/> And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell>   <cell  rend="number">39</cell>
+          </row>
+          <row role='data'>
+            <cell  rend="text">John 8:44<lb/>You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.</cell><cell  rend="number">40</cell>
+          </row>
+          <row role='data'>
+            <cell  rend="text">Matthew 28:18-20 and Matthew 26:26-29<lb/>And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” and<lb/>
+            Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” And he took a cup, and when he had given thanks he gave it to them, saying, “Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.”</cell><cell  rend="number">43</cell>
+          </row>
+          <row role='data'>
+            <cell  rend="text">Genesis 1:27<lb/>So God created man in his own image, in the image of God he created him; male and female he created them</cell><cell  rend="number">52</cell>
+          </row>
+        </table>
 
       
     </body>
