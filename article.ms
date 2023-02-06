@@ -34,6 +34,65 @@ A bible reference is typically a string such as \f(CR\s-11 Corinthians 13:13\s+1
 I will try to use the term \fIbible reference\fP  when discussing Grundtvig's usage it, whereas use \fIbible location\fP  when referring to the scripture. This is somewhat like a word in the text and the same word in a dictionary. The naming of bible locations differs between Danish and English. I will try to give both references when it is needed for following the text.
 .LP
 The complexity of bible references and locations is that they are semantic units, hypertext links and inter-textual objects, all at the same time. As semantic units they are abstract indicator of what a text is about, an indicator of its aboutishness (in Digital Library jargon). They are almost certainly also a text adornment, a piece of jewellery if you like.
+.KF
+.pdfhref M -N table1
+.sp
+.QP
+.vs -2
+\s-2Table 1. The six most frequent bible references for verse\s+2
+.vs
+.sp
+.TS
+allbox tab(;) ;
+lb lb ;
+lw(10c) lw(2c) .
+T{
+.ps -2
+Bible location
+.ps +2
+T};T{
+.ps -2
+# usages
+.ps +2
+T}
+T{
+.na
+\s-2Proverbs 20:28
+.br
+Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.\s+2
+T};16
+T{
+.na
+\s-2Psalm 23:4
+.br
+Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.\s+2
+T};17
+T{
+.na
+\s-2Proverbs 4:23
+.br
+Keep your heart with all vigilance, for from it flow the springs of life.\s+2
+T};18
+T{
+.na
+\s-2John 6:63
+.br
+It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.\s+2
+T};19
+T{
+.na
+\s-2Matthew 16:18
+.br
+And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
+T};20
+T{
+.na
+\s-2Genesis 2:7
+.br
+then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.\s+2
+T};34
+.TE
+.KE
 .LP
 Grundtvig referred to \f(CR\s-11 Corinthians 13:13\s+1\fP  41 times, but he liked the preceding verse even more, since he referred to \f(CR\s-11 Corinthians 13:12\s+1\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to do so in a text where the references are just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than in other. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references. Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.
 .LP
@@ -73,6 +132,67 @@ Most of the analyses presented are inspired by Kenneth Ward Church and his brill
 \&. The
 .pdfhref L -D rlanguage cluster analyses was made using the language R
 \&.
+.KF
+.pdfhref M -N table2ctd
+.sp
+.QP
+.vs -2
+\s-2Table 2. The six most frequent bible references for prose.\s+2
+.vs
+.sp
+.TS
+allbox tab(;) ;
+lb lb ;
+lw(10c) lw(2c) .
+T{
+.ps -2
+Bible location
+.ps +2
+T};T{
+.ps -2
+# usages
+.ps +2
+T}
+T{
+.na
+\s-21 Corinthians 13:13
+.br
+So now faith, hope, and love abide, these three; but the greatest of these is love.\s+2
+T};31
+T{
+.na
+\s-2John 1:14
+.br
+And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.\s+2
+T};31
+T{
+.na
+\s-2Matthew 16:18
+.br
+And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
+T};39
+T{
+.na
+\s-2John 8:44
+.br
+You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.\s+2
+T};40
+T{
+.na
+\s-2Matthew 28:18-20 and Matthew 26:26-29
+.br
+And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” and
+.br
+Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” And he took a cup, and when he had given thanks he gave it to them, saying, “Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.”\s+2
+T};43
+T{
+.na
+\s-2Genesis 1:27
+.br
+So God created man in his own image, in the image of God he created him; male and female he created them\s+2
+T};52
+.TE
+.KE
 .SH
 Analyses
 .LP
@@ -103,9 +223,7 @@ The distributions of bible references for verse and prose can be seen in
 .LP
 It is interesting that it is these two locations in Genesis that holds the top positions. Grundtvig's choice for prose is from the Priestly narrative, and his preference for verse comes the Jahwist story (see
 .pdfhref L -D creation-narratives Wikipedia 2004
-\&). The two quotes reads, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP  ( \f(CR\s-1Genesis 1:27\s+1\fP) and \fI \(lqthen the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature\(rq\fP  ( \f(CR\s-1Genesis 2,7\s+1\fP) respectivly.
-.LP
-Obviously, we cannot know, but somehow the two fill the same role in his writing of prose and verse, and that he basically find that the Jahwist narrative more poetic.
+\&). The two quotes reads, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP  ( \f(CR\s-1Genesis 1:27\s+1\fP) and \fI \(lqthen the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature\(rq\fP  ( \f(CR\s-1Genesis 2,7\s+1\fP) respectivly. Obviously, we cannot know, but somehow the two could fill the same role in his writing of prose and verse, respectively. It could be that he basically find that the Jahwist narrative more poetic.
 .LP
 I use the counts of individual bible references to compare all the years of Grundtvig's professional life.
 .LP
@@ -227,7 +345,8 @@ Church, Kenneth Ward,
 .XP
 .pdfhref M -N rlanguage
 Development Core Team,
-2010. 
+2010. \fIR: A language and environment for statistical computing\fP [Computer software]. Vienna, Austria. Available from  
+.pdfhref W -D http://www.R-project.org http://www.R-project.org
 .XP
 .pdfhref M -N crisis1810
 Engebretsen, Else Bang,
@@ -287,123 +406,3 @@ Wikipedia,
 \s-2\f(CR
 .pdfhref W -D https://grundtvigcenteret.au.dk/ https://grundtvigcenteret.au.dk/
 \fP\s+2
-.KF
-.pdfhref M -N table1
-.sp
-.QP
-.vs -2
-\s-2Table 1. The six most frequent bible references for verse\s+2
-.vs
-.sp
-.TS
-allbox tab(;) ;
-lb lb ;
-lw(10c) lw(2c) .
-T{
-.ps -2
-Bible location
-.ps +2
-T};T{
-.ps -2
-# usages
-.ps +2
-T}
-T{
-.na
-\s-2Proverbs 20:28
-.br
-Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.\s+2
-T};16
-T{
-.na
-\s-2Psalm 23:4
-.br
-Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.\s+2
-T};17
-T{
-.na
-\s-2Proverbs 4:23
-.br
-Keep your heart with all vigilance, for from it flow the springs of life.\s+2
-T};18
-T{
-.na
-\s-2John 6:63
-.br
-It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.\s+2
-T};19
-T{
-.na
-\s-2Matthew 16:18
-.br
-And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
-T};20
-T{
-.na
-\s-2Genesis 2:7
-.br
-then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.\s+2
-T};34
-.TE
-.KE
-.KF
-.pdfhref M -N table2ctd
-.sp
-.QP
-.vs -2
-\s-2Table 2. The six most frequent bible references for prose.\s+2
-.vs
-.sp
-.TS
-allbox tab(;) ;
-lb lb ;
-lw(10c) lw(2c) .
-T{
-.ps -2
-Bible location
-.ps +2
-T};T{
-.ps -2
-# usages
-.ps +2
-T}
-T{
-.na
-\s-21 Corinthians 13:13
-.br
-So now faith, hope, and love abide, these three; but the greatest of these is love.\s+2
-T};31
-T{
-.na
-\s-2John 1:14
-.br
-And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.\s+2
-T};31
-T{
-.na
-\s-2Matthew 16:18
-.br
-And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
-T};39
-T{
-.na
-\s-2John 8:44
-.br
-You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.\s+2
-T};40
-T{
-.na
-\s-2Matthew 28:18-20 and Matthew 26:26-29
-.br
-And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” and
-.br
-Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” And he took a cup, and when he had given thanks he gave it to them, saying, “Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.”\s+2
-T};43
-T{
-.na
-\s-2Genesis 1:27
-.br
-So God created man in his own image, in the image of God he created him; male and female he created them\s+2
-T};52
-.TE
-.KE

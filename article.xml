@@ -72,6 +72,35 @@ lw(10c) lw(2c) .
         They are almost certainly also a text adornment,
         a piece of jewellery if you like.</p>
 
+        
+
+      <table rendition="bible-references-table" xml:id="table1" rows="5" cols="2">
+        <head>Table 1. The six most frequent bible references for verse</head>
+        <row role="label">
+          <cell>Bible location</cell>
+          <cell># usages</cell>
+        </row>
+        <row role='data'>
+          <cell rend="text">Proverbs 20:28<lb/>Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.</cell><cell rend="number">16</cell>
+        </row>
+        <row role='data'>
+          <cell  rend="text">Psalm 23:4<lb/>Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.</cell><cell rend="number">17</cell>
+        </row>
+        <row role='data'>
+          <cell rend="text">Proverbs 4:23<lb/>Keep your heart with all vigilance, for from it flow the springs of life.</cell><cell rend="number">18</cell>
+        </row>
+        <row role='data'>
+           <cell rend="text">John 6:63<lb/>It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.</cell><cell rend="number">19</cell>
+        </row>
+        <row role='data'>
+          <cell rend="text">Matthew 16:18<lb/>And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell><cell rend="number">20</cell>
+        </row>
+        <row role='data'>
+          <cell rend="text" >Genesis 2:7<lb/>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.</cell><cell rend="number">34</cell>
+        </row>
+      </table>
+
+
         <p>Grundtvig referred to <hi rend='monospaced'>1 Corinthians 13:13</hi>  &#xa0; 41 times,
         but he liked the preceding verse even more,
         since he referred to <hi rend='monospaced'>1 Corinthians 13:12</hi>  &#xa0; (as mentioned above) 54 times.
@@ -89,6 +118,10 @@ lw(10c) lw(2c) .
         <p>What you find below is an outline of my analysis of of his bible references.</p>
         
       </div>
+
+
+
+      
       <div>
         <head>Materials and Methods</head>
         
@@ -101,7 +134,8 @@ lw(10c) lw(2c) .
 
         <p>The texts are encoded <ref
         target="#teiguidelines">according to TEI P5
-        guidelines</ref>. Bible references are entered into the text in &lt;rs> ... &lt;/rs> elements like this.</p>
+        guidelines.</ref>
+        Bible references are entered into the text in &lt;rs> ... &lt;/rs> elements like this.</p>
 
         <eg xml:space="preserve"><![CDATA[ 
         <rs key="1 Mos 2,7" type="bible">1 Mos 2,7</rs>
@@ -132,6 +166,36 @@ lw(10c) lw(2c) .
         language R</ref>.</p>
         
       </div>
+
+
+        <table  rendition="bible-references-table" xml:id="table2ctd" rows="3" cols="2">
+          <head>Table 2. The six most frequent bible references for prose.</head>
+          <row  rend="text" role="label">
+            <cell>Bible location</cell>
+            <cell># usages</cell>
+          </row>
+          <row  rend="text" role='data'>
+            <cell  rend="text">1 Corinthians 13:13<lb/>So now faith, hope, and love abide, these three; but the greatest of these is love.</cell><cell  rend="number">31</cell>
+          </row>
+          <row  rend="text" role='data'>
+            <cell  rend="text">John 1:14<lb/>And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.</cell><cell  rend="number">31</cell>
+          </row>
+          <row  rend="text" role='data'>
+            <cell  rend="text">Matthew 16:18<lb/> And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell>   <cell  rend="number">39</cell>
+          </row>
+          <row role='data'>
+            <cell  rend="text">John 8:44<lb/>You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.</cell><cell  rend="number">40</cell>
+          </row>
+          <row role='data'>
+            <cell  rend="text">Matthew 28:18-20 and Matthew 26:26-29<lb/>And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” and<lb/>
+            Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” And he took a cup, and when he had given thanks he gave it to them, saying, “Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.”</cell><cell  rend="number">43</cell>
+          </row>
+          <row role='data'>
+            <cell  rend="text">Genesis 1:27<lb/>So God created man in his own image, in the image of God he created him; male and female he created them</cell><cell  rend="number">52</cell>
+          </row>
+        </table>
+
+
       
       <div>
         <head>Analyses</head>
@@ -178,14 +242,12 @@ lw(10c) lw(2c) .
         <p>It is interesting that it is these two locations in Genesis that holds the top positions.
         Grundtvig's choice for prose is from the Priestly narrative,
         and his preference for verse comes the Jahwist story (see <ref target="#creation-narratives">Wikipedia 2004</ref>).
-        The two quotes reads,  <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>  &#xa0; (<hi  rend='monospaced'>Genesis 1:27</hi>) and  <hi rend="italic"><quote>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature</quote></hi>  &#xa0; (<hi rend='monospaced'>Genesis 2,7</hi>) respectivly.</p>
-
-        <p>Obviously,
-        we cannot know,
-        but somehow the two fill the same role in his writing of prose and verse,
-        and that he basically find that the Jahwist narrative more poetic.</p>
+        The two quotes reads,  <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>  &#xa0; (<hi  rend='monospaced'>Genesis 1:27</hi>) and  <hi rend="italic"><quote>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature</quote></hi>  &#xa0; (<hi rend='monospaced'>Genesis 2,7</hi>) respectivly.
+        Obviously, we cannot know,
+        but somehow the two could fill the same role in his writing of prose and verse, respectively.
+        It could be that he basically find that the Jahwist narrative more poetic.</p>
         
-        <p>I use the counts of individual bible references to compare
+        <p>I use the counts of some of the most frequently used individual bible references to compare
         all the years of Grundtvig's professional life. </p>
 
         <p>The are some debate on important dates in Grundtvig's career.
@@ -297,9 +359,9 @@ lw(10c) lw(2c) .
           <bibl xml:id="rlanguage">
             <author>Development Core Team</author>
             <date>2010</date>
-            <title>R: A language and environment for statistical computing</title>
-            [Computer software]. Vienna, Austria.
-            Available from http://www.R-project.org
+            <title level="m">R: A language and environment for statistical computing</title>
+            <note>[Computer software]. Vienna, Austria.
+            Available from <ref target="http://www.R-project.org">http://www.R-project.org</ref></note>
           </bibl>
           
           <bibl xml:id="crisis1810">
@@ -335,60 +397,6 @@ lw(10c) lw(2c) .
           
         </listBibl>
       </div>
-
-      <table rendition="bible-references-table" xml:id="table1" rows="5" cols="2">
-        <head>Table 1. The six most frequent bible references for verse</head>
-        <row role="label">
-          <cell>Bible location</cell>
-          <cell># usages</cell>
-        </row>
-        <row role='data'>
-          <cell rend="text">Proverbs 20:28<lb/>Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.</cell><cell rend="number">16</cell>
-        </row>
-        <row role='data'>
-          <cell  rend="text">Psalm 23:4<lb/>Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.</cell><cell rend="number">17</cell>
-        </row>
-        <row role='data'>
-          <cell rend="text">Proverbs 4:23<lb/>Keep your heart with all vigilance, for from it flow the springs of life.</cell><cell rend="number">18</cell>
-        </row>
-        <row role='data'>
-           <cell rend="text">John 6:63<lb/>It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.</cell><cell rend="number">19</cell>
-        </row>
-        <row role='data'>
-          <cell rend="text">Matthew 16:18<lb/>And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell><cell rend="number">20</cell>
-        </row>
-        <row role='data'>
-          <cell rend="text" >Genesis 2:7<lb/>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.</cell><cell rend="number">34</cell>
-        </row>
-      </table>
-
-        <table  rendition="bible-references-table" xml:id="table2ctd" rows="3" cols="2">
-          <head>Table 2. The six most frequent bible references for prose.</head>
-          <row  rend="text" role="label">
-            <cell>Bible location</cell>
-            <cell># usages</cell>
-          </row>
-          <row  rend="text" role='data'>
-            <cell  rend="text">1 Corinthians 13:13<lb/>So now faith, hope, and love abide, these three; but the greatest of these is love.</cell><cell  rend="number">31</cell>
-          </row>
-          <row  rend="text" role='data'>
-            <cell  rend="text">John 1:14<lb/>And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.</cell><cell  rend="number">31</cell>
-          </row>
-          <row  rend="text" role='data'>
-            <cell  rend="text">Matthew 16:18<lb/> And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.</cell>   <cell  rend="number">39</cell>
-          </row>
-          <row role='data'>
-            <cell  rend="text">John 8:44<lb/>You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.</cell><cell  rend="number">40</cell>
-          </row>
-          <row role='data'>
-            <cell  rend="text">Matthew 28:18-20 and Matthew 26:26-29<lb/>And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” and<lb/>
-            Now as they were eating, Jesus took bread, and after blessing it broke it and gave it to the disciples, and said, “Take, eat; this is my body.” And he took a cup, and when he had given thanks he gave it to them, saying, “Drink of it, all of you, for this is my blood of the covenant, which is poured out for many for the forgiveness of sins. I tell you I will not drink again of this fruit of the vine until that day when I drink it new with you in my Father's kingdom.”</cell><cell  rend="number">43</cell>
-          </row>
-          <row role='data'>
-            <cell  rend="text">Genesis 1:27<lb/>So God created man in his own image, in the image of God he created him; male and female he created them</cell><cell  rend="number">52</cell>
-          </row>
-        </table>
-
       
     </body>
   </text>
