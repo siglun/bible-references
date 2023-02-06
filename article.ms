@@ -107,8 +107,8 @@ The Grundtvig data for the portal comes from the Århus university's (2009)
 \&(I refer to the scientific edition of Grundtvig's works as GV in the following.)
 .LP
 The texts are encoded
-.pdfhref L -D teiguidelines according to TEI P5 guidelines
-\&. Bible references are entered into the text in <rs> ... </rs> elements like this.
+.pdfhref L -D teiguidelines according to TEI P5 guidelines.
+\&Bible references are entered into the text in <rs> ... </rs> elements like this.
 .DS L
 \f(CR\s-2 
         <rs key="1 Mos 2,7" type="bible">1 Mos 2,7</rs>
@@ -225,7 +225,7 @@ It is interesting that it is these two locations in Genesis that holds the top p
 .pdfhref L -D creation-narratives Wikipedia 2004
 \&). The two quotes reads, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP  ( \f(CR\s-1Genesis 1:27\s+1\fP) and \fI \(lqthen the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature\(rq\fP  ( \f(CR\s-1Genesis 2,7\s+1\fP) respectivly. Obviously, we cannot know, but somehow the two could fill the same role in his writing of prose and verse, respectively. It could be that he basically find that the Jahwist narrative more poetic.
 .LP
-I use the counts of individual bible references to compare all the years of Grundtvig's professional life.
+I use the counts of some of the most frequently used individual bible references to compare all the years of Grundtvig's professional life.
 .LP
 The are some debate on important dates in Grundtvig's career. \fI \(lqWithin the ever-growing bulk of Grundtvig studies, the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.\(rq\fP, writes
 .pdfhref L -D entropicdecay Nielbo et al. (2019)
