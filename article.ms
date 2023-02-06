@@ -37,11 +37,42 @@ The complexity of bible references and locations is that they are semantic units
 .LP
 Grundtvig referred to \f(CR\s-11 Corinthians 13:13\s+1\fP  41 times, but he liked the preceding verse even more, since he referred to \f(CR\s-11 Corinthians 13:12\s+1\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to do so in a text where the references are just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than in other. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references. Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.
 .LP
+What you find below is an outline of my analysis of of his bible references.
+.SH
+Materials and Methods
+.LP
 The Grundtvig data for the portal comes from the Århus university's (2009)
 .pdfhref L -D grundtvig-center Center for Grundtvigforskning,
 \&the publisher of
 .pdfhref L -D grundtvig-vaerker Grundtvigs Værker.
-\&(I refer to the scientific edition of Grundtvig's works as GV in the following.) What you find below is an outline of my analysis of of his bible references.
+\&(I refer to the scientific edition of Grundtvig's works as GV in the following.)
+.LP
+The texts are encoded
+.pdfhref L -D teiguidelines according to TEI P5 guidelines
+\&. Bible references are entered into the text in <rs> ... </rs> elements like this.
+.DS L
+\f(CR\s-2 
+        <rs key="1 Mos 2,7" type="bible">1 Mos 2,7</rs>
+        \fP
+.DE
+.LP
+Which is a reference to Genesis 2:7. Often Grundtvig made the references less obvious, like this reference to Mathews 13:43 in a line of verse:
+.DS L
+\f(CR\s-2
+        <l>Til det opgaaer 
+        <rs type="bible" 
+            key="Matt 13,43" 
+            rend="allusion">i Sole-Glands</rs>!</l>
+        \fP
+.DE
+.LP
+The references are categorized into categories which can be found in the @rend attribute. In this case it is an \fIallusion\fP. The more generic \fIreference\fPis more common, and there are some other variants like \fIquote\fP. I haven't used these categories yet.
+.LP
+Most of the analyses presented are inspired by Kenneth Ward Church and his brilliant
+.pdfhref L -D kennethchurch Unix™ for Poets
+\&. The
+.pdfhref L -D rlanguage cluster analyses was made using the language R
+\&.
 .SH
 Analyses
 .LP
@@ -186,6 +217,18 @@ Center for Grundtvigforskning,
 .pdfhref W -D http://grundtvigsvaerker.dk/ http://grundtvigsvaerker.dk/
 \fP\s+2
 .XP
+.pdfhref M -N kennethchurch
+Church, Kenneth Ward,
+[date unknown]. \fIUnix™ for Poets\fP 
+.br  
+\s-2\f(CR
+.pdfhref W -D https://web.stanford.edu/class/cs124/kwc-unix-for-poets.pdf https://web.stanford.edu/class/cs124/kwc-unix-for-poets.pdf
+\fP\s+2
+.XP
+.pdfhref M -N rlanguage
+Development Core Team,
+2010. 
+.XP
 .pdfhref M -N crisis1810
 Engebretsen, Else Bang,
 2008. \fIGrundtvig Kriseåret 1810/1811 - Anfægtelser eller galskab?\fP 
@@ -201,6 +244,14 @@ Nielbo, Kristoffer L., Katrine F. Baunvig, Bin Liu,  and Jianbo Gao,
 .br  
 \s-2\f(CR
 .pdfhref W -D https://doi.org/10.1093/llc/fqy054 https://doi.org/10.1093/llc/fqy054
+\fP\s+2
+.XP
+.pdfhref M -N teiguidelines
+The TEI Consortium,
+2022. \fITEI P5: Guidelines for Electronic Text Encoding and Interchange\fP 
+.br  
+\s-2\f(CR
+.pdfhref W -D https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html
 \fP\s+2
 .XP
 .pdfhref M -N crisis1844

@@ -86,14 +86,51 @@ lw(10c) lw(2c) .
         Finally,
         the goal of an edition project is not to provide data for text mining and quantitative analyses.</p>
 
+        <p>What you find below is an outline of my analysis of of his bible references.</p>
+        
+      </div>
+      <div>
+        <head>Materials and Methods</head>
+        
         <p>The Grundtvig data for the portal comes from the Århus
         university's (2009) <ref
         target="#grundtvig-center"><title>Center for
         Grundtvigforskning</title>,</ref> the publisher of <ref
         target="#grundtvig-vaerker">Grundtvigs Værker.</ref>
-        (I refer to the scientific edition of Grundtvig's works as GV in the following.)
-        What you find below is an outline of my analysis of of his bible references.</p>
+        (I refer to the scientific edition of Grundtvig's works as GV in the following.)</p>
 
+        <p>The texts are encoded <ref
+        target="#teiguidelines">according to TEI P5
+        guidelines</ref>. Bible references are entered into the text in &lt;rs> ... &lt;/rs> elements like this.</p>
+
+        <eg xml:space="preserve"><![CDATA[ 
+        <rs key="1 Mos 2,7" type="bible">1 Mos 2,7</rs>
+        ]]></eg>
+
+        <p>Which is a reference to Genesis 2:7. Often Grundtvig made
+        the references less obvious, like this reference to Mathews
+        13:43 in a line of verse:</p>
+
+        <eg xml:space="preserve"><![CDATA[
+        <l>Til det opgaaer 
+        <rs type="bible" 
+            key="Matt 13,43" 
+            rend="allusion">i Sole-Glands</rs>!</l>
+        ]]></eg>
+
+        <p>The references are categorized into categories which can be
+        found in the @rend attribute. In this case it is an <hi
+        rend="italic">allusion</hi>. The more generic <hi
+        rend="italic">reference</hi> is more common, and there are
+        some other variants like <hi rend="italic">quote</hi>. I
+        haven't used these categories yet.</p>
+
+        <p>Most of the analyses presented are inspired by Kenneth Ward
+        Church and his brilliant <ref target="#kennethchurch"><title
+        level="m">Unix™ for Poets</title></ref>. The <ref
+        target="#rlanguage">cluster analyses was made using the
+        language R</ref>.</p>
+        
       </div>
       
       <div>
@@ -219,6 +256,12 @@ lw(10c) lw(2c) .
             <title level="m">Wikipedia, the free encyclopedia</title>
             <ref target="https://en.wikipedia.org/wiki/Genesis_creation_narrative"/>
           </bibl>
+
+          <bibl xml:id="kennethchurch">
+            <author>Church, Kenneth Ward</author>,
+            <date>[date unknown]</date><title level="m">Unix™ for Poets</title>
+            <ref target="https://web.stanford.edu/class/cs124/kwc-unix-for-poets.pdf"/>
+          </bibl>
           
           <bibl xml:id="grundtvig-texter">
             <author>Center for Grundtvigforskning</author>
@@ -228,6 +271,14 @@ lw(10c) lw(2c) .
             <title level="m">Det Kgl. Biblioteks tekstportal</title>
             <ref target="https://tekster.kb.dk/gv"/>
           </bibl>
+
+          <bibl xml:id="teiguidelines">
+            <author>The TEI Consortium</author>
+            <date>2022</date>
+            <title level="m">TEI P5: Guidelines for Electronic Text Encoding and Interchange</title>
+            <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html"/>
+          </bibl>
+
 
           <bibl xml:id="entropicdecay">
             <author>Nielbo, Kristoffer L.</author>
@@ -243,6 +294,14 @@ lw(10c) lw(2c) .
             <ref target="https://doi.org/10.1093/llc/fqy054"/>
           </bibl>
 
+          <bibl xml:id="rlanguage">
+            <author>Development Core Team</author>
+            <date>2010</date>
+            <title>R: A language and environment for statistical computing</title>
+            [Computer software]. Vienna, Austria.
+            Available from http://www.R-project.org
+          </bibl>
+          
           <bibl xml:id="crisis1810">
             <author>Engebretsen, Else Bang</author>
             <date>2008</date>

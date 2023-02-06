@@ -316,11 +316,33 @@ p.version {
         Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references.
         Finally,
         the goal of an edition project is not to provide data for text mining and quantitative analyses.</p>
+      <p>What you find below is an outline of my analysis of of his bible references.</p>
+      <h2>Materials and Methods</h2>
       <p>The Grundtvig data for the portal comes from the Århus
         university's (2009) <a href="#grundtvig-center">Center for
         Grundtvigforskning,</a> the publisher of <a href="#grundtvig-vaerker">Grundtvigs Værker.</a>
-        (I refer to the scientific edition of Grundtvig's works as GV in the following.)
-        What you find below is an outline of my analysis of of his bible references.</p>
+        (I refer to the scientific edition of Grundtvig's works as GV in the following.)</p>
+      <p>The texts are encoded <a href="#teiguidelines">according to TEI P5
+        guidelines</a>. Bible references are entered into the text in &lt;rs&gt; ... &lt;/rs&gt; elements like this.</p>
+      <pre> 
+        &lt;rs key="1 Mos 2,7" type="bible"&gt;1 Mos 2,7&lt;/rs&gt;
+        </pre>
+      <p>Which is a reference to Genesis 2:7. Often Grundtvig made
+        the references less obvious, like this reference to Mathews
+        13:43 in a line of verse:</p>
+      <pre>
+        &lt;l&gt;Til det opgaaer 
+        &lt;rs type="bible" 
+            key="Matt 13,43" 
+            rend="allusion"&gt;i Sole-Glands&lt;/rs&gt;!&lt;/l&gt;
+        </pre>
+      <p>The references are categorized into categories which can be
+        found in the @rend attribute. In this case it is an allusion. The more generic reference is more common, and there are
+        some other variants like quote. I
+        haven't used these categories yet.</p>
+      <p>Most of the analyses presented are inspired by Kenneth Ward
+        Church and his brilliant <a href="#kennethchurch">Unix™ for Poets</a>. The <a href="#rlanguage">cluster analyses was made using the
+        language R</a>.</p>
       <h2>Analyses</h2>
       <p>The philologists at the Grundtvig centre has identified
         11499 bible references in the GV.
@@ -437,6 +459,15 @@ p.version {
       2010.
       <em>Grundtvigs Værker</em>. <a href="http://grundtvigsvaerker.dk/">http://grundtvigsvaerker.dk/</a>
       </p>
+      <p id="kennethchurch">
+         <span class="biblAuthor">Church, Kenneth Ward</span>,
+      [date unknown].
+      <em>Unix™ for Poets</em>. <a href="https://web.stanford.edu/class/cs124/kwc-unix-for-poets.pdf">https://web.stanford.edu/class/cs124/kwc-unix-for-poets.pdf</a>
+      </p>
+      <p id="rlanguage">
+         <span class="biblAuthor">Development Core Team</span>,
+      2010.
+      </p>
       <p id="crisis1810">
          <span class="biblAuthor">Engebretsen, Else Bang</span>,
       2008.
@@ -450,6 +481,11 @@ p.version {
 	  , 
 	  pp. 542-557.
 	<a href="https://doi.org/10.1093/llc/fqy054">https://doi.org/10.1093/llc/fqy054</a>
+      </p>
+      <p id="teiguidelines">
+         <span class="biblAuthor">The TEI Consortium</span>,
+      2022.
+      <em>TEI P5: Guidelines for Electronic Text Encoding and Interchange</em>. <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html">https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html</a>
       </p>
       <p id="crisis1844">
          <span class="biblAuthor">Thodberg, Christian</span>. Grundtvigs krise i foråret 1844. Forholdet mellem prædiken og salme med henblik på “Sov sødt, Barnlille”. In: <em>Grundtvig-Studier</em>. Vol. 56
