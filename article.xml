@@ -230,7 +230,7 @@ lw(10c) lw(2c) .
         1321 twice,
         313 3 to 9 times,
         and 21 are used 10 or more times.
-        His absolute favorite for verse is <hi  rend='monospaced'><ref target="#genesis_2_7">Genesis 2:7</ref></hi>.</p>
+        His absolute favorite for verse is <hi  rend='monospaced'><ref target="#genesis2_7">Genesis 2:7</ref></hi>.</p>
 
         <p>The distributions of bible references for verse and prose can be seen in <ref target="#figure1">Figure 1</ref>.
         It visualizes the observations mentioned. For references occurring in verse,
@@ -239,10 +239,10 @@ lw(10c) lw(2c) .
         Grundtvig seem to have more or less different favourite bible locations in verse and prose.
         See <ref target="#table1">Table 1</ref> and <ref target="#table2">Table 2</ref>, respectively.</p>
 
-        <p>It is interesting that it is these two locations in Genesis that holds the top positions.
+        <p>It is interesting that it is two different locations in Genesis that holds the top positions.
         Grundtvig's choice for prose is from the Priestly narrative,
         and his preference for verse comes the Jahwist story (see <ref target="#creation-narratives">Wikipedia 2004</ref>).
-        The two quotes reads,  <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>  &#xa0; (<hi  rend='monospaced'><ref target="#genesis_1_27">Genesis 1:27</ref></hi>) and  <hi rend="italic"><quote>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature</quote></hi>  &#xa0; (<hi rend='monospaced'><ref target="#genesis_2_7">Genesis 2:7</ref></hi>) respectivly.
+        The two quotes reads,  <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>  &#xa0; (<hi  rend='monospaced'><ref target="#genesis_1_27">Genesis 1:27</ref></hi>) and  <hi rend="italic"><quote>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature</quote></hi>  &#xa0; (<hi rend='monospaced'><ref target="#genesis2_7">Genesis 2:7</ref></hi>) respectivly.
         Obviously, we cannot know,
         but somehow the two could fill the same role in his writing of prose and verse, respectively.
         It could be that he basically find that the Jahwist narrative more poetic.</p>

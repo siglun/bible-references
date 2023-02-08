@@ -236,7 +236,7 @@ For the prose there are in total 2663 bible locations. The distribution is such 
 \&\s+1\fP  is referenced 52 times. Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times. Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ. He repeats the references.
 .LP
 For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 to 9 times, and 21 are used 10 or more times. His absolute favorite for verse is \f(CR\s-1
-.pdfhref L -D genesis_2_7 Genesis 2:7
+.pdfhref L -D genesis2_7 Genesis 2:7
 \&\s+1\fP.
 .LP
 The distributions of bible references for verse and prose can be seen in
@@ -247,7 +247,7 @@ The distributions of bible references for verse and prose can be seen in
 .pdfhref L -D table2 Table 2
 \&, respectively.
 .LP
-It is interesting that it is these two locations in Genesis that holds the top positions. Grundtvig's choice for prose is from the Priestly narrative, and his preference for verse comes the Jahwist story (see
+It is interesting that it is two different locations in Genesis that holds the top positions. Grundtvig's choice for prose is from the Priestly narrative, and his preference for verse comes the Jahwist story (see
 .pdfhref L -D creation-narratives Wikipedia 2004
 \&). The two quotes reads, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP  ( \f(CR\s-1
 .pdfhref L -D genesis_1_27 Genesis 1:27
