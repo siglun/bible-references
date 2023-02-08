@@ -236,22 +236,22 @@ For the prose there are in total 2663 bible locations. The distribution is such 
 \&\s+1\fP  is referenced 52 times. Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times. Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ. He repeats the references.
 .LP
 For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 to 9 times, and 21 are used 10 or more times. His absolute favourite for verse is \f(CR\s-1
-.pdfhref L -D genesis2_7 Genesis 2:7
-\&\s+1\fP.
+.pdfhref L -D genesis2_7 Genesis 2:7.
+\&\s+1\fP
 .LP
 The distributions of bible references for verse and prose can be seen in
-.pdfhref L -D figure1 Figure 1
-\&. It visualizes the observations mentioned. For references occurring in verse, the distribution starts lower and actually increases towards a peak, whereas for prose it decreases initially. Grundtvig seem to have more or less different favourite bible locations in verse and prose. See
+.pdfhref L -D figure1 Figure 1.
+\&It visualizes the observations mentioned. For references occurring in verse, the distribution starts lower and actually increases towards a peak, whereas for prose it decreases initially. Grundtvig seem to have more or less different favourite bible locations in verse and prose. See
 .pdfhref L -D table1 Table 1
 \&and
 .pdfhref L -D table2 Table 2
 \&, respectively. They contain the six most frequently used locations for each type of text.
 .LP
 It is interesting that it is two different locations in Genesis that holds the top positions. Grundtvig's choice for prose is from the Priestly narrative, and his preference for verse comes the Jahwist story (see
-.pdfhref L -D creation-narratives Wikipedia 2004
-\&). The two quotes are in   \f(CR\s-1
+.pdfhref L -D creation-narratives Wikipedia 2004).
+\&The two quotes are in  
 .pdfhref L -D genesis_1_27 Table 2
-\&\s+1\fPand
+\&and
 .pdfhref L -D genesis2_7 Table 1,
 \&respectivly. Obviously, we cannot know, but somehow the two could fill the same role in his writing of prose and verse, respectively. It could be that he basically find that the Jahwist narrative more poetic.
 .KF  

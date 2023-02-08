@@ -230,9 +230,9 @@ lw(10c) lw(2c) .
         1321 twice,
         313 3 to 9 times,
         and 21 are used 10 or more times.
-        His absolute favourite for verse is <hi  rend='monospaced'><ref target="#genesis2_7">Genesis 2:7</ref></hi>.</p>
+        His absolute favourite for verse is <hi  rend='monospaced'><ref target="#genesis2_7">Genesis 2:7.</ref></hi></p>
 
-        <p>The distributions of bible references for verse and prose can be seen in <ref target="#figure1">Figure 1</ref>.
+        <p>The distributions of bible references for verse and prose can be seen in <ref target="#figure1">Figure 1.</ref>
         It visualizes the observations mentioned. For references occurring in verse,
         the distribution starts lower and actually increases towards a peak,
         whereas for prose it decreases initially.
@@ -242,8 +242,8 @@ lw(10c) lw(2c) .
 
         <p>It is interesting that it is two different locations in Genesis that holds the top positions.
         Grundtvig's choice for prose is from the Priestly narrative,
-        and his preference for verse comes the Jahwist story (see <ref target="#creation-narratives">Wikipedia 2004</ref>).
-        The two quotes are in &#xa0; <hi  rend='monospaced'><ref target="#genesis_1_27">Table 2</ref></hi> and <ref target="#genesis2_7">Table 1,</ref> respectivly.
+        and his preference for verse comes the Jahwist story (see <ref target="#creation-narratives">Wikipedia 2004).</ref>
+        The two quotes are in &#xa0;<ref target="#genesis_1_27">Table 2</ref> and <ref target="#genesis2_7">Table 1,</ref> respectivly.
         Obviously, we cannot know,
         but somehow the two could fill the same role in his writing of prose and verse, respectively.
         It could be that he basically find that the Jahwist narrative more poetic.</p>
@@ -273,7 +273,8 @@ lw(10c) lw(2c) .
         <ref target="#crisis1844">Thodberg (2005)</ref> writes about the crisis 1844.</p>
 
         <p>I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig,
-        other than the publication of his writings. For instance, <title>Sang-Værk til den Danske Kirke</title>,
+        other than the publication dates of his writings.
+        For instance, <title>Sang-Værk til den Danske Kirke</title>,
         with psalms and song appeared during that period,
         and so did are collections of psalms, songs and poetry
         <ref target="#grundtvig-kronologi">(Center for Grundtvigforskning, 2010-).</ref></p>

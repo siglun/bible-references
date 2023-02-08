@@ -48,11 +48,11 @@ Any way, my data extraction is done with a shell one-liner and the
 find build/text-retriever/gv/  \
 	-name 'txt.xml' -exec xsltproc \
 	--stringparam file {}  ../bible-references/explore-references.xsl {} \;  > \
-	../bible-references/big-table.xml
+	../bible-references/table-all.xml
 
 ```
 
-The result is stored in [big-table.xml](big-table.xml), which is really a huge html table.
+The result is stored in [table-all.xml](table-all.xml), which is really a huge html table.
 
 ## Aggregating references by year
 
