@@ -293,16 +293,13 @@ p.version {
   <sup>
             <a href="#note3">3</a>
          </sup>
-        I will try to use the term  bible reference    when discussing Grundtvig's usage it, whereas use  bible location    when referring to the scripture.
-        This is somewhat like a word in the text and the same word in a dictionary.
-        The naming of bible locations differs between Danish and English.
-        I will try to give both references when it is needed for following the text.</p>
+        I will try to use  bible reference    when discussing how Grundtvig uses it, whereas use  bible location    when referring to the scripture.</p>
       <p>The complexity of bible references and locations is that they are semantic units,
         hypertext links and inter-textual objects, all at the same time.
         As semantic units they are abstract indicator of what a text is about,
         an indicator of its aboutishness (in Digital Library jargon).
         They are almost certainly also a text adornment,
-        a piece of jewellery if you like.</p>
+        a piece of text jewellery if you like.</p>
       <table>
          <h2>Table 1. The six most frequent bible references for verse</h2>
          <tr>
@@ -334,7 +331,9 @@ p.version {
             <td>34</td>
          </tr>
       </table>
-      <p>Grundtvig referred to <kbd>1 Corinthians 13:13</kbd>    41 times,
+      <p>Grundtvig referred to <kbd>
+            <a href="https://github.com/siglun/danish-sonnets/blob/main/firstcorinthians_13_13">1 Corinthians 13:13</a>
+         </kbd>    41 times,
         but he liked the preceding verse even more,
         since he referred to <kbd>1 Corinthians 13:12</kbd>    (as mentioned above) 54 times.
         The number of times a given bible location is referred to
@@ -344,10 +343,11 @@ p.version {
         and their ability to do so in a text where the references are just vague hints of a location.
         Hence there are some possible systematic errors hidden here:
         Not all works are equal and philologists might invest more in some important ones than in other.
-        Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references.
-        Finally,
-        the goal of an edition project is not to provide data for text mining and quantitative analyses.</p>
-      <p>What you find below is an outline of my analysis of of his bible references.</p>
+        Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references.</p>
+      <p>I have noticed one further thing using the search engine for
+        <a href="#grundtvig-texter">Grundtvigs Værker,</a>
+        namely that the number of works a reference appears in is not necessarily related to the number of times a reference is used.
+        What you find below is an outline of my analysis of his use of bible references.</p>
       <h2>Materials and Methods</h2>
       <p>The Grundtvig data for the portal comes from the Århus
         university's (2009) <a href="#grundtvig-center">Center for
@@ -359,7 +359,7 @@ p.version {
       <pre> 
         &lt;rs key="1 Mos 2,7" type="bible"&gt;1 Mos 2,7&lt;/rs&gt;
         </pre>
-      <p>Which is a reference to Genesis 2:7. Often Grundtvig made
+      <p>Which is a reference to <a href="#genesis2_7">Genesis 2:7</a>. Often Grundtvig made
         the references less obvious, like this reference to Mathews
         13:43 in a line of verse:</p>
       <pre>
@@ -374,7 +374,10 @@ p.version {
         haven't used these categories yet.</p>
       <p>Most of the analyses presented are inspired by Kenneth Ward
         Church and his brilliant <a href="#kennethchurch">Unix™ for Poets</a>. The <a href="#rlanguage">cluster analyses was made using the
-        language R</a>.</p>
+        language R</a>.
+        The sources of my scripts and extracted data used is available on Github 
+        <a href="#sources-for-this-note">(Lundberg, 2022)</a>
+      </p>
       <table>
          <h2>Table 2. The six most frequent bible references for prose.</h2>
          <tr>
@@ -428,7 +431,9 @@ p.version {
         The distribution is such that there are 1477 locations that are referenced once,
         670 twice and
         468 locations used 3 to 9 times.
-        At the other end, one location <kbd>Genesis 1:27</kbd>    is referenced 52 times.
+        At the other end, one location <kbd>
+            <a href="#genesis_1_27">Genesis 1:27</a>
+         </kbd>    is referenced 52 times.
         Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times.
         Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ.
         He repeats the references.</p>
@@ -437,7 +442,9 @@ p.version {
         1321 twice,
         313 3 to 9 times,
         and 21 are used 10 or more times.
-        His absolute favorite for verse is <kbd>Genesis 2:7</kbd>.</p>
+        His absolute favorite for verse is <kbd>
+            <a href="#genesis_2_7">Genesis 2:7</a>
+         </kbd>.</p>
       <p>The distributions of bible references for verse and prose can be seen in <a href="#figure1">Figure 1</a>.
         It visualizes the observations mentioned. For references occurring in verse,
         the distribution starts lower and actually increases towards a peak,
@@ -449,9 +456,13 @@ p.version {
         and his preference for verse comes the Jahwist story (see <a href="#creation-narratives">Wikipedia 2004</a>).
         The two quotes reads,  
     “So God created man in his own image, in the image of God he created him; male and female he created them”
-      (<kbd>Genesis 1:27</kbd>) and  
+      (<kbd>
+            <a href="#genesis_1_27">Genesis 1:27</a>
+         </kbd>) and  
     “then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature”
-      (<kbd>Genesis 2,7</kbd>) respectivly.
+      (<kbd>
+            <a href="#genesis_2_7">Genesis 2:7</a>
+         </kbd>) respectivly.
         Obviously, we cannot know,
         but somehow the two could fill the same role in his writing of prose and verse, respectively.
         It could be that he basically find that the Jahwist narrative more poetic.</p>
@@ -540,6 +551,14 @@ p.version {
          <span class="biblAuthor">Engebretsen, Else Bang</span>,
       2008.
       <em>Grundtvig Kriseåret 1810/1811 - Anfægtelser eller galskab?</em>. <a href="http://urn.nb.no/URN:NBN:no-21152">http://urn.nb.no/URN:NBN:no-21152</a>
+      </p>
+      <p id="sources-for-this-note">
+         <span class="biblAuthor">Lundberg, Sigfrid</span>,
+      2022.
+      <em>On Grundtvig and his use of bible references</em>. <br/>
+         <small>The scripts used to this analysis, together with the raw data extracted from the Grundtvig text corpus.</small>
+         <br/>
+         <a href="https://github.com/siglun/bible-references">https://github.com/siglun/bible-references</a>
       </p>
       <p id="entropicdecay">
          <span class="biblAuthor">Nielbo, Kristoffer L.</span>, <span class="biblAuthor">Katrine F. Baunvig</span>, <span class="biblAuthor">Bin Liu</span>,  and <span class="biblAuthor">Jianbo Gao</span>,

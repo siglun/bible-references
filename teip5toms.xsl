@@ -237,11 +237,14 @@ T}</xsl:text><xsl:choose><xsl:when test="position() &lt; last()">;</xsl:when><xs
 <xsl:for-each select="t:row[@role='data']">
 <xsl:for-each select="t:cell"><xsl:choose><xsl:when test="@rend='text'"><xsl:text>T{
 .na
-</xsl:text>\s-2<xsl:apply-templates/>\s+2<xsl:text>
+</xsl:text><xsl:if test="@xml:id">.pdfhref M -N <xsl:value-of select="@xml:id"/></xsl:if>
+\s-2<xsl:apply-templates/>\s+2
+<xsl:text>
 T}</xsl:text></xsl:when><xsl:otherwise><xsl:apply-templates/></xsl:otherwise></xsl:choose><xsl:choose><xsl:when test="position() &lt; last()">;</xsl:when><xsl:otherwise><xsl:text>
 </xsl:text></xsl:otherwise></xsl:choose></xsl:for-each>
 </xsl:for-each>
 .TE
+.sp
 .KE
 </xsl:template>
 
@@ -263,6 +266,9 @@ T}</xsl:text><xsl:choose><xsl:when test="position() &lt; last()">;</xsl:when><xs
 </xsl:text></xsl:otherwise></xsl:choose></xsl:for-each>
 _
 <xsl:for-each select="t:row[@role='data']">
+<xsl:if test="@xml:id">  
+.pdfhref M -N <xsl:value-of select="@xml:id"/>
+</xsl:if>
 <xsl:for-each select="t:cell"><xsl:text>T{
 .na
 </xsl:text>\s-2<xsl:apply-templates/>\s+2<xsl:text>
@@ -270,6 +276,7 @@ T}</xsl:text><xsl:choose><xsl:when test="position() &lt; last()">;</xsl:when><xs
 </xsl:text></xsl:otherwise></xsl:choose></xsl:for-each>
 </xsl:for-each>
 .TE
+.sp
 .KE
 </xsl:template>
 

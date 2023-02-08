@@ -31,9 +31,9 @@ A bible reference is typically a string such as \f(CR\s-11 Corinthians 13:13\s+1
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-13.htm https://biblehub.com/1_corinthians/13-13.htm
 .FE
-I will try to use the term \fIbible reference\fP  when discussing Grundtvig's usage it, whereas use \fIbible location\fP  when referring to the scripture. This is somewhat like a word in the text and the same word in a dictionary. The naming of bible locations differs between Danish and English. I will try to give both references when it is needed for following the text.
+I will try to use \fIbible reference\fP  when discussing how Grundtvig uses it, whereas use \fIbible location\fP  when referring to the scripture.
 .LP
-The complexity of bible references and locations is that they are semantic units, hypertext links and inter-textual objects, all at the same time. As semantic units they are abstract indicator of what a text is about, an indicator of its aboutishness (in Digital Library jargon). They are almost certainly also a text adornment, a piece of jewellery if you like.
+The complexity of bible references and locations is that they are semantic units, hypertext links and inter-textual objects, all at the same time. As semantic units they are abstract indicator of what a text is about, an indicator of its aboutishness (in Digital Library jargon). They are almost certainly also a text adornment, a piece of text jewellery if you like.
 .KF
 .pdfhref M -N table1
 .sp
@@ -57,46 +57,57 @@ T};T{
 T}
 T{
 .na
+.pdfhref M -N proverbs20_28
 \s-2Proverbs 20:28
 .br
 Steadfast love and faithfulness preserve the king, and by steadfast love his throne is upheld.\s+2
 T};16
 T{
 .na
+.pdfhref M -N psalm23_4
 \s-2Psalm 23:4
 .br
 Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.\s+2
 T};17
 T{
 .na
+.pdfhref M -N proverbs4_23
 \s-2Proverbs 4:23
 .br
 Keep your heart with all vigilance, for from it flow the springs of life.\s+2
 T};18
 T{
 .na
+.pdfhref M -N john6_63
 \s-2John 6:63
 .br
 It is the Spirit who gives life; the flesh is no help at all. The words that I have spoken to you are spirit and life.\s+2
 T};19
 T{
 .na
+.pdfhref M -N matthew16_18
 \s-2Matthew 16:18
 .br
 And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
 T};20
 T{
 .na
+.pdfhref M -N genesis2_7
 \s-2Genesis 2:7
 .br
 then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature.\s+2
 T};34
 .TE
+.sp
 .KE
 .LP
-Grundtvig referred to \f(CR\s-11 Corinthians 13:13\s+1\fP  41 times, but he liked the preceding verse even more, since he referred to \f(CR\s-11 Corinthians 13:12\s+1\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to do so in a text where the references are just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than in other. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references. Finally, the goal of an edition project is not to provide data for text mining and quantitative analyses.
+Grundtvig referred to \f(CR\s-1  
+.pdfhref W -D https://github.com/siglun/danish-sonnets/blob/main/firstcorinthians_13_13 1 Corinthians 13:13
+\s+1\fP  41 times, but he liked the preceding verse even more, since he referred to \f(CR\s-11 Corinthians 13:12\s+1\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to do so in a text where the references are just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than in other. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references.
 .LP
-What you find below is an outline of my analysis of of his bible references.
+I have noticed one further thing using the search engine for
+.pdfhref L -D grundtvig-texter Grundtvigs Værker,
+\&namely that the number of works a reference appears in is not necessarily related to the number of times a reference is used. What you find below is an outline of my analysis of his use of bible references.
 .SH
 Materials and Methods
 .LP
@@ -115,7 +126,9 @@ The texts are encoded
         \fP
 .DE
 .LP
-Which is a reference to Genesis 2:7. Often Grundtvig made the references less obvious, like this reference to Mathews 13:43 in a line of verse:
+Which is a reference to
+.pdfhref L -D genesis2_7 Genesis 2:7
+\&. Often Grundtvig made the references less obvious, like this reference to Mathews 13:43 in a line of verse:
 .DS L
 \f(CR\s-2
         <l>Til det opgaaer 
@@ -131,7 +144,9 @@ Most of the analyses presented are inspired by Kenneth Ward Church and his brill
 .pdfhref L -D kennethchurch Unix™ for Poets
 \&. The
 .pdfhref L -D rlanguage cluster analyses was made using the language R
-\&.
+\&. The sources of my scripts and extracted data used is available on Github
+.pdfhref L -D sources-for-this-note (Lundberg, 2022)
+\&
 .KF
 .pdfhref M -N table2ctd
 .sp
@@ -155,30 +170,35 @@ T};T{
 T}
 T{
 .na
+.pdfhref M -N firstcorinthians_13_13
 \s-21 Corinthians 13:13
 .br
 So now faith, hope, and love abide, these three; but the greatest of these is love.\s+2
 T};31
 T{
 .na
+.pdfhref M -N john_1_14
 \s-2John 1:14
 .br
 And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.\s+2
 T};31
 T{
 .na
+.pdfhref M -N matthew_16_18
 \s-2Matthew 16:18
 .br
 And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.\s+2
 T};39
 T{
 .na
+.pdfhref M -N john_8_44
 \s-2John 8:44
 .br
 You are of your father the devil, and your will is to do your father's desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.\s+2
 T};40
 T{
 .na
+.pdfhref M -N matthew_26_and_28
 \s-2Matthew 28:18-20 and Matthew 26:26-29
 .br
 And Jesus came and said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in[a] the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” and
@@ -187,11 +207,13 @@ Now as they were eating, Jesus took bread, and after blessing it broke it and ga
 T};43
 T{
 .na
+.pdfhref M -N genesis_1_27
 \s-2Genesis 1:27
 .br
 So God created man in his own image, in the image of God he created him; male and female he created them\s+2
 T};52
 .TE
+.sp
 .KE
 .SH
 Analyses
@@ -209,9 +231,13 @@ The philologists at the Grundtvig centre has identified 11499 bible references i
 .KE
 .sp
 .LP
-For the prose there are in total 2663 bible locations. The distribution is such that there are 1477 locations that are referenced once, 670 twice and 468 locations used 3 to 9 times. At the other end, one location \f(CR\s-1Genesis 1:27\s+1\fP  is referenced 52 times. Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times. Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ. He repeats the references.
+For the prose there are in total 2663 bible locations. The distribution is such that there are 1477 locations that are referenced once, 670 twice and 468 locations used 3 to 9 times. At the other end, one location \f(CR\s-1
+.pdfhref L -D genesis_1_27 Genesis 1:27
+\&\s+1\fP  is referenced 52 times. Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times. Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ. He repeats the references.
 .LP
-For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 to 9 times, and 21 are used 10 or more times. His absolute favorite for verse is \f(CR\s-1Genesis 2:7\s+1\fP.
+For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 to 9 times, and 21 are used 10 or more times. His absolute favorite for verse is \f(CR\s-1
+.pdfhref L -D genesis_2_7 Genesis 2:7
+\&\s+1\fP.
 .LP
 The distributions of bible references for verse and prose can be seen in
 .pdfhref L -D figure1 Figure 1
@@ -223,7 +249,11 @@ The distributions of bible references for verse and prose can be seen in
 .LP
 It is interesting that it is these two locations in Genesis that holds the top positions. Grundtvig's choice for prose is from the Priestly narrative, and his preference for verse comes the Jahwist story (see
 .pdfhref L -D creation-narratives Wikipedia 2004
-\&). The two quotes reads, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP  ( \f(CR\s-1Genesis 1:27\s+1\fP) and \fI \(lqthen the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature\(rq\fP  ( \f(CR\s-1Genesis 2,7\s+1\fP) respectivly. Obviously, we cannot know, but somehow the two could fill the same role in his writing of prose and verse, respectively. It could be that he basically find that the Jahwist narrative more poetic.
+\&). The two quotes reads, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP  ( \f(CR\s-1
+.pdfhref L -D genesis_1_27 Genesis 1:27
+\&\s+1\fP) and \fI \(lqthen the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature\(rq\fP  ( \f(CR\s-1
+.pdfhref L -D genesis_2_7 Genesis 2:7
+\&\s+1\fP) respectivly. Obviously, we cannot know, but somehow the two could fill the same role in his writing of prose and verse, respectively. It could be that he basically find that the Jahwist narrative more poetic.
 .LP
 I use the counts of some of the most frequently used individual bible references to compare all the years of Grundtvig's professional life.
 .LP
@@ -354,6 +384,14 @@ Engebretsen, Else Bang,
 .br  
 \s-2\f(CR
 .pdfhref W -D http://urn.nb.no/URN:NBN:no-21152 http://urn.nb.no/URN:NBN:no-21152
+\fP\s+2
+.XP
+.pdfhref M -N sources-for-this-note
+Lundberg, Sigfrid,
+2022. \fIOn Grundtvig and his use of bible references\fP The scripts used to this analysis, together with the raw data extracted from the Grundtvig text corpus.
+.br  
+\s-2\f(CR
+.pdfhref W -D https://github.com/siglun/bible-references https://github.com/siglun/bible-references
 \fP\s+2
 .XP
 .pdfhref M -N entropicdecay
