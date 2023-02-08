@@ -230,33 +230,25 @@ lw(10c) lw(2c) .
         1321 twice,
         313 3 to 9 times,
         and 21 are used 10 or more times.
-        His absolute favorite for verse is <hi  rend='monospaced'><ref target="#genesis2_7">Genesis 2:7</ref></hi>.</p>
+        His absolute favourite for verse is <hi  rend='monospaced'><ref target="#genesis2_7">Genesis 2:7</ref></hi>.</p>
 
         <p>The distributions of bible references for verse and prose can be seen in <ref target="#figure1">Figure 1</ref>.
         It visualizes the observations mentioned. For references occurring in verse,
         the distribution starts lower and actually increases towards a peak,
         whereas for prose it decreases initially.
         Grundtvig seem to have more or less different favourite bible locations in verse and prose.
-        See <ref target="#table1">Table 1</ref> and <ref target="#table2">Table 2</ref>, respectively.</p>
+        See <ref target="#table1">Table 1</ref> and <ref target="#table2">Table 2</ref>, respectively.
+        They contain the six most frequently used locations for each type of text.</p>
 
         <p>It is interesting that it is two different locations in Genesis that holds the top positions.
         Grundtvig's choice for prose is from the Priestly narrative,
         and his preference for verse comes the Jahwist story (see <ref target="#creation-narratives">Wikipedia 2004</ref>).
-        The two quotes reads,  <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>  &#xa0; (<hi  rend='monospaced'><ref target="#genesis_1_27">Genesis 1:27</ref></hi>) and  <hi rend="italic"><quote>then the Lord God formed the man of dust from the ground and breathed into his nostrils the breath of life, and the man became a living creature</quote></hi>  &#xa0; (<hi rend='monospaced'><ref target="#genesis2_7">Genesis 2:7</ref></hi>) respectivly.
+        The two quotes are in &#xa0; <hi  rend='monospaced'><ref target="#genesis_1_27">Table 2</ref></hi> and <ref target="#genesis2_7">Table 1,</ref> respectivly.
         Obviously, we cannot know,
         but somehow the two could fill the same role in his writing of prose and verse, respectively.
         It could be that he basically find that the Jahwist narrative more poetic.</p>
         
-        <p>I use the counts of some of the most frequently used individual bible references to compare
-        all the years of Grundtvig's professional life. </p>
-
-        <p>The are some debate on important dates in Grundtvig's career.
-        <hi rend='italic'><quote>Within the ever-growing bulk of Grundtvig studies, the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.</quote></hi>,
-        writes <ref target="#entropicdecay">Nielbo et al. (2019)</ref>.
-        In a detailed schedule of events in his life,
-        <ref target="#crisis1810">Engebretsen (2008)</ref> points out the years 1810, 1844, 1853, 1867 as life crises.
-        <ref target="#crisis1844">Thodberg (2005)</ref> writes about the crisis 1844.</p>
-
+     
         <figure xml:id="figure2">
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_genesis_1_27.png"/>
           <head>Figure 2. Grundtvig's use of Genesis 1:27 in verse (solid curve) and prose (dashed curve)</head>
@@ -267,9 +259,37 @@ lw(10c) lw(2c) .
           <head>Figure 3. Grundtvig's use of Genesis 2:7 in verse (solid curve) and prose (dashed curve)</head>
         </figure>
 
+        <p>I have used the counts of some of the most frequently used individual bible references to compare all the years of Grundtvig's professional life.
+        To continue with his references to Genesis, he not only refers to Genesis 1:27 mostly in prose,
+        he does no fairly early and late in in his career <ref target="#figure2">(Figure 2),</ref>
+        whereas he refers to Genesis 2:7 more in poetry but he does so between 1830&#8211;1840 in the midst of his career.</p>
+
+        <p>There are ongoing discussions on what dates that are most significant in Grundtvig's career.
+        <hi rend='italic'><quote>Within the ever-growing bulk of Grundtvig studies,
+        the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.</quote></hi>,
+        writes <ref target="#entropicdecay">Nielbo et al. (2019)</ref>.
+        On the other hand, other authors points to entirely different dates. For instance, in a detailed schedule of events in his life,
+        <ref target="#crisis1810">Engebretsen (2008)</ref> points out the years 1810, 1844, 1853, 1867 as life crises.
+        <ref target="#crisis1844">Thodberg (2005)</ref> writes about the crisis 1844.</p>
+
+        <p>I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig,
+        other than the publication of his writings. For instance, <title>Sang-Værk til den Danske Kirke</title>,
+        with psalms and song appeared during that period,
+        and so did are collections of psalms, songs and poetry
+        <ref target="#grundtvig-kronologi">(Center for Grundtvigforskning, 2010-).</ref></p>
+
+        <p><ref target="#john6_63">John 6:63, Table 1</ref> does not reach the top 6 list for prose, only for verse.
+        Numerically, this passage is roughly the same for both genres <ref target="#figure4">(Figure 4)</ref>,
+        but that is mainly due to the fact that Grundtvig actually writes much more prose than verse.
+        It seems that <ref target="#matthew16_18">Matthew 16:18, Table 1</ref> is important for Grundtvig,
+        it reaches top 6 list for both verse and prose <ref target="#matthew_16_18">(Matthew 16:18, Table 2)</ref>.
+        Again you see how it appears in prose early and late in his career, and in verse during 1830-1840.
+        This one is about the church.
+        He is returning to this one over and over again, in (I believe) his role as pastor in the Church of Denmark.</p>
+        
         <figure xml:id="figure4">
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_john_6_23.png"/>
-          <head>Figure 4. Grundtvig's use of John 6:23.</head>
+          <head>Figure 4. Grundtvig's use of John 6:63.</head>
         </figure>
 
         <figure xml:id="figure5">
@@ -277,6 +297,14 @@ lw(10c) lw(2c) .
           <head>Figure 5. Grundtvig's use of Matthew 16:18.</head>
         </figure>
 
+        <p>I could have omitted <ref target="#proverbs4_23">Proverbs 4:23</ref>.
+        It appears on the top list for verse <ref target="#figure6">(Figure 6)</ref>
+        and does so only because Grundtvig refers to it in one song with 18 verses <ref target="#the-sun-is-hot">(Grundtvig, 1839).</ref>
+        It is quoted in the chorus.
+        I could have omitted this one,
+        but it is good to include it to remind us of the fact that at this level of the study we have very small sample sizes.
+        The <ref target="#psalm23_4">Psalm 23:4</ref> is on the top list for verse only and Grundtvig quotes it on many occasions <ref target="#figure7">(Figure 7)</ref>.</p>
+        
         <figure xml:id="figure6">
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_proverbs_4_23.png"/>
           <head>Figure 6. Grundtvig's use of Proverbs 4:23.</head>
@@ -337,12 +365,27 @@ lw(10c) lw(2c) .
           <bibl xml:id="grundtvig-texter">
             <author>Center for Grundtvigforskning</author>
             <author>Det Kgl. Bibliotek</author>
-            <date>2020</date>
+            <date>2021</date>
             <title level="a">Grundtvigs Værker</title>
             <title level="m">Det Kgl. Biblioteks tekstportal</title>
             <ref target="https://tekster.kb.dk/gv"/>
           </bibl>
 
+           <bibl xml:id="grundtvig-kronologi">
+             <author>Center for Grundtvigforskning</author>
+             <date>2010-</date>
+            <title level="m">Kronologisk oversigt</title>
+            <ref target="http://www.grundtvigsvaerker.dk/krono"/>
+           </bibl>
+
+           <bibl xml:id="the-sun-is-hot">
+             <author>Grundtvig, N.F.S.</author>
+             <date>1839</date>
+             <title level="a">No. 22. Solen er heed</title>
+             <title level="m">Sang-Værk til den Danske Kirke</title>
+             <ref target="https://tekster.kb.dk/text/gv-1839_621-txt-root#idm5659"/>
+           </bibl>
+           
           <bibl xml:id="teiguidelines">
             <author>The TEI Consortium</author>
             <date>2022</date>
