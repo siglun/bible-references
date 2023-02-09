@@ -58,7 +58,7 @@ The result is stored in [table-all.xml](table-all.xml), which is really a huge h
 
 I then wrote a shell script, [aggregate.sh](aggregate.sh) which runs
 an xsl transform counting the number of references per year given that
-`big-table.xml`. It also makes that for given bible references, which
+`table-all.xml`. It also makes that for given bible references, which
 can be given as a parameter.
 
 
@@ -68,12 +68,12 @@ can be given as a parameter.
 
 source "parameters.sh"
 
-$SAXON big-table.xml aggregate-per-year.xsl > aggregated-references-per-year.text
+$SAXON table-all.xml aggregate-per-year.xsl > aggregated-references-per-year.text
 
-$SAXON big-table.xml aggregate-per-year-for-given-reference.xsl > selected_ref_1.text
-$SAXON ref='1 Kor 13,12'   big-table.xml aggregate-per-year-for-given-reference.xsl > selected_ref_2.text
-$SAXON ref='1 Kor 13,13'   big-table.xml aggregate-per-year-for-given-reference.xsl > selected_ref_3.text
-$SAXON ref='Matt 28,18-20' big-table.xml aggregate-per-year-for-given-reference.xsl > selected_ref_4.text
+$SAXON table-all.xml aggregate-per-year-for-given-reference.xsl > selected_ref_1.text
+$SAXON ref='1 Kor 13,12'   table-all.xml aggregate-per-year-for-given-reference.xsl > selected_ref_2.text
+$SAXON ref='1 Kor 13,13'   table-all.xml aggregate-per-year-for-given-reference.xsl > selected_ref_3.text
+$SAXON ref='Matt 28,18-20' table-all.xml aggregate-per-year-for-given-reference.xsl > selected_ref_4.text
 
 gnuplot < plot_references.gp
 gnuplot < plot_selected_references.gp
@@ -120,7 +120,7 @@ Here I use the counts of individual bible references to calculate a
 similarity between years and through a similarity matrix and from that plot a cladogram.
 
 ```
-$SAXON big-table.xml clustering_data.xsl  > clustering-data.text
+$SAXON table-all.xml clustering_data.xsl  > clustering-data.text
 ```
 
 The [clustering-data.text](clustering-data.text) contains one line per
