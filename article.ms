@@ -15,7 +15,7 @@ Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential pe
 .SH
 Introduction
 .LP
-Nikolaj Frederik Severin Grundtvig's use bible references in his own writings varied a lot over time. I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
+Nikolaj Frederik Severin Grundtvig's use of bible references in his writings varied a lot over time. I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
 .pdfhref L -D grundtvig-texter Grundtvigs Værker,
 \&a part of the Royal Danish Library's Text Collections. It turned out that Grundtvig referred to \f(CR\s-11 Corinthians 13:12\s+1\fP \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP\**
 .FS
@@ -101,9 +101,9 @@ T};34
 .sp
 .KE
 .LP
-Grundtvig referred to \f(CR\s-1  
-.pdfhref W -D https://github.com/siglun/danish-sonnets/blob/main/firstcorinthians_13_13 1 Corinthians 13:13
-\s+1\fP  41 times, but he liked the preceding verse even more, since he referred to \f(CR\s-11 Corinthians 13:12\s+1\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to do so in a text where the references are just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than in other. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references.
+Grundtvig referred to \f(CR\s-1
+.pdfhref L -D firstcorinthians_13_13 1 Corinthians 13:13
+\&\s+1\fP  41 times, but he liked the preceding verse even more, since he referred to \f(CR\s-11 Corinthians 13:12\s+1\fP  (as mentioned above) 54 times. The number of times a given bible location is referred to as presented in this paper depends on two factors, where the number of times he actually used is just one. The other one is the philologists effort to identify the references, and their ability to do so in a text where the references are just vague hints of a location. Hence there are some possible systematic errors hidden here: Not all works are equal and philologists might invest more in some important ones than in other. Also, I can imagine that bible references could be more difficult to identify in poetry and fiction where the intellectual practice does not force an author to make clear references.
 .LP
 I have noticed one further thing using the search engine for
 .pdfhref L -D grundtvig-texter Grundtvigs Værker,
@@ -148,7 +148,7 @@ Most of the analyses presented are inspired by Kenneth Ward Church and his brill
 .pdfhref L -D sources-for-this-note (Lundberg, 2022)
 \&
 .KF
-.pdfhref M -N table2ctd
+.pdfhref M -N table2
 .sp
 .QP
 .vs -2
@@ -289,7 +289,7 @@ There are ongoing discussions on what dates that are most significant in Grundtv
 .pdfhref L -D crisis1844 Thodberg (2005)
 \&writes about the crisis 1844.
 .LP
-I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig, other than the publication of his writings. For instance, \fISang-Værk til den Danske Kirke\fP, with psalms and song appeared during that period, and so did are collections of psalms, songs and poetry
+I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig, other than the publication dates of his writings. For instance, \fISang-Værk til den Danske Kirke\fP, with psalms and song appeared during that period, and so did are collections of psalms, songs and poetry
 .pdfhref L -D grundtvig-kronologi (Center for Grundtvigforskning, 2010-).
 \&
 .LP
@@ -330,11 +330,11 @@ I could have omitted
 .pdfhref L -D figure6 (Figure 6)
 \&and does so only because Grundtvig refers to it in one song with 18 verses
 .pdfhref L -D the-sun-is-hot (Grundtvig, 1839).
-\&It is quoted in the chorus. I could have omitted this one, but it is good to include it to remind us of the fact that at this level of the study we have very small sample sizes. The
+\&It is quoted in the chorus. I could have omitted that one, but it is good to include it to remind us of the fact that at this level of the study we have very small sample sizes. The
 .pdfhref L -D psalm23_4 Psalm 23:4
 \&is on the top list for verse only and Grundtvig quotes it on many occasions
 .pdfhref L -D figure7 (Figure 7)
-\&.
+\&, but much more in verse than prose.
 .KF  
 .pdfhref M -N figure6
 .PDFPIC refs_proverbs_4_23.pdf 12.0c 7.2c
@@ -357,6 +357,8 @@ I could have omitted
 .sp
 .KE
 .sp
+.SH
+Discussion
 .KF  
 .pdfhref M -N figure8
 .PDFPIC cladogram-prose.pdf 12.0c 7.2c
@@ -369,8 +371,6 @@ I could have omitted
 .sp
 .KE
 .sp
-.SH
-Discussion
 .LP
 .SH
 References

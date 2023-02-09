@@ -49,7 +49,7 @@ lw(10c) lw(2c) .
       <div>
         <head>Introduction</head>
 
-        <p>Nikolaj Frederik Severin Grundtvig's use bible references in his own writings varied a lot over time.
+        <p>Nikolaj Frederik Severin Grundtvig's use of bible references in his writings varied a lot over time.
         I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title>,</ref>
         a part of the Royal Danish Library's Text Collections.
         It turned out that Grundtvig referred to <hi rend='monospaced'>1 Corinthians 13:12</hi> <hi rend="italic"><quote>For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.</quote></hi> <note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/> <!-- (English)<lb/>  <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish) --></note> in more works than any other bible reference,
@@ -98,7 +98,7 @@ lw(10c) lw(2c) .
       </table>
 
 
-        <p>Grundtvig referred to <hi rend='monospaced'><ref target="firstcorinthians_13_13">1 Corinthians 13:13</ref></hi>  &#xa0; 41 times,
+        <p>Grundtvig referred to <hi rend='monospaced'><ref target="#firstcorinthians_13_13">1 Corinthians 13:13</ref></hi>  &#xa0; 41 times,
         but he liked the preceding verse even more,
         since he referred to <hi rend='monospaced'>1 Corinthians 13:12</hi>  &#xa0; (as mentioned above) 54 times.
         The number of times a given bible location is referred to
@@ -168,7 +168,7 @@ lw(10c) lw(2c) .
       </div>
 
 
-        <table  rendition="bible-references-table" xml:id="table2ctd" rows="3" cols="2">
+        <table  rendition="bible-references-table" xml:id="table2" rows="3" cols="2">
           <head>Table 2. The six most frequent bible references for prose.</head>
           <row  rend="text" role="label">
             <cell>Bible location</cell>
@@ -302,9 +302,10 @@ lw(10c) lw(2c) .
         It appears on the top list for verse <ref target="#figure6">(Figure 6)</ref>
         and does so only because Grundtvig refers to it in one song with 18 verses <ref target="#the-sun-is-hot">(Grundtvig, 1839).</ref>
         It is quoted in the chorus.
-        I could have omitted this one,
+        I could have omitted that one,
         but it is good to include it to remind us of the fact that at this level of the study we have very small sample sizes.
-        The <ref target="#psalm23_4">Psalm 23:4</ref> is on the top list for verse only and Grundtvig quotes it on many occasions <ref target="#figure7">(Figure 7)</ref>.</p>
+        The <ref target="#psalm23_4">Psalm 23:4</ref> is on the top list for verse only and Grundtvig quotes it on many occasions <ref target="#figure7">(Figure 7)</ref>,
+        but much more in verse than prose.</p>
         
         <figure xml:id="figure6">
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_proverbs_4_23.png"/>
@@ -315,6 +316,11 @@ lw(10c) lw(2c) .
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_psalm_23_4.png"/>
           <head>Figure 7. Grundtvig's use of Psalm 23:4.</head>
         </figure>
+
+      </div>
+
+      <div>
+        <head>Discussion</head>
         
         <figure xml:id="figure8">
           <graphic url="https://github.com/siglun/bible-references/raw/main/cladogram-prose.png"/>
@@ -322,9 +328,7 @@ lw(10c) lw(2c) .
           <head>Figure 8.</head>
         </figure>
 
-      </div>
-      <div>
-        <head>Discussion</head>
+   
         <p>
         </p>
       </div>
