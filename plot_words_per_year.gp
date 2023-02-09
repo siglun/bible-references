@@ -10,7 +10,7 @@ set monochrome
 
 # set log y
 
-plot 'words-per-year.text' using 1:2 w l t "Words in verse written", 'words-per-year.text' using 1:3 w l t "Words in prose written"
+plot 'words-per-year.text' using 1:2 w l t "Words written in verse", 'words-per-year.text' using 1:3 w l t "Words written in prose"
 
 
 # set ter pdfcairo
