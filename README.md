@@ -23,7 +23,7 @@ corpus.
 
 What you find below is an outline of my analysis of of his bible
 references from a technical point of view. Eventually there will
-appear a detailed paper here. I hope.
+appear [a detailed paper](article.pdf) here. I hope.
 
 ## Prerequisites
 
