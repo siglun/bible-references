@@ -60,6 +60,18 @@ Notes
 <xsl:apply-templates/>
 </xsl:template>
 
+
+<xsl:template match="t:div[@type='abstract']">
+<xsl:apply-templates/>  
+</xsl:template>
+
+<xsl:template match="t:div[@type='abstract']/t:p">
+.LP
+.vs -2
+.ps -2
+<xsl:apply-templates/>
+</xsl:template>
+
 <xsl:template match="t:div">
 <xsl:apply-templates/>
 </xsl:template>

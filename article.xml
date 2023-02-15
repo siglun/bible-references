@@ -152,16 +152,15 @@ lw(10c) lw(2c) .
 
         <p>The references are categorized into categories which can be
         found in the @rend attribute. In this case it is an <hi
-        rend="italic">allusion</hi>. The more generic <hi
-        rend="italic">reference</hi> is more common, and there are
-        some other variants like <hi rend="italic">quote</hi>. I
+        rend="italic">allusion</hi>. The more generic &#xa0; <hi rend="italic">reference</hi>  &#xa0; is more common, and there are some other variants like <hi rend="italic">quote</hi>. I
         haven't used these categories yet.</p>
 
         <p>Most of the analyses presented are inspired by Kenneth Ward
         Church and his brilliant <ref target="#kennethchurch"><title
-        level="m">Unix™ for Poets</title></ref>. The <ref
+        level="m">Unix™ for Poets</title>.</ref> The <ref
         target="#rlanguage">cluster analyses was made using the
-        language R</ref>.
+        language R,</ref> see <ref target="#similarity">Altuna Akalin (2020)</ref>
+        <title>Computational Genomics with R.</title>
         The sources of my scripts and extracted data used is available on Github 
         <ref target="#sources-for-this-note">(Lundberg, 2022)</ref></p>
         
@@ -300,11 +299,11 @@ lw(10c) lw(2c) .
 
         <p>I could have omitted <ref target="#proverbs4_23">Proverbs 4:23</ref>.
         It appears on the top list for verse <ref target="#figure6">(Figure 6)</ref>
-        and does so only because Grundtvig refers to it in one song with 18 verses <ref target="#the-sun-is-hot">(Grundtvig, 1839).</ref>
-        It is quoted in the chorus.
+        and does so only because Grundtvig refers to it in one song with 18 verses  <ref target="#the-sun-is-hot">(Grundtvig, 1839).</ref>
+        The references is in the chorus.
         I could have omitted that one,
         but it is good to include it to remind us of the fact that at this level of the study we have very small sample sizes.
-        The <ref target="#psalm23_4">Psalm 23:4</ref> is on the top list for verse only and Grundtvig quotes it on many occasions <ref target="#figure7">(Figure 7)</ref>,
+        The <ref target="#psalm23_4">Psalm 23:4</ref> is on the top list for verse only and Grundtvig quotes it on many occasions <ref target="#figure7">(Figure 7),</ref>
         but much more in verse than prose.</p>
         
         <figure xml:id="figure6">
@@ -419,6 +418,13 @@ lw(10c) lw(2c) .
             <title level="m">R: A language and environment for statistical computing</title>
             <note>[Computer software]. Vienna, Austria.
             Available from <ref target="http://www.R-project.org">http://www.R-project.org</ref></note>
+          </bibl>
+
+          <bibl xml:id="similarity">
+            <author>Akalin, Altuna</author>
+            <title level="m">Computational Genomics with R</title>
+            <ref
+                target="https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html"/>
           </bibl>
           
           <bibl xml:id="crisis1810">

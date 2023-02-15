@@ -8,6 +8,8 @@ Sigfrid Lundberg
 https://sigfrid-lundberg.se
 .AB
 .LP
+.vs -2
+.ps -2
 Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential persons in Danish 19th century history. A polymath and very prolific writer and \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
 .pdfhref L -D nfsgrundtvig Wikipedia (2003)
 \&describes him. In this paper I present some data analyses on his use of the bible in his writing.
@@ -138,13 +140,15 @@ Which is a reference to
         \fP
 .DE
 .LP
-The references are categorized into categories which can be found in the @rend attribute. In this case it is an \fIallusion\fP. The more generic \fIreference\fPis more common, and there are some other variants like \fIquote\fP. I haven't used these categories yet.
+The references are categorized into categories which can be found in the @rend attribute. In this case it is an \fIallusion\fP. The more generic   \fIreference\fP  is more common, and there are some other variants like \fIquote\fP. I haven't used these categories yet.
 .LP
 Most of the analyses presented are inspired by Kenneth Ward Church and his brilliant
-.pdfhref L -D kennethchurch Unix™ for Poets
-\&. The
-.pdfhref L -D rlanguage cluster analyses was made using the language R
-\&. The sources of my scripts and extracted data used is available on Github
+.pdfhref L -D kennethchurch Unix™ for Poets.
+\&The
+.pdfhref L -D rlanguage cluster analyses was made using the language R,
+\&see
+.pdfhref L -D similarity Altuna Akalin (2020)
+\& \fIComputational Genomics with R.\fPThe sources of my scripts and extracted data used is available on Github
 .pdfhref L -D sources-for-this-note (Lundberg, 2022)
 \&
 .KF
@@ -330,11 +334,11 @@ I could have omitted
 .pdfhref L -D figure6 (Figure 6)
 \&and does so only because Grundtvig refers to it in one song with 18 verses
 .pdfhref L -D the-sun-is-hot (Grundtvig, 1839).
-\&It is quoted in the chorus. I could have omitted that one, but it is good to include it to remind us of the fact that at this level of the study we have very small sample sizes. The
+\&The references is in the chorus. I could have omitted that one, but it is good to include it to remind us of the fact that at this level of the study we have very small sample sizes. The
 .pdfhref L -D psalm23_4 Psalm 23:4
 \&is on the top list for verse only and Grundtvig quotes it on many occasions
-.pdfhref L -D figure7 (Figure 7)
-\&, but much more in verse than prose.
+.pdfhref L -D figure7 (Figure 7),
+\&but much more in verse than prose.
 .KF  
 .pdfhref M -N figure6
 .PDFPIC refs_proverbs_4_23.pdf 12.0c 7.2c
@@ -374,6 +378,13 @@ Discussion
 .LP
 .SH
 References
+.XP
+.pdfhref M -N similarity
+Akalin, Altuna\fIComputational Genomics with R\fP 
+.br  
+\s-2\f(CR
+.pdfhref W -D https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html
+\fP\s+2
 .XP
 .pdfhref M -N grundtvig-texter
 Center for Grundtvigforskning,  and Det Kgl. Bibliotek,
