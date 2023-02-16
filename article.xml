@@ -322,9 +322,9 @@ lw(10c) lw(2c) .
         <head>Discussion</head>
         
         <figure xml:id="figure8">
-          <graphic url="https://github.com/siglun/bible-references/raw/main/cladogram-prose.png"/>
-          <graphic url="https://github.com/siglun/bible-references/raw/main/cladogram-poetry.png"/>
-          <head>Figure 8.</head>
+          <graphic n="(a)" url="https://github.com/siglun/bible-references/raw/main/cladogram-prose.png"/>
+          <graphic n="(b)" url="https://github.com/siglun/bible-references/raw/main/cladogram-poetry.png"/>
+          <head>Figure 8. Cladograms of a similarity matrix for years, calculated for prose (a) and verse (b).</head>
         </figure>
 
    

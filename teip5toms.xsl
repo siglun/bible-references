@@ -208,7 +208,16 @@ Notes
 .sp
 </xsl:text></xsl:template>
 
-<xsl:template match="t:graphic"><xsl:text>
+<xsl:template match="t:graphic"><xsl:if test="@n"><xsl:text>.ID
+.vs -2
+.ps -2
+</xsl:text><xsl:value-of select="@n"/><xsl:text>
+.ps +2
+.vs +2
+.DE
+</xsl:text>
+</xsl:if>
+<xsl:text>
 .PDFPIC </xsl:text><xsl:value-of select="concat(substring-before(substring-after(@url,'main/'),'.'),'.pdf')"/><xsl:text> 12.0c 7.2c</xsl:text> <!-- xsl:value-of select="substring-before(@width,'m')"/ --><xsl:text>
 </xsl:text></xsl:template>
   

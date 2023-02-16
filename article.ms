@@ -365,12 +365,26 @@ I could have omitted
 Discussion
 .KF  
 .pdfhref M -N figure8
+.ID
+.vs -2
+.ps -2
+(a)
+.ps +2
+.vs +2
+.DE
 .PDFPIC cladogram-prose.pdf 12.0c 7.2c
+.ID
+.vs -2
+.ps -2
+(b)
+.ps +2
+.vs +2
+.DE
 .PDFPIC cladogram-poetry.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 8.\s+2
+\s-2Figure 8. Cladograms of a similarity matrix for years, calculated for prose (a) and verse (b).\s+2
 .vs
 .sp
 .KE

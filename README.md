@@ -163,7 +163,7 @@ The final result is in the [cladogram.pdf](cladogram.pdf)
 
 # Number of works per year by genre
 
-* Transform all files using [text-types-by-year.xsl](text-types-by-year.xsl) collecting all data in a single file, e.g., 
+* Transform all files using [text-types-by-year.xsl](text-types-by-year.xsl) using [run_text-types-by-year.pl](run_text-types-by-year.pl) collecting all data in a single file, e.g., 
 * [counts-of-text-by-type-and-year.xml](counts-of-text-by-type-and-year.xml). Use that to aggregate per year using [breakdown-per-year.xsl](breakdown-per-year.xsl)
 * plot using [plot_words_per_year.gp](plot_words_per_year.gp)
 
