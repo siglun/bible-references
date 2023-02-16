@@ -219,8 +219,23 @@ T};52
 .TE
 .sp
 .KE
+.KF  
+.pdfhref M -N figure0
+.PDFPIC words_per_year.pdf 12.0c 7.2c
+.sp
+.QP
+.vs -2
+\s-2Figure 0. The number of words published per year, for in verse references (solid curve) and references occurring i prose (dashed curve).\s+2
+.vs
+.sp
+.KE
+.sp
 .SH
 Analyses
+.LP
+Grundtvig was an active and prolific author over a period of close to 70 years
+.pdfhref L -D figure0 (Figure 0)
+\&. When his productivity peaked, it often did so for both verse and prose in parallel. Sometimes the two genres peaked consecutive years. Modern readers usually think of him as a poet or author of psalms, but he did write significantly more prose of all kinds. Even years when his production of verse is high, there always appear some prose as well.
 .LP
 The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus.
 .KF  
@@ -229,7 +244,7 @@ The philologists at the Grundtvig centre has identified 11499 bible references i
 .sp
 .QP
 .vs -2
-\s-2Figure 1. The distributions showing the frequency for different numbers of references, for in verse references (solid curve, bullets) and references occurring i prose (dashed curves, open triangels). Note the logarithmic scale on the y-axis.\s+2
+\s-2Figure 1. The distributions showing the frequency for different numbers of references, for in verse references (solid curve, bullets) and references occurring i prose (dashed curve, open triangels). Note the logarithmic scale on the y-axis.\s+2
 .vs
 .sp
 .KE
@@ -237,7 +252,7 @@ The philologists at the Grundtvig centre has identified 11499 bible references i
 .LP
 For the prose there are in total 2663 bible locations. The distribution is such that there are 1477 locations that are referenced once, 670 twice and 468 locations used 3 to 9 times. At the other end, one location \f(CR\s-1
 .pdfhref L -D genesis_1_27 Genesis 1:27
-\&\s+1\fP  is referenced 52 times. Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times. Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ. He repeats the references.
+\&\s+1\fP  is referenced 52 times. Of the 2663 locations used in prose, only a small fraction, 48 locations, are referenced 10 and more times. Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ. He repeats the references.
 .LP
 For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 to 9 times, and 21 are used 10 or more times. His absolute favourite for verse is \f(CR\s-1
 .pdfhref L -D genesis2_7 Genesis 2:7.
@@ -365,21 +380,17 @@ I could have omitted
 Discussion
 .KF  
 .pdfhref M -N figure8
-.ID
-.vs -2
+.in 2c
 .ps -2
 (a)
-.ps +2
-.vs +2
-.DE
+.in
+.ps
 .PDFPIC cladogram-prose.pdf 12.0c 7.2c
-.ID
-.vs -2
+.in 2c
 .ps -2
 (b)
-.ps +2
-.vs +2
-.DE
+.in
+.ps
 .PDFPIC cladogram-poetry.pdf 12.0c 7.2c
 .sp
 .QP

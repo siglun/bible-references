@@ -195,9 +195,24 @@ lw(10c) lw(2c) .
         </table>
 
 
+         <figure xml:id="figure0">
+          <graphic url="https://github.com/siglun/bible-references/raw/main/words_per_year.png"/>
+          <head>Figure 0. The number of words published per year,
+          for in verse references (solid curve)
+          and references occurring i prose (dashed curve).
+        </head>
+        </figure>
+
       
       <div>
         <head>Analyses</head>
+
+        <p>Grundtvig was an active and prolific author over a period of close to 70 years <ref  target="#figure0">(Figure 0)</ref>.
+        When his productivity peaked,
+        it often did so for both verse and prose in parallel. Sometimes the two genres peaked consecutive years.
+        Modern readers usually think of him as a poet or author of psalms,
+        but he did write significantly more prose of all kinds.
+        Even years when his production of verse is high, there always appear some prose as well.</p>
         
         <p>The philologists at the Grundtvig centre has identified
         11499 bible references in the GV.
@@ -210,7 +225,7 @@ lw(10c) lw(2c) .
           <graphic url="https://github.com/siglun/bible-references/raw/main/distribution.png"/>
           <head>Figure 1. The distributions showing the frequency for different numbers of references,
           for in verse references (solid curve, bullets)
-          and references occurring i prose (dashed curves, open triangels).
+          and references occurring i prose (dashed curve, open triangels).
           Note the logarithmic scale on the y-axis.
         </head>
         </figure>
@@ -220,7 +235,8 @@ lw(10c) lw(2c) .
         670 twice and
         468 locations used 3 to 9 times.
         At the other end, one location <hi  rend='monospaced'><ref target="#genesis_1_27">Genesis 1:27</ref></hi>  &#xa0; is referenced 52 times.
-        Of those 2663 locations, only a small fraction, 48 locations, are referenced 10 and more times.
+        Of the 2663 locations used in prose,
+        only a small fraction, 48 locations, are referenced 10 and more times.
         Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ.
         He repeats the references.</p>
 

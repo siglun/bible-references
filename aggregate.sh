@@ -76,6 +76,7 @@ gnuplot < plot_selected_prose_references.gp
 gnuplot < plot_selected_poetry_references.gp
 gnuplot < plot_comparison_poetry_prose.gp
 
+gnuplot < plot_words_per_year.gp
 ps2pdf  -dEPSCrop  words_per_year.eps
 
 ps2pdf  -dEPSCrop  distribution.eps

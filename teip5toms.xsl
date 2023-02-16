@@ -208,13 +208,11 @@ Notes
 .sp
 </xsl:text></xsl:template>
 
-<xsl:template match="t:graphic"><xsl:if test="@n"><xsl:text>.ID
-.vs -2
+<xsl:template match="t:graphic"><xsl:if test="@n"><xsl:text>.in 2c
 .ps -2
 </xsl:text><xsl:value-of select="@n"/><xsl:text>
-.ps +2
-.vs +2
-.DE
+.in
+.ps
 </xsl:text>
 </xsl:if>
 <xsl:text>
