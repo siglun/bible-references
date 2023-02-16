@@ -12,6 +12,7 @@ $SAXON ref='Ordsp 4,23' table-all.xml aggregate-per-year-for-given-reference.xsl
 $SAXON ref='Joh 6,63'   table-all.xml aggregate-per-year-for-given-reference.xsl > selected_ref_3.text
 $SAXON ref='Matt 16,18' table-all.xml aggregate-per-year-for-given-reference.xsl > selected_ref_4.text
 $SAXON ref='1 Mos 2,7'  table-all.xml aggregate-per-year-for-given-reference.xsl > selected_ref_5.text
+$SAXON ref='1 Kor 13,13'  table-all.xml aggregate-per-year-for-given-reference.xsl > selected_ref_7.text
 
 #
 # The poetry and the verses
@@ -23,7 +24,9 @@ $SAXON ref='Ordsp 4,23' table-poetry.xml aggregate-per-year-for-given-reference.
 $SAXON ref='Joh 6,63'   table-poetry.xml aggregate-per-year-for-given-reference.xsl > selected_poetry_ref_3.text
 $SAXON ref='Matt 16,18' table-poetry.xml aggregate-per-year-for-given-reference.xsl > selected_poetry_ref_4.text
 $SAXON ref='1 Mos 2,7'  table-poetry.xml aggregate-per-year-for-given-reference.xsl > selected_poetry_ref_5.text
-$SAXON ref='1 Mos 1,27' table-poetry.xml aggregate-per-year-for-given-reference.xsl > selected_poetry_ref_6.text  
+$SAXON ref='1 Mos 1,27' table-poetry.xml aggregate-per-year-for-given-reference.xsl > selected_poetry_ref_6.text
+$SAXON ref='1 Kor 13,13'  table-poetry.xml aggregate-per-year-for-given-reference.xsl > selected_poetry_ref_7.text
+$SAXON ref='1 Kor 13,12'  table-poetry.xml aggregate-per-year-for-given-reference.xsl > selected_poetry_ref_8.text
 
 #
 # and, finally, the prose
@@ -35,7 +38,11 @@ $SAXON ref='Ordsp 4,23' table-prose.xml aggregate-per-year-for-given-reference.x
 $SAXON ref='Joh 6,63'   table-prose.xml aggregate-per-year-for-given-reference.xsl > selected_prose_ref_3.text
 $SAXON ref='Matt 16,18' table-prose.xml aggregate-per-year-for-given-reference.xsl > selected_prose_ref_4.text
 $SAXON ref='1 Mos 2,7'  table-prose.xml aggregate-per-year-for-given-reference.xsl > selected_prose_ref_5.text  
-$SAXON ref='1 Mos 1,27' table-prose.xml aggregate-per-year-for-given-reference.xsl > selected_prose_ref_6.text  
+$SAXON ref='1 Mos 1,27' table-prose.xml aggregate-per-year-for-given-reference.xsl > selected_prose_ref_6.text
+$SAXON ref='1 Kor 13,13' table-prose.xml aggregate-per-year-for-given-reference.xsl > selected_prose_ref_7.text
+$SAXON ref='1 Kor 13,12' table-prose.xml aggregate-per-year-for-given-reference.xsl > selected_prose_ref_8.text
+
+
 #
 # the distributions
 #
@@ -74,6 +81,9 @@ ps2pdf  -dEPSCrop  refs_per_year.eps
 ps2pdf  -dEPSCrop  selected_refs_per_year.eps
 ps2pdf  -dEPSCrop  selected_prose_refs_per_year.eps
 ps2pdf  -dEPSCrop  selected_poetry_refs_per_year.eps
+
+ps2pdf  -dEPSCrop  refs_1corinthians_13_13.eps
+ps2pdf  -dEPSCrop  refs_1corinthians_13_12.eps
 
 ps2pdf  -dEPSCrop  refs_genesis_2_7.eps
 ps2pdf  -dEPSCrop  refs_genesis_1_27.eps

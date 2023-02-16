@@ -96,3 +96,34 @@ set color
 set ter png
 set out "refs_genesis_1_27.png"
 replot
+
+# "1 Kor 13,12"
+
+set ter eps
+set out "refs_1corinthians_13_12.eps"
+set monochrome
+
+plot \
+'selected_poetry_ref_8.text' using 1:2 w lp pt 7 t "Verse", \
+'selected_prose_ref_8.text'  using 1:2 w lp pt 8 t "Prose"
+
+set color
+set ter png
+set out "refs_1corinthians_13_12.png"
+replot
+
+
+# "1 Kor 13,13"
+
+set ter eps
+set out "refs_1corinthians_13_13.eps"
+set monochrome
+
+plot \
+'selected_poetry_ref_7.text' using 1:2 w lp pt 7 t "Verse", \
+'selected_prose_ref_7.text'  using 1:2 w lp pt 8 t "Prose"
+
+set color
+set ter png
+set out "refs_1corinthians_13_13.png"
+replot
