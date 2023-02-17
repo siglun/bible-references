@@ -29,7 +29,7 @@ in more works than any other bible reference, but he did so mostly before 1820. 
 .FE
 That is, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fPwhich occurred mostly from 1855 to 1859.
 .LP
-A bible reference is typically a string such as \f(CR\s-11 Corinthians 13:13\s+1\fP. There is an ambiguity in the usage, since it denotes both the reference and the text in the scripture, where it refers to \fI \(lqAnd now these three remain: faith, hope and love. But the greatest of these is love.\(rq\fP\**
+A bible reference is typically a string such as \f(CR\s-11 Corinthians 13:13\s+1\fP. There is an ambiguity in the usage, since it denotes both the reference in the source and the text in the scripture, the target, where it refers to \fI \(lqAnd now these three remain: faith, hope and love. But the greatest of these is love.\(rq\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-13.htm https://biblehub.com/1_corinthians/13-13.htm
 .FE
