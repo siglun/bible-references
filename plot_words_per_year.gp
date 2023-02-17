@@ -2,7 +2,7 @@
 # plot grand totals
 #
 set xlabel "Year"
-set ylabel "Number of published words"
+set ylabel "Number of words"
 
 set ter eps
 set out "words_per_year.eps"

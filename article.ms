@@ -227,7 +227,7 @@ T};52
 .sp
 .QP
 .vs -2
-\s-2Figure 1. The number of words published per year, for verse (solid curve) and in prose (dashed curve).\s+2
+\s-2Figure 1. The number of words written per year, for verse (solid curve) and in prose (dashed curve).\s+2
 .vs
 .sp
 .KE
