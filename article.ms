@@ -317,8 +317,8 @@ There are ongoing discussions on what dates that are most significant in Grundtv
 I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig, other than the publication dates of his writings. For instance, volume 2 of his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared 1839, and so did other works of verse
 .pdfhref L -D grundtvig-kronologi (Center for Grundtvigforskning, 2010-).
 \&On the whole, the late 1830s and early 1840s was a very productive period of his life
-.pdfhref L -D figure0 (Figure 1)
-\&. It was after that the censuring of Grundtvig 1826–1839 was finally lifted. This happened as a court order following the publication of \fIKirkens Gienmæle\fP
+.pdfhref L -D figure0 (Figure 1).
+\&It was after that the censuring of Grundtvig 1826–1839 was finally lifted. This happened as a court order following the publication of \fIKirkens Gienmæle\fP
 .pdfhref L -D kirkens-gienmaele (Grundtvig 1825).
 \&See also
 .pdfhref L -D thodberg2009 (Thodberg, 2009).
@@ -393,7 +393,7 @@ The
 .KE
 .sp
 .LP
-In the \fIIntroduction\fPI described how I was inspired to this work by the development work I was involved in at the time. In particular how I stumbled upon Grundtvig's use of
+In the \fIIntroduction\fP  I described how I was inspired to this paper through the development work I was involved in at the time. In particular how I stumbled upon Grundtvig's use of
 .pdfhref L -D para1 1 Corinthians 13:12
 \&and
 .pdfhref L -D para2 1 Corinthians 13:13,
@@ -401,8 +401,9 @@ In the \fIIntroduction\fPI described how I was inspired to this work by the deve
 .pdfhref L -D figure9 Figure 10
 \&and
 .pdfhref L -D figure10 Figure 11.
-\&They are so very different from each other! The former is used in poetry, except for some heavy use 1810–1820. The latter is use intensively almost fifty years later in a text actually entitled \fIFaith, hope and love\fP  
-.pdfhref W -D https://github.com/siglun/danish-sonnets/blob/main/faith-hope-love (Grundtvig, 1858).
+\&They are so very different from each other! The former is used in poetry, except for some heavy use 1810–1820. The latter is use intensively almost fifty years later in a text actually entitled \fIFaith, hope and love\fP
+.pdfhref L -D faith-hope-love (Grundtvig, 1858).
+\&
 .KF  
 .pdfhref M -N figure9
 .PDFPIC refs_1corinthians_13_12.pdf 12.0c 7.2c
