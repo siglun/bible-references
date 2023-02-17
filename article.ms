@@ -306,7 +306,7 @@ There are ongoing discussions on what dates that are most significant in Grundtv
 .pdfhref L -D entropicdecay Nielbo et al. (2019)
 \&. On the other hand, other authors points to entirely different dates. For instance, in a detailed schedule of events in his life,
 .pdfhref L -D crisis1810 Engebretsen (2008)
-\&points out the years 1810, 1844, 1853, 1867 as life crises.
+\&points out the years 1810, 1844, 1853, 1867 as life crises, and also mentions the poets bipolar disease.
 .pdfhref L -D crisis1844 Thodberg (2005)
 \&writes about the crisis 1844.
 .LP
