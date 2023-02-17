@@ -39,7 +39,7 @@ A bible reference is typically a string such as \f(CR\s-11 Corinthians 13:13\s+1
 .FE
 I will try to use \fIbible reference\fP  when discussing the source and use \fIbible location\fP  when referring to the target; i.e., the scripture.
 .LP
-The complexity of bible references and locations is that they are semantic units, hypertext links and inter-textual objects, all at the same time. As semantic units they are abstract indicator of what a text is about, an indicator of its aboutishness (in Digital Library jargon). They are almost certainly also a text adornment, a piece of text jewellery if you like.
+The complexity of bible references and locations is that they are semantic units, hypertext links and inter-textual objects, all at the same time. As semantic units they are abstract indicator of what a text is about, an indicator of its aboutishness (in Digital Library jargon). They are almost certainly also text adornments, pieces of text jewellery if you like.
 .KF
 .pdfhref M -N table1
 .sp
