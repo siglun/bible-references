@@ -428,6 +428,15 @@ In the \fIIntroduction\fP  I described how I was inspired to this paper through
 .sp
 .SH
 Discussion
+.LP
+I could go on like this. For instance, I could have analysed \f(CR\s-11 Corinthians 14:34\s+1\fP\**
+.FS
+.pdfhref W -D https://biblehub.com/1_corinthians/14-34.htm https://biblehub.com/1_corinthians/14-34.htm
+.FE
+and studied that in the light of his three marriages.\**
+.FS
+As a matter of fact, I started that, but it turned out that Grundtvig did not quote that passage.
+.FE
 .KF  
 .pdfhref M -N figure8
 .in 2c
@@ -450,7 +459,6 @@ Discussion
 .sp
 .KE
 .sp
-.LP
 .SH
 References
 .XP

@@ -372,16 +372,18 @@ lw(10c) lw(2c) .
 
       <div>
         <head>Discussion</head>
+
+        <p>I could go on like this. For instance, I could have analysed
+        <hi rend='monospaced'>1 Corinthians 14:34</hi><note><ref target="https://biblehub.com/1_corinthians/14-34.htm"/></note> and studied that in the light of his three marriages.
+        <note>As a matter of fact, I started that, but it turned out that Grundtvig did not quote that passage.</note></p>
         
         <figure xml:id="figure8">
           <graphic n="(a)" url="https://github.com/siglun/bible-references/raw/main/cladogram-prose.png"/>
           <graphic n="(b)" url="https://github.com/siglun/bible-references/raw/main/cladogram-poetry.png"/>
-          <head>Figure 9. Cladograms of a similarity matrix for years, calculated for prose (a) and verse (b).</head>
+          <head>Figure 9. Cladograms of a similarity matrix for years,
+          calculated for prose (a) and verse (b).</head>
         </figure>
 
-   
-        <p>
-        </p>
       </div>
 
       <!--
