@@ -456,7 +456,7 @@ References
 .XP
 .pdfhref M -N similarity
 Akalin, Altuna,
-[date unknown]. \fIComputational Genomics with R\fP 
+2020. \fIComputational Genomics with R\fP 
 .br  
 \s-2\f(CR
 .pdfhref W -D https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html

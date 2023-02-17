@@ -510,7 +510,7 @@ lw(10c) lw(2c) .
 
           <bibl xml:id="similarity">
             <author>Akalin, Altuna</author>
-            <date>[date unknown]</date>
+            <date>2020</date>
             <title level="m">Computational Genomics with R</title>
             <ref
                 target="https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html"/>
