@@ -33,7 +33,7 @@ A bible reference is typically a string such as \f(CR\s-11 Corinthians 13:13\s+1
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-13.htm https://biblehub.com/1_corinthians/13-13.htm
 .FE
-I will try to use \fIbible reference\fP  when discussing how Grundtvig uses it, whereas use \fIbible location\fP  when referring to the scripture.
+I will try to use \fIbible reference\fP  when discussing the source it, whereas use \fIbible location\fP  when referring to the target; the scripture.
 .LP
 The complexity of bible references and locations is that they are semantic units, hypertext links and inter-textual objects, all at the same time. As semantic units they are abstract indicator of what a text is about, an indicator of its aboutishness (in Digital Library jargon). They are almost certainly also a text adornment, a piece of text jewellery if you like.
 .KF
@@ -148,7 +148,9 @@ Most of the analyses presented are inspired by Kenneth Ward Church and his brill
 .pdfhref L -D rlanguage cluster analyses was made using the language R,
 \&see
 .pdfhref L -D similarity Altuna Akalin (2020)
-\& \fIComputational Genomics with R.\fPThe sources of my scripts and extracted data used is available on Github
+\& \fIComputational Genomics with R.\fP
+.LP
+The sources of my scripts and the extracted data used are available on Github
 .pdfhref L -D sources-for-this-note (Lundberg, 2022)
 \&
 .KF
@@ -225,7 +227,7 @@ T};52
 .sp
 .QP
 .vs -2
-\s-2Figure 0. The number of words published per year, for in verse references (solid curve) and references occurring i prose (dashed curve).\s+2
+\s-2Figure 1. The number of words published per year, for verse (solid curve) and in prose (dashed curve).\s+2
 .vs
 .sp
 .KE
@@ -234,8 +236,8 @@ T};52
 Analyses
 .LP
 Grundtvig was an active and prolific author over a period of close to 70 years
-.pdfhref L -D figure0 (Figure 0)
-\&. When his productivity peaked, it often did so for both verse and prose in parallel. Sometimes the two genres peaked consecutive years. Modern readers usually think of him as a poet or author of psalms, but he did write significantly more prose of all kinds. Even years when his production of verse is high, there always appear some prose as well.
+.pdfhref L -D figure0 (Figure 1)
+\&. When his productivity peaked, it often did so for both verse and prose in parallel. Sometimes the two genres peaked consecutive years. Modern readers usually think of him as a poet or author of psalms, but he did write significantly more prose of all kinds. Even years when his production of verse is high, there always appear some prose as well; usually more than verse.
 .LP
 The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus.
 .KF  
@@ -244,13 +246,13 @@ The philologists at the Grundtvig centre has identified 11499 bible references i
 .sp
 .QP
 .vs -2
-\s-2Figure 1. The distributions showing the frequency for different numbers of references, for in verse references (solid curve, bullets) and references occurring i prose (dashed curve, open triangels). Note the logarithmic scale on the y-axis.\s+2
+\s-2Figure 2. The distributions showing the frequency for different numbers of references, for in verse references (solid curve, bullets) and references occurring i prose (dashed curve, open triangels). Note the logarithmic scale on the y-axis.\s+2
 .vs
 .sp
 .KE
 .sp
 .LP
-For the prose there are in total 2663 bible locations. The distribution is such that there are 1477 locations that are referenced once, 670 twice and 468 locations used 3 to 9 times. At the other end, one location \f(CR\s-1
+For the prose there are in total 2663 bible locations. The distribution is such that there are 1477 locations that are referenced once, 670 twice and 468 locations used 3 to 9 times. At the other end of the distribution, one location \f(CR\s-1
 .pdfhref L -D genesis_1_27 Genesis 1:27
 \&\s+1\fP  is referenced 52 times. Of the 2663 locations used in prose, only a small fraction, 48 locations, are referenced 10 and more times. Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ. He repeats the references.
 .LP
@@ -259,7 +261,7 @@ For verse there are 2094 locations. 431 are referenced once, 1321 twice, 313 3 t
 \&\s+1\fP
 .LP
 The distributions of bible references for verse and prose can be seen in
-.pdfhref L -D figure1 Figure 1.
+.pdfhref L -D figure1 Figure 2.
 \&It visualizes the observations mentioned. For references occurring in verse, the distribution starts lower and actually increases towards a peak, whereas for prose it decreases initially. Grundtvig seem to have more or less different favourite bible locations in verse and prose. See
 .pdfhref L -D table1 Table 1
 \&and
@@ -279,7 +281,7 @@ It is interesting that it is two different locations in Genesis that holds the t
 .sp
 .QP
 .vs -2
-\s-2Figure 2. Grundtvig's use of Genesis 1:27 in verse (solid curve) and prose (dashed curve)\s+2
+\s-2Figure 3. Grundtvig's use of Genesis 1:27 in verse (solid curve) and prose (dashed curve)\s+2
 .vs
 .sp
 .KE
@@ -290,17 +292,17 @@ It is interesting that it is two different locations in Genesis that holds the t
 .sp
 .QP
 .vs -2
-\s-2Figure 3. Grundtvig's use of Genesis 2:7 in verse (solid curve) and prose (dashed curve)\s+2
+\s-2Figure 4. Grundtvig's use of Genesis 2:7 in verse (solid curve) and prose (dashed curve)\s+2
 .vs
 .sp
 .KE
 .sp
 .LP
 I have used the counts of some of the most frequently used individual bible references to compare all the years of Grundtvig's professional life. To continue with his references to Genesis, he not only refers to Genesis 1:27 mostly in prose, he does no fairly early and late in in his career
-.pdfhref L -D figure2 (Figure 2),
-\&whereas he refers to Genesis 2:7 more in poetry but he does so between 1830–1840 in the midst of his career.
+.pdfhref L -D figure2 (Figure 3),
+\&whereas he refers to Genesis 2:7 more in poetry but he does so between 1830–1840 in the midst of his career. That is, Grundtvig not only uses some references differently in verse and prose, he changes his preferences over time.
 .LP
-There are ongoing discussions on what dates that are most significant in Grundtvig's career. \fI \(lqWithin the ever-growing bulk of Grundtvig studies, the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.\(rq\fP, writes
+There are ongoing discussions on what dates that are most significant in Grundtvig's career. \fI \(lqWithin the ever-growing bulk of Grundtvig studies, the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention\(rq\fP, writes
 .pdfhref L -D entropicdecay Nielbo et al. (2019)
 \&. On the other hand, other authors points to entirely different dates. For instance, in a detailed schedule of events in his life,
 .pdfhref L -D crisis1810 Engebretsen (2008)
@@ -308,25 +310,27 @@ There are ongoing discussions on what dates that are most significant in Grundtv
 .pdfhref L -D crisis1844 Thodberg (2005)
 \&writes about the crisis 1844.
 .LP
-I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig, other than the publication dates of his writings. For instance, \fISang-Værk til den Danske Kirke\fP, with psalms and song appeared during that period, and so did are collections of psalms, songs and poetry
+I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig, other than the publication dates of his writings. For instance, volume 2 of his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared 1839, and so did other works of verse
 .pdfhref L -D grundtvig-kronologi (Center for Grundtvigforskning, 2010-).
-\&
+\&On the whole, the late 1830s and early 1840s was a very productive period of his life
+.pdfhref L -D figure0 (Figure 1)
+\&.
 .LP
 .pdfhref L -D john6_63 John 6:63, Table 1
 \&does not reach the top 6 list for prose, only for verse. Numerically, this passage is roughly the same for both genres
-.pdfhref L -D figure4 (Figure 4)
-\&, but that is mainly due to the fact that Grundtvig actually writes much more prose than verse. It seems that
+.pdfhref L -D figure4 (Figure 5)
+\&, but that is mainly due to the fact that Grundtvig wrote much more prose than verse. It seems that
 .pdfhref L -D matthew16_18 Matthew 16:18, Table 1
-\&is important for Grundtvig, it reaches top 6 list for both verse and prose
+\&is very important for Grundtvig, since it reaches top 6 list for both verse and prose
 .pdfhref L -D matthew_16_18 (Matthew 16:18, Table 2)
-\&. Again you see how it appears in prose early and late in his career, and in verse during 1830-1840. This one is about the church. He is returning to this one over and over again, in (I believe) his role as pastor in the Church of Denmark.
+\&. Again you see how it appears in prose early and late in his career, and in verse during 1830-1840. This one is about the church. He is returning to this one over and over again, in (I believe) his role as a pastor in the Church of Denmark.
 .KF  
 .pdfhref M -N figure4
 .PDFPIC refs_john_6_23.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 4. Grundtvig's use of John 6:63.\s+2
+\s-2Figure 5. Grundtvig's use of John 6:63.\s+2
 .vs
 .sp
 .KE
@@ -337,7 +341,7 @@ I find it premature to try to correlate my findings to important events in the l
 .sp
 .QP
 .vs -2
-\s-2Figure 5. Grundtvig's use of Matthew 16:18.\s+2
+\s-2Figure 6. Grundtvig's use of Matthew 16:18.\s+2
 .vs
 .sp
 .KE
@@ -346,21 +350,25 @@ I find it premature to try to correlate my findings to important events in the l
 I could have omitted
 .pdfhref L -D proverbs4_23 Proverbs 4:23
 \&. It appears on the top list for verse
-.pdfhref L -D figure6 (Figure 6)
+.pdfhref L -D figure6 (Figure 7)
 \&and does so only because Grundtvig refers to it in one song with 18 verses
-.pdfhref L -D the-sun-is-hot (Grundtvig, 1839).
-\&The references is in the chorus. I could have omitted that one, but it is good to include it to remind us of the fact that at this level of the study we have very small sample sizes. The
+.pdfhref L -D the-sun-is-hot (Grundtvig, 1839),
+\&with the references in each of the 18 choruses. This is good as a reminder of the fact that at this level of the study we have very small sample sizes.
+.LP
+The
 .pdfhref L -D psalm23_4 Psalm 23:4
 \&is on the top list for verse only and Grundtvig quotes it on many occasions
-.pdfhref L -D figure7 (Figure 7),
-\&but much more in verse than prose.
+.pdfhref L -D figure7 (Figure 8),
+\&but much more in verse than in prose. I cannot think of any piece that could better comfort a distressed pastor and poet it would be
+.pdfhref L -D psalm23_4 Psalm 23.
+\&
 .KF  
 .pdfhref M -N figure6
 .PDFPIC refs_proverbs_4_23.pdf 12.0c 7.2c
 .sp
 .QP
 .vs -2
-\s-2Figure 6. Grundtvig's use of Proverbs 4:23.\s+2
+\s-2Figure 7. Grundtvig's use of Proverbs 4:23.\s+2
 .vs
 .sp
 .KE
@@ -371,7 +379,7 @@ I could have omitted
 .sp
 .QP
 .vs -2
-\s-2Figure 7. Grundtvig's use of Psalm 23:4.\s+2
+\s-2Figure 8. Grundtvig's use of Psalm 23:4.\s+2
 .vs
 .sp
 .KE
@@ -395,7 +403,7 @@ Discussion
 .sp
 .QP
 .vs -2
-\s-2Figure 8. Cladograms of a similarity matrix for years, calculated for prose (a) and verse (b).\s+2
+\s-2Figure 9. Cladograms of a similarity matrix for years, calculated for prose (a) and verse (b).\s+2
 .vs
 .sp
 .KE
@@ -405,7 +413,8 @@ Discussion
 References
 .XP
 .pdfhref M -N similarity
-Akalin, Altuna\fIComputational Genomics with R\fP 
+Akalin, Altuna,
+[date unknown]. \fIComputational Genomics with R\fP 
 .br  
 \s-2\f(CR
 .pdfhref W -D https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html

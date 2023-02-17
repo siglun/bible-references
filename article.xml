@@ -160,8 +160,9 @@ lw(10c) lw(2c) .
         level="m">Unix™ for Poets</title>.</ref> The <ref
         target="#rlanguage">cluster analyses was made using the
         language R,</ref> see <ref target="#similarity">Altuna Akalin (2020)</ref>
-        <title>Computational Genomics with R.</title>
-        The sources of my scripts and extracted data used is available on Github 
+        <title>Computational Genomics with R.</title></p>
+
+        <p>The sources of my scripts and the extracted data used are available on Github 
         <ref target="#sources-for-this-note">(Lundberg, 2022)</ref></p>
         
       </div>
@@ -197,9 +198,9 @@ lw(10c) lw(2c) .
 
          <figure xml:id="figure0">
           <graphic url="https://github.com/siglun/bible-references/raw/main/words_per_year.png"/>
-          <head>Figure 0. The number of words published per year,
-          for in verse references (solid curve)
-          and references occurring i prose (dashed curve).
+          <head>Figure 1. The number of words published per year,
+          for verse (solid curve)
+          and in prose (dashed curve).
         </head>
         </figure>
 
@@ -207,12 +208,15 @@ lw(10c) lw(2c) .
       <div>
         <head>Analyses</head>
 
-        <p>Grundtvig was an active and prolific author over a period of close to 70 years <ref  target="#figure0">(Figure 0)</ref>.
+        <p>Grundtvig was an active and prolific author over a period of close to 70 years <ref  target="#figure0">(Figure 1)</ref>.
         When his productivity peaked,
-        it often did so for both verse and prose in parallel. Sometimes the two genres peaked consecutive years.
+        it often did so for both verse and prose in parallel.
+        Sometimes the two genres peaked consecutive years.
         Modern readers usually think of him as a poet or author of psalms,
         but he did write significantly more prose of all kinds.
-        Even years when his production of verse is high, there always appear some prose as well.</p>
+        Even years when his production of verse is high,
+        there always appear some prose as well;
+        usually more than verse.</p>
         
         <p>The philologists at the Grundtvig centre has identified
         11499 bible references in the GV.
@@ -223,7 +227,7 @@ lw(10c) lw(2c) .
       
         <figure xml:id="figure1">
           <graphic url="https://github.com/siglun/bible-references/raw/main/distribution.png"/>
-          <head>Figure 1. The distributions showing the frequency for different numbers of references,
+          <head>Figure 2. The distributions showing the frequency for different numbers of references,
           for in verse references (solid curve, bullets)
           and references occurring i prose (dashed curve, open triangels).
           Note the logarithmic scale on the y-axis.
@@ -234,7 +238,8 @@ lw(10c) lw(2c) .
         The distribution is such that there are 1477 locations that are referenced once,
         670 twice and
         468 locations used 3 to 9 times.
-        At the other end, one location <hi  rend='monospaced'><ref target="#genesis_1_27">Genesis 1:27</ref></hi>  &#xa0; is referenced 52 times.
+        At the other end of the distribution,
+        one location <hi  rend='monospaced'><ref target="#genesis_1_27">Genesis 1:27</ref></hi>  &#xa0; is referenced 52 times.
         Of the 2663 locations used in prose,
         only a small fraction, 48 locations, are referenced 10 and more times.
         Note that the reference which occurs in the largest number of texts and the one occurring the largest number times differ.
@@ -247,7 +252,7 @@ lw(10c) lw(2c) .
         and 21 are used 10 or more times.
         His absolute favourite for verse is <hi  rend='monospaced'><ref target="#genesis2_7">Genesis 2:7.</ref></hi></p>
 
-        <p>The distributions of bible references for verse and prose can be seen in <ref target="#figure1">Figure 1.</ref>
+        <p>The distributions of bible references for verse and prose can be seen in <ref target="#figure1">Figure 2.</ref>
         It visualizes the observations mentioned. For references occurring in verse,
         the distribution starts lower and actually increases towards a peak,
         whereas for prose it decreases initially.
@@ -262,26 +267,28 @@ lw(10c) lw(2c) .
         Obviously, we cannot know,
         but somehow the two could fill the same role in his writing of prose and verse, respectively.
         It could be that he basically find that the Jahwist narrative more poetic.</p>
-        
      
         <figure xml:id="figure2">
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_genesis_1_27.png"/>
-          <head>Figure 2. Grundtvig's use of Genesis 1:27 in verse (solid curve) and prose (dashed curve)</head>
+          <head>Figure 3. Grundtvig's use of Genesis 1:27 in verse (solid curve) and prose (dashed curve)</head>
         </figure>
         
         <figure xml:id="figure3">
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_genesis_2_7.png"/>
-          <head>Figure 3. Grundtvig's use of Genesis 2:7 in verse (solid curve) and prose (dashed curve)</head>
+          <head>Figure 4. Grundtvig's use of Genesis 2:7 in verse (solid curve) and prose (dashed curve)</head>
         </figure>
 
         <p>I have used the counts of some of the most frequently used individual bible references to compare all the years of Grundtvig's professional life.
         To continue with his references to Genesis, he not only refers to Genesis 1:27 mostly in prose,
-        he does no fairly early and late in in his career <ref target="#figure2">(Figure 2),</ref>
-        whereas he refers to Genesis 2:7 more in poetry but he does so between 1830&#8211;1840 in the midst of his career.</p>
+        he does no fairly early and late in in his career <ref target="#figure2">(Figure 3),</ref>
+        whereas he refers to Genesis 2:7 more in poetry but he does so between 1830&#8211;1840 in the midst of his career.
+        That is,
+        Grundtvig not only uses some references differently in verse and prose,
+        he changes his preferences over time.</p>
 
         <p>There are ongoing discussions on what dates that are most significant in Grundtvig's career.
         <hi rend='italic'><quote>Within the ever-growing bulk of Grundtvig studies,
-        the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention.</quote></hi>,
+        the years 1810, 1825, 1832, 1835, 1838, 1839, and 1848 are competing for scholarly attention</quote></hi>,
         writes <ref target="#entropicdecay">Nielbo et al. (2019)</ref>.
         On the other hand, other authors points to entirely different dates. For instance, in a detailed schedule of events in his life,
         <ref target="#crisis1810">Engebretsen (2008)</ref> points out the years 1810, 1844, 1853, 1867 as life crises.
@@ -289,47 +296,49 @@ lw(10c) lw(2c) .
 
         <p>I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig,
         other than the publication dates of his writings.
-        For instance, <title>Sang-Værk til den Danske Kirke</title>,
-        with psalms and song appeared during that period,
-        and so did are collections of psalms, songs and poetry
-        <ref target="#grundtvig-kronologi">(Center for Grundtvigforskning, 2010-).</ref></p>
+        For instance, volume 2 of his <title>Sang-Værk til den Danske Kirke</title>,
+        with psalms and songs appeared 1839,
+        and so did other works of verse
+        <ref target="#grundtvig-kronologi">(Center for Grundtvigforskning, 2010-).</ref>
+        On the whole, the late 1830s and early 1840s was a very productive period of his life <ref  target="#figure0">(Figure 1)</ref>.</p>
 
         <p><ref target="#john6_63">John 6:63, Table 1</ref> does not reach the top 6 list for prose, only for verse.
-        Numerically, this passage is roughly the same for both genres <ref target="#figure4">(Figure 4)</ref>,
-        but that is mainly due to the fact that Grundtvig actually writes much more prose than verse.
-        It seems that <ref target="#matthew16_18">Matthew 16:18, Table 1</ref> is important for Grundtvig,
-        it reaches top 6 list for both verse and prose <ref target="#matthew_16_18">(Matthew 16:18, Table 2)</ref>.
+        Numerically, this passage is roughly the same for both genres <ref target="#figure4">(Figure 5)</ref>,
+        but that is mainly due to the fact that Grundtvig wrote much more prose than verse.
+        It seems that <ref target="#matthew16_18">Matthew 16:18, Table 1</ref> is very important for Grundtvig,
+        since it reaches top 6 list for both verse and prose <ref target="#matthew_16_18">(Matthew 16:18, Table 2)</ref>.
         Again you see how it appears in prose early and late in his career, and in verse during 1830-1840.
         This one is about the church.
-        He is returning to this one over and over again, in (I believe) his role as pastor in the Church of Denmark.</p>
+        He is returning to this one over and over again,
+        in (I believe) his role as a pastor in the Church of Denmark.</p>
         
         <figure xml:id="figure4">
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_john_6_23.png"/>
-          <head>Figure 4. Grundtvig's use of John 6:63.</head>
+          <head>Figure 5. Grundtvig's use of John 6:63.</head>
         </figure>
 
         <figure xml:id="figure5">
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_matt_16_18.png"/>
-          <head>Figure 5. Grundtvig's use of Matthew 16:18.</head>
+          <head>Figure 6. Grundtvig's use of Matthew 16:18.</head>
         </figure>
 
         <p>I could have omitted <ref target="#proverbs4_23">Proverbs 4:23</ref>.
-        It appears on the top list for verse <ref target="#figure6">(Figure 6)</ref>
-        and does so only because Grundtvig refers to it in one song with 18 verses  <ref target="#the-sun-is-hot">(Grundtvig, 1839).</ref>
-        The references is in the chorus.
-        I could have omitted that one,
-        but it is good to include it to remind us of the fact that at this level of the study we have very small sample sizes.
-        The <ref target="#psalm23_4">Psalm 23:4</ref> is on the top list for verse only and Grundtvig quotes it on many occasions <ref target="#figure7">(Figure 7),</ref>
-        but much more in verse than prose.</p>
+        It appears on the top list for verse <ref target="#figure6">(Figure 7)</ref>
+        and does so only because Grundtvig refers to it in one song with 18 verses  <ref target="#the-sun-is-hot">(Grundtvig, 1839),</ref>
+        with the references in each of the 18 choruses.
+        This is good as a reminder of the fact that at this level of the study we have very small sample sizes.</p>
+        <p>The <ref target="#psalm23_4">Psalm 23:4</ref> is on the top list for verse only and Grundtvig quotes it on many occasions <ref target="#figure7">(Figure 8),</ref>
+        but much more in verse than in prose.
+        I cannot think of any piece that could better comfort a distressed pastor and poet it would be <ref target="#psalm23_4">Psalm 23.</ref></p>
         
         <figure xml:id="figure6">
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_proverbs_4_23.png"/>
-          <head>Figure 6. Grundtvig's use of Proverbs 4:23.</head>
+          <head>Figure 7. Grundtvig's use of Proverbs 4:23.</head>
         </figure>
 
         <figure xml:id="figure7">
           <graphic url="https://github.com/siglun/bible-references/raw/main/refs_psalm_23_4.png"/>
-          <head>Figure 7. Grundtvig's use of Psalm 23:4.</head>
+          <head>Figure 8. Grundtvig's use of Psalm 23:4.</head>
         </figure>
 
       </div>
@@ -340,7 +349,7 @@ lw(10c) lw(2c) .
         <figure xml:id="figure8">
           <graphic n="(a)" url="https://github.com/siglun/bible-references/raw/main/cladogram-prose.png"/>
           <graphic n="(b)" url="https://github.com/siglun/bible-references/raw/main/cladogram-poetry.png"/>
-          <head>Figure 8. Cladograms of a similarity matrix for years, calculated for prose (a) and verse (b).</head>
+          <head>Figure 9. Cladograms of a similarity matrix for years, calculated for prose (a) and verse (b).</head>
         </figure>
 
    
@@ -438,6 +447,7 @@ lw(10c) lw(2c) .
 
           <bibl xml:id="similarity">
             <author>Akalin, Altuna</author>
+            <date>[date unknown]</date>
             <title level="m">Computational Genomics with R</title>
             <ref
                 target="https://compgenomr.github.io/book/clustering-grouping-samples-based-on-their-similarity.html"/>
