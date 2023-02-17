@@ -17,6 +17,8 @@ Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential pe
 .SH
 Introduction
 .LP
+  
+.pdfhref M -N para1
 Nikolaj Frederik Severin Grundtvig's use of bible references in his writings varied a lot over time. I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
 .pdfhref L -D grundtvig-texter Grundtvigs Værker,
 \&a part of the Royal Danish Library's Text Collections. It turned out that Grundtvig referred to \f(CR\s-11 Corinthians 13:12\s+1\fP \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP\**
@@ -29,6 +31,8 @@ in more works than any other bible reference, but he did so mostly before 1820. 
 .FE
 That is, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fPwhich occurred mostly from 1855 to 1859.
 .LP
+  
+.pdfhref M -N para2
 A bible reference is typically a string such as \f(CR\s-11 Corinthians 13:13\s+1\fP. There is an ambiguity in the usage, since it denotes both the reference in the source and the text in the scripture, the target, where it refers to \fI \(lqAnd now these three remain: faith, hope and love. But the greatest of these is love.\(rq\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-13.htm https://biblehub.com/1_corinthians/13-13.htm
@@ -314,7 +318,11 @@ I find it premature to try to correlate my findings to important events in the l
 .pdfhref L -D grundtvig-kronologi (Center for Grundtvigforskning, 2010-).
 \&On the whole, the late 1830s and early 1840s was a very productive period of his life
 .pdfhref L -D figure0 (Figure 1)
-\&.
+\&. It was after that the censuring of Grundtvig 1826–1839 was finally lifted. This happened as a court order following the publication of \fIKirkens Gienmæle\fP
+.pdfhref L -D kirkens-gienmaele (Grundtvig 1825).
+\&See also
+.pdfhref L -D thodberg2009 (Thodberg, 2009).
+\&Obviously Grundtvig had quite a few completed manuscripts waiting ready for the press.
 .LP
 .pdfhref L -D john6_63 John 6:63, Table 1
 \&does not reach the top 6 list for prose, only for verse. Numerically, this passage is roughly the same for both genres
@@ -380,6 +388,39 @@ The
 .QP
 .vs -2
 \s-2Figure 8. Grundtvig's use of Psalm 23:4.\s+2
+.vs
+.sp
+.KE
+.sp
+.LP
+In the \fIIntroduction\fPI described how I was inspired to this work by the development work I was involved in at the time. In particular how I stumbled upon Grundtvig's use of
+.pdfhref L -D para1 1 Corinthians 13:12
+\&and
+.pdfhref L -D para2 1 Corinthians 13:13,
+\&respectively. I feel obliged to present the graphs for them as well, see
+.pdfhref L -D figure9 Figure 10
+\&and
+.pdfhref L -D figure10 Figure 11.
+\&They are so very different from each other! The former is used in poetry, except for some heavy use 1810–1820. The latter is use intensively almost fifty years later in a text actually entitled \fIFaith, hope and love\fP  
+.pdfhref W -D https://github.com/siglun/danish-sonnets/blob/main/faith-hope-love (Grundtvig, 1858).
+.KF  
+.pdfhref M -N figure9
+.PDFPIC refs_1corinthians_13_12.pdf 12.0c 7.2c
+.sp
+.QP
+.vs -2
+\s-2Figure 10. Grundtvig's use of 1 Corinthians 13:12.\s+2
+.vs
+.sp
+.KE
+.sp
+.KF  
+.pdfhref M -N figure10
+.PDFPIC refs_1corinthians_13_13.pdf 12.0c 7.2c
+.sp
+.QP
+.vs -2
+\s-2Figure 11. Grundtvig's use of 1 Corinthians 13:13.\s+2
 .vs
 .sp
 .KE
@@ -466,10 +507,28 @@ Engebretsen, Else Bang,
 .pdfhref W -D http://urn.nb.no/URN:NBN:no-21152 http://urn.nb.no/URN:NBN:no-21152
 \fP\s+2
 .XP
+.pdfhref M -N kirkens-gienmaele
+Grundtvig, N. F. S.,
+1825. Kirkens Gienmæle mod Professor Theologiæ Dr. H. N. Clausen.  In:
+\fIGrundtvigs værker\fP Read February 17, 2023
+.br  
+\s-2\f(CR
+.pdfhref W -D https://tekster.kb.dk/text/gv-1825_413A-txt-root https://tekster.kb.dk/text/gv-1825_413A-txt-root
+\fP\s+2
+.XP
+.pdfhref M -N faith-hope-love
+Grundtvig, N. F. S.,
+1858. Tro og Haab og Kjærlighed.  In:
+\fIGrundtvigs værker\fP Read February 17, 2023
+.br  
+\s-2\f(CR
+.pdfhref W -D https://tekster.kb.dk/text/gv-1858_1227-txt-root https://tekster.kb.dk/text/gv-1858_1227-txt-root
+\fP\s+2
+.XP
 .pdfhref M -N the-sun-is-hot
 Grundtvig, N.F.S.,
 1839. No. 22. Solen er heed.  In:
-\fISang-Værk til den Danske Kirke\fP 
+\fISang-Værk til den Danske Kirke (II)\fP 
 .br  
 \s-2\f(CR
 .pdfhref W -D https://tekster.kb.dk/text/gv-1839_621-txt-root#idm5659 https://tekster.kb.dk/text/gv-1839_621-txt-root#idm5659
@@ -498,6 +557,15 @@ The TEI Consortium,
 .br  
 \s-2\f(CR
 .pdfhref W -D https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html
+\fP\s+2
+.XP
+.pdfhref M -N thodberg2009
+Thodberg, Christian,
+2009. N.F.S. Grundtvig.  In:
+\fIDen Store Danske\fP Read February 17, 2023.
+.br  
+\s-2\f(CR
+.pdfhref W -D https://denstoredanske.lex.dk/N.F.S._Grundtvig https://denstoredanske.lex.dk/N.F.S._Grundtvig
 \fP\s+2
 .XP
 .pdfhref M -N crisis1844

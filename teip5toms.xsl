@@ -73,6 +73,9 @@ Notes
 </xsl:template>
 
 <xsl:template match="t:div">
+<xsl:if test="@xml:id">  
+.pdfhref M -N <xsl:value-of select="@xml:id"/><xsl:text>
+</xsl:text></xsl:if>  
 <xsl:apply-templates/>
 </xsl:template>
 
@@ -126,7 +129,10 @@ Notes
 
 <xsl:template match="t:lg">
 .IP<xsl:text>
-</xsl:text><xsl:apply-templates/>  
+</xsl:text><xsl:if test="@xml:id">  
+.pdfhref M -N <xsl:value-of select="@xml:id"/>
+</xsl:if>
+<xsl:apply-templates/>  
 </xsl:template>
 
 <xsl:template match="t:l">
@@ -140,7 +146,10 @@ Notes
 
 
 <xsl:template match="t:p">
-.LP
+.LP<xsl:text>
+</xsl:text><xsl:if test="@xml:id">  
+.pdfhref M -N <xsl:value-of select="@xml:id"/><xsl:text>
+</xsl:text></xsl:if>  
 <xsl:apply-templates/>
 </xsl:template>
 
