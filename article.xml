@@ -60,7 +60,7 @@ lw(10c) lw(2c) .
         There is an ambiguity in the usage, since it denotes both the reference in the source and the text in the scripture, the target,
         where it refers to <hi rend='italic'><quote>And now these three remain: faith, hope and love. But the greatest of these is love.</quote></hi><note><ref target="https://biblehub.com/1_corinthians/13-13.htm"/> <!-- (English)<lb/>
         <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish) --></note>
-        I will try to use  <hi rend='italic'>bible reference</hi>  &#xa0; when discussing the source it, whereas use  <hi rend='italic'>bible location</hi>  &#xa0; when referring to the target; the scripture.</p>
+        I will try to use  <hi rend='italic'>bible reference</hi>  &#xa0; when discussing the source and  use  <hi rend='italic'>bible location</hi>  &#xa0; when referring to the target; i.e., the scripture.</p>
 
         <p>The complexity of bible references and locations is that they are semantic units,
         hypertext links and inter-textual objects, all at the same time.
