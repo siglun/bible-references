@@ -474,7 +474,7 @@ The cluster analyses chooses 1826 as the focal year for prose, and 1839 as the o
 .pdfhref L -D entropicdecay Nielbo et al. (2019)
 \&also mention these two years, and in addition they and characterises the dynamics of Grundtvig's language in that period as having \(lqShort memory.\(rqThis means that Grundtvig's vocabulary diversity is temporally uncorrelated between years.
 .LP
-It seems to me that my cluster analysis is related to the time series analys in as much as we compare points in time with each other. My similarity matrices do, however, ignore the \fIseries\fP  and concentrate upon the \fIpoints in time.\fPIt regards the years as individual objects. 1839 is most similar 1832 which is a bit like 1814. If the texts we compare are written in verse, that is. However, if the text is prose it is different; then 1839 is more like 1836 and bears hardly any similarities with 1832. I believe that the differences are due to what Grundtvig is actually writing; both his vocabulary and the set of bible locations he refers to depend on that.
+It seems to me that my cluster analysis is related to the time series analys in as much as we compare points in time with each other. My similarity matrices do, however, ignore the \fIseries\fP  and concentrate upon the \fIpoints in time.\fPIt regards the years as individual objects. 1839 is most similar to 1832 which is a bit like 1814. If the texts we compare are written in verse, that is. However, if the text is prose it is different; then 1839 is more like 1836 and bears hardly any similarities with 1832. I believe that the differences are due to what Grundtvig is actually writing; both his vocabulary and the set of bible locations he refers to depend on that.
 .KF  
 .pdfhref M -N figure8
 .in 2c

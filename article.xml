@@ -433,7 +433,7 @@ lw(10c) lw(2c) .
       <p>It seems to me that my cluster analysis is related to the time series analys in as much as we compare points in time with each other. 
       My similarity matrices do, however, ignore the <hi rend="italic">series</hi> &#xa0; and concentrate upon the <hi rend="italic">points in time.</hi>
       It regards the years as individual objects.
-      1839 is most similar 1832 which is a bit like 1814.
+      1839 is most similar to 1832 which is a bit like 1814.
       If the texts we compare are written in verse,
       that is.
       However, if the text is prose it is different;
