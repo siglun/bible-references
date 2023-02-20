@@ -452,7 +452,7 @@ As a matter of fact, I started that, but it turned out that Grundtvig did not qu
 .FE
 Grundtvig was always much more sofisticated than that.
 .LP
-Also I could have studied similarities between known significant works (rather than years), based on the. In retrospect I think that would have been much more fruitful, and that is what I will do if I ever return to these problems.
+Also I could have studied similarities between known significant works (rather than years). In retrospect I think that would have been much more fruitful, and that is what I will do if I ever return to these problems.
 .LP
 As a matter of fact I began this work from a 10,000 foot perspective, investigating how his total usage of bible references varied over time. That is trivial. Given a certain density of references (eg., measured as the number of quotations per word, or whatever) the resulting yearly fluctuations are proportional to the fluctuation of the total text production.
 .LP
@@ -472,9 +472,9 @@ This sounds much more complicated than it is; for prose the algorithm selects \f
 .LP
 The cluster analyses chooses 1826 as the focal year for prose, and 1839 as the one for verse. There is a pattern in this, which I feel could be significant.
 .pdfhref L -D entropicdecay Nielbo et al. (2019)
-\&also mention these two years, and in addition they and characterises the dynamics of Grundtvig's language in that period as having \(lqShort memory.\(rqI suppose this this means that Grundtvig's vocabulary diversity is temporally uncorrelated between those two years.
+\&also mention these two years, and in addition they and characterises the dynamics of Grundtvig's language in that period as having \(lqShort memory.\(rqThis means that Grundtvig's vocabulary diversity is temporally uncorrelated between years.
 .LP
-It seems to me that my cluster analysis is related to this time series analys in as much as we compare points in time with each other. My simplistic similarity matrix does, however, ignore the series and concentrate upon time. It regards the years as individual objects. In my world 1839 is most similar 1832 which is a bit like 1814. If the texts we compare are written in verse. If the text is prose it is different. Then 1839 is most like 1836 and bears little similarities with 1832.
+It seems to me that my cluster analysis is related to the time series analys in as much as we compare points in time with each other. My similarity matrices do, however, ignore the \fIseries\fPand concentrate upon the \fIpoints in time.\fPIt regards the years as individual objects. 1839 is most similar 1832 which is a bit like 1814. If the texts we compare are written in verse, that is. However, if the text is prose it is different; then 1839 is more like 1836 and bears hardly any similarities with 1832. I believe that the differences are due to what Grundtvig is actually writing; both his vocabulary and the set of bible locations he refers to depend on that.
 .KF  
 .pdfhref M -N figure8
 .in 2c
