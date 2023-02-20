@@ -459,14 +459,14 @@ As a matter of fact I began this work from a 10,000 foot perspective, investigat
 Instead I looked at the number of each of the 2663 bible locations he used each year, as a property of that year. That means that each year became a point in a 2663-dimensional space, and from that I could calculate the distance between all of the years in that space. From those points in that space, I could compute similarity matrices
 .pdfhref L -D matrices (Nguyen, 2014).
 \&Then, finally, I could make a cluster analysis and plot cladograms visualizing the distances between all these years in Grundtvig's career. I did so first for the whole corpus, but decided to do it separately for prose and verse. See
-.pdfhref L -D figure8 Figure 9a-b,
+.pdfhref L -D figure8 Figure 9a and b,
 \&respectively.
 .LP
 This sounds much more complicated than it is; for prose the algorithm selects \fB1826\fP  as a start year, and find that the year which is most like it in terms of bible references is 1817, which in turn is very much like 1858 and 1840. It should not surprise you that this procedure is often used in biological taxonomy for inferring relations between species. For verse, the algorithm starts at \fB1839\fP  and go from there to 1832, 1814, 1817 etc.
 .LP
 1826–1837 are the years Grundtvig was censured by a court order (see
 .pdfhref L -D censuring above
-\&and 1839 when he became pastor at Vartov. That job was apparently not very demanding
+\&) and 1839 when he became pastor at Vartov. That job was apparently not very demanding
 .pdfhref L -D petersen (Petersen, 2009).
 \&1837-1839 were the years when he finally could print his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared. 1839 he printed volume 2. From 1839 onwards he had a stable income.
 .LP
