@@ -516,7 +516,9 @@ p.version {
         and so did other works of verse
         <a href="#grundtvig-kronologi">(Center for Grundtvigforskning, 2010-).</a>
         On the whole, the late 1830s and early 1840s was a very productive period of his life <a href="#figure0">(Figure 1).</a>
-        It was after that the censuring of Grundtvig 1826–1839 was finally lifted. This happened as a court order following the publication of <em>Kirkens Gienmæle</em>
+        It was after that the censuring of Grundtvig 1826–1837 was finally lifted.
+        He then became pastor at the Vartov hospital in Copenhagen <a href="#thodberg2009">(Thodberg, 2009).</a>
+        This happened through a court order following the publication of <em>Kirkens Gienmæle</em>
          <a href="#kirkens-gienmaele">(Grundtvig 1825).</a>
         See also <a href="#thodberg2009">(Thodberg, 2009).</a>
         Obviously Grundtvig had quite a few completed manuscripts waiting ready for the press.</p>
@@ -572,9 +574,11 @@ p.version {
         They are so very different from each other!
         The former is used in poetry, except for some heavy use 1810–1820.
         The latter is use intensively almost fifty years later
-        in a text actually entitled <em>Faith, hope and love</em>
+        in a text actually entitled
+        <em>Faith, hope and love</em>
          <a href="#faith-hope-love">(Grundtvig, 1858).</a>
-      </p>
+        Hence, this is a similar situation as the one we found in <a href="#figure6">Proverbs 4:23,</a>
+        i.e., a single document where Grundtvig is linking so abundantly to single target that it affects overall trends for that target.</p>
       <div id="figure9">
          <img src="https://github.com/siglun/bible-references/raw/main/refs_1corinthians_13_12.png"/>
          <p>
@@ -596,13 +600,47 @@ p.version {
         <sup>
             <a href="#note5">5</a>
          </sup>
+      Grundtvig was always much more sofisticated than that.</p>
+      <p>Also I could have studied similarities between known significant works (rather than years),
+      based on the.
+      In retrospect I think that would have been much more fruitful,
+      and that is what I will do if I ever return to these problems.</p>
+      <p>As a matter of fact I began this work from a 10,000 foot perspective,
+      investigating how his total usage of bible references varied over time.
+      That is trivial.
+      Given a certain density of references (eg., measured as the number of quotations per word, or whatever) the resulting yearly fluctuations are proportional to the fluctuation of the total text production.</p>
+      <p>Instead I looked at the number of each of the 2663 bible locations he used each year,
+      as a property of that year.
+      That means that each year became a point in a 2663-dimensional space,
+      and from that I could calculate the distance between all of the years in that space.
+      From those points in that space,
+      I could compute similarity matrices <a href="#matrices">(Nguyen, 2014).</a>
+      Then, finally, I could make a cluster analysis and plot cladograms visualizing the distances between all these years in Grundtvig's career.
+      I did so first for the whole corpus,
+      but decided to do it separately for prose and verse.
+      See <a href="#figure8">Figure 9a-b,</a> respectively.</p>
+      <p>This sounds much more complicated than it is;
+      for prose the algorithm selects <strong>1826</strong>     as a start year,
+      and find that the year which is most like it in terms of bible references is 1817,
+      which in turn is very much like 1858 and 1840.
+      It should not surprise you that this procedure is often used in biological taxonomy for inferring relations between species.
+      For verse,
+      the algorithm starts at <strong>1839</strong>   and
+      go from there to 1832, 1814, 1817 etc.</p>
+      <p>1826–1837 are the years Grundtvig was censured by a court order (see <a href="#censuring">above</a> and 1839 when he became pastor at Vartov.
+      That job was apparently not very demanding <a href="#petersen">(Petersen, 2009).</a>
+      1837-1839 were the years when he finally could print his <em>Sang-Værk til den Danske Kirke</em>,
+      with psalms and songs appeared.
+      1839 he printed volume 2.</p>
+      <p>The cluster analyses chooses 1826 as the focal year for prose, and 1839 as the one for verse.
+      There is a pattern in this, which I feel could be significant.
       </p>
       <div id="figure8">
          <img src="https://github.com/siglun/bible-references/raw/main/cladogram-prose.png"/>
          <img src="https://github.com/siglun/bible-references/raw/main/cladogram-poetry.png"/>
          <p>
             <small>Figure 9. Cladograms of a similarity matrix for years,
-          calculated for prose (a) and verse (b).</small>
+        calculated for prose (a) and verse (b).</small>
          </p>
       </div>
       <h2>References</h2>
@@ -674,6 +712,13 @@ p.version {
          <br/>
          <a href="https://github.com/siglun/bible-references">https://github.com/siglun/bible-references</a>
       </p>
+      <p id="matrices">
+         <span class="biblAuthor">Nguyen, Eric</span>,
+      2014.
+      Chapter 4 - Text Mining and Network Analysis of Digital Libraries in R. In: <em>Data Mining Applications with R</em>. 
+	  pp. 38-67.
+	<a href="https://doi.org/10.1016/B978-0-12-411511-8.00004-9">https://doi.org/10.1016/B978-0-12-411511-8.00004-9</a>
+      </p>
       <p id="entropicdecay">
          <span class="biblAuthor">Nielbo, Kristoffer L.</span>, <span class="biblAuthor">Katrine F. Baunvig</span>, <span class="biblAuthor">Bin Liu</span>,  and <span class="biblAuthor">Jianbo Gao</span>,
       2019.
@@ -682,6 +727,11 @@ p.version {
 	  , 
 	  pp. 542-557.
 	<a href="https://doi.org/10.1093/llc/fqy054">https://doi.org/10.1093/llc/fqy054</a>
+      </p>
+      <p id="petersen">
+         <span class="biblAuthor">Petersen, Irene</span>,
+      2009.
+      <em>Grundtvig blev dømt for at svine professor til</em>. <a href="https://videnskab.dk/kultur-samfund/grundtvig-blev-domt-svine-professor-til">https://videnskab.dk/kultur-samfund/grundtvig-blev-domt-svine-professor-til</a>
       </p>
       <p id="teiguidelines">
          <span class="biblAuthor">The TEI Consortium</span>,

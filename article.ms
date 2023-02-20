@@ -314,11 +314,15 @@ There are ongoing discussions on what dates that are most significant in Grundtv
 .pdfhref L -D crisis1844 Thodberg (2005)
 \&writes about the crisis 1844.
 .LP
+  
+.pdfhref M -N censuring
 I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig, other than the publication dates of his writings. For instance, volume 2 of his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared 1839, and so did other works of verse
 .pdfhref L -D grundtvig-kronologi (Center for Grundtvigforskning, 2010-).
 \&On the whole, the late 1830s and early 1840s was a very productive period of his life
 .pdfhref L -D figure0 (Figure 1).
-\&It was after that the censuring of Grundtvig 1826–1839 was finally lifted. This happened as a court order following the publication of \fIKirkens Gienmæle\fP
+\&It was after that the censuring of Grundtvig 1826–1837 was finally lifted. He then became pastor at the Vartov hospital in Copenhagen
+.pdfhref L -D thodberg2009 (Thodberg, 2009).
+\&This happened through a court order following the publication of \fIKirkens Gienmæle\fP
 .pdfhref L -D kirkens-gienmaele (Grundtvig 1825).
 \&See also
 .pdfhref L -D thodberg2009 (Thodberg, 2009).
@@ -403,7 +407,9 @@ In the \fIIntroduction\fP  I described how I was inspired to this paper through
 .pdfhref L -D figure10 Figure 11.
 \&They are so very different from each other! The former is used in poetry, except for some heavy use 1810–1820. The latter is use intensively almost fifty years later in a text actually entitled \fIFaith, hope and love\fP
 .pdfhref L -D faith-hope-love (Grundtvig, 1858).
-\&
+\&Hence, this is a similar situation as the one we found in
+.pdfhref L -D figure6 Proverbs 4:23,
+\&i.e., a single document where Grundtvig is linking so abundantly to single target that it affects overall trends for that target.
 .KF  
 .pdfhref M -N figure9
 .PDFPIC refs_1corinthians_13_12.pdf 12.0c 7.2c
@@ -437,6 +443,27 @@ and studied that in the light of his three marriages.\**
 .FS
 As a matter of fact, I started that, but it turned out that Grundtvig did not quote that passage.
 .FE
+Grundtvig was always much more sofisticated than that.
+.LP
+Also I could have studied similarities between known significant works (rather than years), based on the. In retrospect I think that would have been much more fruitful, and that is what I will do if I ever return to these problems.
+.LP
+As a matter of fact I began this work from a 10,000 foot perspective, investigating how his total usage of bible references varied over time. That is trivial. Given a certain density of references (eg., measured as the number of quotations per word, or whatever) the resulting yearly fluctuations are proportional to the fluctuation of the total text production.
+.LP
+Instead I looked at the number of each of the 2663 bible locations he used each year, as a property of that year. That means that each year became a point in a 2663-dimensional space, and from that I could calculate the distance between all of the years in that space. From those points in that space, I could compute similarity matrices
+.pdfhref L -D matrices (Nguyen, 2014).
+\&Then, finally, I could make a cluster analysis and plot cladograms visualizing the distances between all these years in Grundtvig's career. I did so first for the whole corpus, but decided to do it separately for prose and verse. See
+.pdfhref L -D figure8 Figure 9a-b,
+\&respectively.
+.LP
+This sounds much more complicated than it is; for prose the algorithm selects \fB1826\fP  as a start year, and find that the year which is most like it in terms of bible references is 1817, which in turn is very much like 1858 and 1840. It should not surprise you that this procedure is often used in biological taxonomy for inferring relations between species. For verse, the algorithm starts at \fB1839\fP  and go from there to 1832, 1814, 1817 etc.
+.LP
+1826–1837 are the years Grundtvig was censured by a court order (see
+.pdfhref L -D censuring above
+\&and 1839 when he became pastor at Vartov. That job was apparently not very demanding
+.pdfhref L -D petersen (Petersen, 2009).
+\&1837-1839 were the years when he finally could print his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared. 1839 he printed volume 2.
+.LP
+The cluster analyses chooses 1826 as the focal year for prose, and 1839 as the one for verse. There is a pattern in this, which I feel could be significant.
 .KF  
 .pdfhref M -N figure8
 .in 2c
@@ -551,6 +578,15 @@ Lundberg, Sigfrid,
 .pdfhref W -D https://github.com/siglun/bible-references https://github.com/siglun/bible-references
 \fP\s+2
 .XP
+.pdfhref M -N matrices
+Nguyen, Eric,
+2014. Chapter 4 - Text Mining and Network Analysis of Digital Libraries in R.  In:
+\fIData Mining Applications with R\fP pp. 38-67. 
+.br  
+\s-2\f(CR
+.pdfhref W -D https://doi.org/10.1016/B978-0-12-411511-8.00004-9 https://doi.org/10.1016/B978-0-12-411511-8.00004-9
+\fP\s+2
+.XP
 .pdfhref M -N entropicdecay
 Nielbo, Kristoffer L., Katrine F. Baunvig, Bin Liu,  and Jianbo Gao,
 2019. A curious case of entropic decay: Persistent complexity in textual cultural heritage.  In:
@@ -558,6 +594,14 @@ Nielbo, Kristoffer L., Katrine F. Baunvig, Bin Liu,  and Jianbo Gao,
 .br  
 \s-2\f(CR
 .pdfhref W -D https://doi.org/10.1093/llc/fqy054 https://doi.org/10.1093/llc/fqy054
+\fP\s+2
+.XP
+.pdfhref M -N petersen
+Petersen, Irene,
+2009. \fIGrundtvig blev dømt for at svine professor til\fP 
+.br  
+\s-2\f(CR
+.pdfhref W -D https://videnskab.dk/kultur-samfund/grundtvig-blev-domt-svine-professor-til https://videnskab.dk/kultur-samfund/grundtvig-blev-domt-svine-professor-til
 \fP\s+2
 .XP
 .pdfhref M -N teiguidelines
