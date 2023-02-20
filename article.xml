@@ -35,7 +35,11 @@ lw(10c) lw(2c) .
       <docAuthor>
         <name>Sigfrid Lundberg</name>
         <address>
-          <addrLine>https://sigfrid-lundberg.se</addrLine>
+          <addrLine>Digital Transformation</addrLine>
+          <addrLine>Royal Danish Library<note>This work was completed while the author still had not yet retired from his position at the Royal Danish Library.</note></addrLine>
+          <addrLine>Post box 2149</addrLine>
+          <addrLine>1016 Copenhagen K</addrLine>
+          <addrLine>Denmark</addrLine>
         </address>
       </docAuthor>
       <div type="abstract">
@@ -52,14 +56,13 @@ lw(10c) lw(2c) .
         <p xml:id="para1">Nikolaj Frederik Severin Grundtvig's use of bible references in his writings varied a lot over time.
         I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title>,</ref>
         a part of the Royal Danish Library's Text Collections.
-        It turned out that Grundtvig referred to <hi rend='monospaced'>1 Corinthians 13:12</hi> <hi rend="italic"><quote>For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.</quote></hi> <note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/> <!-- (English)<lb/>  <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish) --></note> in more works than any other bible reference,
+        It turned out that Grundtvig referred to <hi rend='monospaced'>1 Corinthians 13:12</hi> <hi rend="italic"><quote>For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known</quote></hi> <note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/></note> in more works than any other bible reference,
         but he did so mostly before 1820.
-        Intrigued by this observation I checked other references and found that he quoted <hi rend='monospaced'>Genesis 1:27</hi><note><ref target="https://biblehub.com/genesis/1-27.htm"/> <!-- (English)<lb/><ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Mos/1"/ --></note> That is, <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi> which occurred mostly from 1855 to 1859.</p>
+        Intrigued by this observation I checked other references and found that he quoted <hi rend='monospaced'>Genesis 1:27.</hi><note><ref target="https://biblehub.com/genesis/1-27.htm"/></note> That is, <hi rend="italic"><quote>So God created man in his own image, in the image of God he created him; male and female he created them</quote></hi>  &#xa0; which occurred mostly from 1855 to 1859.</p>
 
         <p xml:id="para2">A bible reference is typically a string such as <hi rend='monospaced'>1 Corinthians 13:13</hi>.
         There is an ambiguity in the usage, since it denotes both the reference in the source and the text in the scripture, the target,
-        where it refers to <hi rend='italic'><quote>And now these three remain: faith, hope and love. But the greatest of these is love.</quote></hi><note><ref target="https://biblehub.com/1_corinthians/13-13.htm"/> <!-- (English)<lb/>
-        <ref target="https://www.bibelselskabet.dk/brugbibelen/bibelenonline/1_Kor/13"/> (Danish) --></note>
+        where it refers to <hi rend='italic'><quote>And now these three remain: faith, hope and love. But the greatest of these is love.</quote></hi><note><ref target="https://biblehub.com/1_corinthians/13-13.htm"/></note>
         I will try to use  <hi rend='italic'>bible reference</hi>  &#xa0; when discussing the source and  use  <hi rend='italic'>bible location</hi>  &#xa0; when referring to the target; i.e., the scripture.</p>
 
         <p>The complexity of bible references and locations is that they are semantic units,
@@ -214,6 +217,8 @@ lw(10c) lw(2c) .
         Sometimes the two genres peaked consecutive years.
         Modern readers usually think of him as a poet or author of psalms,
         but he did write significantly more prose of all kinds.
+        (Swedes in my generation, and I suppose Norwegians, sang some of his psalms in school
+        but not much else and hardly read any prose.)
         Even years when his production of verse is high,
         there always appear some prose as well;
         usually more than verse.</p>
@@ -222,7 +227,7 @@ lw(10c) lw(2c) .
         11499 bible references in the GV.
         They refer to 4637 locations,
         i.e., Grundtvig referred to each location 2.5 times on the average.
-        In reality there are large number of bible locations that just appear once in a reference,
+        In reality there are large numbers of bible locations that just appear once in a reference,
         whereas he had a number of favourites which is cited 60 to 70 times in the corpus.</p>
       
         <figure xml:id="figure1">
@@ -253,7 +258,8 @@ lw(10c) lw(2c) .
         His absolute favourite for verse is <hi  rend='monospaced'><ref target="#genesis2_7">Genesis 2:7.</ref></hi></p>
 
         <p>The distributions of bible references for verse and prose can be seen in <ref target="#figure1">Figure 2.</ref>
-        It visualizes the observations mentioned. For references occurring in verse,
+        It visualizes the observations mentioned.
+        For references occurring in verse,
         the distribution starts lower and actually increases towards a peak,
         whereas for prose it decreases initially.
         Grundtvig seem to have more or less different favourite bible locations in verse and prose.
@@ -280,7 +286,7 @@ lw(10c) lw(2c) .
 
         <p>I have used the counts of some of the most frequently used individual bible references to compare all the years of Grundtvig's professional life.
         To continue with his references to Genesis, he not only refers to Genesis 1:27 mostly in prose,
-        he does no fairly early and late in in his career <ref target="#figure2">(Figure 3),</ref>
+        he does so fairly early and late in in his career <ref target="#figure2">(Figure 3),</ref>
         whereas he refers to Genesis 2:7 more in poetry but he does so between 1830&#8211;1840 in the midst of his career.
         That is,
         Grundtvig not only uses some references differently in verse and prose,
@@ -294,9 +300,8 @@ lw(10c) lw(2c) .
         <ref target="#crisis1810">Engebretsen (2008)</ref> points out the years 1810, 1844, 1853, 1867 as life crises, and also mentions the poets bipolar disease.
         <ref target="#crisis1844">Thodberg (2005)</ref> writes about the crisis 1844.</p>
 
-        <p xml:id="censuring">I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig,
-        other than the publication dates of his writings.
-        For instance, volume 2 of his <title>Sang-Værk til den Danske Kirke</title>,
+        <p xml:id="censuring">I find it premature to try to correlate most of my findings to events in the life of N.F.S. Grundtvig.
+        However, volume 2 of his <title>Sang-Værk til den Danske Kirke</title>,
         with psalms and songs appeared 1839,
         and so did other works of verse
         <ref target="#grundtvig-kronologi">(Center for Grundtvigforskning, 2010-).</ref>
@@ -417,11 +422,25 @@ lw(10c) lw(2c) .
       That job was apparently not very demanding <ref target="#petersen">(Petersen, 2009).</ref>
       1837-1839 were the years when he finally could print his <title>Sang-Værk til den Danske Kirke</title>,
       with psalms and songs appeared.
-      1839 he printed volume 2.</p>
+      1839 he printed volume 2.
+      From 1839 onwards he had a stable income.</p>
 
       <p>The cluster analyses chooses 1826 as the focal year for prose, and 1839 as the one for verse.
       There is a pattern in this, which I feel could be significant.
-      </p>
+      <ref target="#entropicdecay">Nielbo et al. (2019)</ref> also mention these two years,
+      and in addition they and characterises the dynamics of Grundtvig's language in that period as having <quote>Short memory.</quote>
+      This means that Grundtvig's vocabulary diversity is temporally uncorrelated between years.</p>
+
+      <p>It seems to me that my cluster analysis is related to the time series analys in as much as we compare points in time with each other. 
+      My similarity matrices do, however, ignore the <hi rend="italic">series</hi> and concentrate upon the <hi rend="italic">points in time.</hi>
+      It regards the years as individual objects.
+      1839 is most similar 1832 which is a bit like 1814.
+      If the texts we compare are written in verse,
+      that is.
+      However, if the text is prose it is different;
+      then 1839 is more like 1836 and bears hardly any similarities with 1832.
+      I believe that the differences are due to what Grundtvig is actually writing;
+      both his vocabulary and the set of bible locations he refers to depend on that.</p>
 
       <figure xml:id="figure8">
         <graphic n="(a)" url="https://github.com/siglun/bible-references/raw/main/cladogram-prose.png"/>
@@ -603,6 +622,7 @@ lw(10c) lw(2c) .
           
           <bibl xml:id="crisis1844">
             <author>Thodberg, Christian</author>
+            <date>2005</date>
             <title level="a">Grundtvigs krise i foråret 1844. Forholdet mellem prædiken og salme med henblik på “Sov sødt, Barnlille”</title>
             <title level="j">Grundtvig-Studier</title>
             <biblScope type='volume'>56</biblScope>

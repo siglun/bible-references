@@ -5,7 +5,14 @@ Musings of a software developer
 .AU
 Sigfrid Lundberg
 .AI
-https://sigfrid-lundberg.se
+Digital Transformation
+Royal Danish Library\**
+.FS
+This work was completed while the author still had not yet retired from his position at the Royal Danish Library.
+.FE
+Post box 2149
+1016 Copenhagen K
+Denmark
 .AB
 .LP
 .vs -2
@@ -21,15 +28,15 @@ Introduction
 .pdfhref M -N para1
 Nikolaj Frederik Severin Grundtvig's use of bible references in his writings varied a lot over time. I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
 .pdfhref L -D grundtvig-texter Grundtvigs Værker,
-\&a part of the Royal Danish Library's Text Collections. It turned out that Grundtvig referred to \f(CR\s-11 Corinthians 13:12\s+1\fP \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known.\(rq\fP\**
+\&a part of the Royal Danish Library's Text Collections. It turned out that Grundtvig referred to \f(CR\s-11 Corinthians 13:12\s+1\fP \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known\(rq\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/1_corinthians/13-12.htm https://biblehub.com/1_corinthians/13-12.htm
 .FE
-in more works than any other bible reference, but he did so mostly before 1820. Intrigued by this observation I checked other references and found that he quoted \f(CR\s-1Genesis 1:27\s+1\fP\**
+in more works than any other bible reference, but he did so mostly before 1820. Intrigued by this observation I checked other references and found that he quoted \f(CR\s-1Genesis 1:27.\s+1\fP\**
 .FS
 .pdfhref W -D https://biblehub.com/genesis/1-27.htm https://biblehub.com/genesis/1-27.htm
 .FE
-That is, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fPwhich occurred mostly from 1855 to 1859.
+That is, \fI \(lqSo God created man in his own image, in the image of God he created him; male and female he created them\(rq\fP  which occurred mostly from 1855 to 1859.
 .LP
   
 .pdfhref M -N para2
@@ -241,9 +248,9 @@ Analyses
 .LP
 Grundtvig was an active and prolific author over a period of close to 70 years
 .pdfhref L -D figure0 (Figure 1)
-\&. When his productivity peaked, it often did so for both verse and prose in parallel. Sometimes the two genres peaked consecutive years. Modern readers usually think of him as a poet or author of psalms, but he did write significantly more prose of all kinds. Even years when his production of verse is high, there always appear some prose as well; usually more than verse.
+\&. When his productivity peaked, it often did so for both verse and prose in parallel. Sometimes the two genres peaked consecutive years. Modern readers usually think of him as a poet or author of psalms, but he did write significantly more prose of all kinds. (Swedes in my generation, and I suppose Norwegians, sang some of his psalms in school but not much else and hardly read any prose.) Even years when his production of verse is high, there always appear some prose as well; usually more than verse.
 .LP
-The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large number of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus.
+The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large numbers of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus.
 .KF  
 .pdfhref M -N figure1
 .PDFPIC distribution.pdf 12.0c 7.2c
@@ -302,7 +309,7 @@ It is interesting that it is two different locations in Genesis that holds the t
 .KE
 .sp
 .LP
-I have used the counts of some of the most frequently used individual bible references to compare all the years of Grundtvig's professional life. To continue with his references to Genesis, he not only refers to Genesis 1:27 mostly in prose, he does no fairly early and late in in his career
+I have used the counts of some of the most frequently used individual bible references to compare all the years of Grundtvig's professional life. To continue with his references to Genesis, he not only refers to Genesis 1:27 mostly in prose, he does so fairly early and late in in his career
 .pdfhref L -D figure2 (Figure 3),
 \&whereas he refers to Genesis 2:7 more in poetry but he does so between 1830–1840 in the midst of his career. That is, Grundtvig not only uses some references differently in verse and prose, he changes his preferences over time.
 .LP
@@ -316,7 +323,7 @@ There are ongoing discussions on what dates that are most significant in Grundtv
 .LP
   
 .pdfhref M -N censuring
-I find it premature to try to correlate my findings to important events in the life of N.F.S. Grundtvig, other than the publication dates of his writings. For instance, volume 2 of his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared 1839, and so did other works of verse
+I find it premature to try to correlate most of my findings to events in the life of N.F.S. Grundtvig. However, volume 2 of his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared 1839, and so did other works of verse
 .pdfhref L -D grundtvig-kronologi (Center for Grundtvigforskning, 2010-).
 \&On the whole, the late 1830s and early 1840s was a very productive period of his life
 .pdfhref L -D figure0 (Figure 1).
@@ -461,9 +468,13 @@ This sounds much more complicated than it is; for prose the algorithm selects \f
 .pdfhref L -D censuring above
 \&and 1839 when he became pastor at Vartov. That job was apparently not very demanding
 .pdfhref L -D petersen (Petersen, 2009).
-\&1837-1839 were the years when he finally could print his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared. 1839 he printed volume 2.
+\&1837-1839 were the years when he finally could print his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared. 1839 he printed volume 2. From 1839 onwards he had a stable income.
 .LP
 The cluster analyses chooses 1826 as the focal year for prose, and 1839 as the one for verse. There is a pattern in this, which I feel could be significant.
+.pdfhref L -D entropicdecay Nielbo et al. (2019)
+\&also mention these two years, and in addition they and characterises the dynamics of Grundtvig's language in that period as having \(lqShort memory.\(rqI suppose this this means that Grundtvig's vocabulary diversity is temporally uncorrelated between those two years.
+.LP
+It seems to me that my cluster analysis is related to this time series analys in as much as we compare points in time with each other. My simplistic similarity matrix does, however, ignore the series and concentrate upon time. It regards the years as individual objects. In my world 1839 is most similar 1832 which is a bit like 1814. If the texts we compare are written in verse. If the text is prose it is different. Then 1839 is most like 1836 and bears little similarities with 1832.
 .KF  
 .pdfhref M -N figure8
 .in 2c
@@ -622,7 +633,8 @@ Thodberg, Christian,
 \fP\s+2
 .XP
 .pdfhref M -N crisis1844
-Thodberg, ChristianGrundtvigs krise i foråret 1844. Forholdet mellem prædiken og salme med henblik på “Sov sødt, Barnlille”.  In:
+Thodberg, Christian,
+2005. Grundtvigs krise i foråret 1844. Forholdet mellem prædiken og salme med henblik på “Sov sødt, Barnlille”.  In:
 \fIGrundtvig-Studier\fP Vol. 56(1), pp. 38-67. 
 .br  
 \s-2\f(CR
