@@ -465,8 +465,8 @@ Instead I looked at the number of each of the 2663 bible locations he used each 
 This sounds much more complicated than it is; for prose the algorithm selects \fB1826\fP  as a start year, and find that the year which is most like it in terms of bible references is 1817, which in turn is very much like 1858 and 1840. It should not surprise you that this procedure is often used in biological taxonomy for inferring relations between species. For verse, the algorithm starts at \fB1839\fP  and go from there to 1832, 1814, 1817 etc.
 .LP
 1826–1837 are the years Grundtvig was censured by a court order (see
-.pdfhref L -D censuring above
-\&) and 1839 when he became pastor at Vartov. That job was apparently not very demanding
+.pdfhref L -D censuring above)
+\&and 1839 when he became pastor at Vartov. That job was apparently not very demanding
 .pdfhref L -D petersen (Petersen, 2009).
 \&1837-1839 were the years when he finally could print his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared. 1839 he printed volume 2. From 1839 onwards he had a stable income.
 .LP
