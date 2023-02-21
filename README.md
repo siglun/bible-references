@@ -22,8 +22,8 @@ whereas there are a number of favourates which is cited 50-60 in the
 corpus.
 
 What you find below is an outline of my analysis of of his bible
-references from a technical point of view. Eventually there will
-appear [a detailed paper](article.pdf) here. I hope.
+references from a technical point of view, with references to scripts and data.
+The paper is on [a detailed paper](article.pdf).
 
 ## Prerequisites
 
