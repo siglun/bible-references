@@ -23,7 +23,7 @@ corpus.
 
 What you find below is an outline of my analysis of of his bible
 references from a technical point of view, with references to scripts and data.
-The paper is on [a detailed paper](article.pdf).
+The [paper](article.pdf).
 
 ## Prerequisites
 
