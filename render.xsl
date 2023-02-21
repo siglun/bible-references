@@ -48,14 +48,14 @@
   <xsl:template match="t:text">
     <xsl:apply-templates select="t:front"/>
     <xsl:apply-templates select="t:body"/>
-    <!-- h2>Notes</h2>
+    <h2>Notes</h2>
     <xsl:for-each select="//t:note">
       <xsl:element name="p">
 	<xsl:attribute name="id"><xsl:value-of select="concat('note',position())"/></xsl:attribute>
 	<sup><xsl:value-of select="position()"/></sup>
 	<xsl:apply-templates  mode="generatetext" select="."/>
       </xsl:element>
-    </xsl:for-each -->
+    </xsl:for-each>
     <xsl:apply-templates select="t:back"/>
   </xsl:template>
 
