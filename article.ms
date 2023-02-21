@@ -339,7 +339,7 @@ I find it premature to try to correlate most of my findings to events in the lif
 \&does not reach the top 6 list for prose, only for verse. Numerically, this passage is roughly the same for both genres
 .pdfhref L -D figure4 (Figure 5)
 \&, but that is mainly due to the fact that Grundtvig wrote much more prose than verse. It seems that
-.pdfhref L -D matthew16_18 Matthew 16:18, Table 1
+.pdfhref L -D matthew16_18 Matthew 16:18 (Table 1)
 \&is very important for Grundtvig, since it reaches top 6 list for both verse and prose
 .pdfhref L -D matthew_16_18 (Matthew 16:18, Table 2)
 \&. Again you see how it appears in prose early and late in his career, and in verse during 1830-1840. This one is about the church. He is returning to this one over and over again, in (I believe) his role as a pastor in the Church of Denmark.
