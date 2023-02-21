@@ -335,7 +335,7 @@ I find it premature to try to correlate most of my findings to events in the lif
 .pdfhref L -D thodberg2009 (Thodberg, 2009).
 \&Obviously Grundtvig had quite a few completed manuscripts waiting ready for the press.
 .LP
-.pdfhref L -D john6_63 John 6:63, Table 1
+.pdfhref L -D john6_63 John 6:63 (Table 1)
 \&does not reach the top 6 list for prose, only for verse. Numerically, this passage is roughly the same for both genres
 .pdfhref L -D figure4 (Figure 5)
 \&, but that is mainly due to the fact that Grundtvig wrote much more prose than verse. It seems that
