@@ -43,10 +43,31 @@ lw(10c) lw(2c) .
         </address>
       </docAuthor>
       <div type="abstract">
-        <p>Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential persons in Danish 19th century history.
-        A polymath and very prolific writer and <quote>a pastor, author, poet, philosopher, historian, teacher and politician</quote>,
-        as <ref target="#nfsgrundtvig">Wikipedia (2003)</ref> describes him.
-        In this paper I present some data analyses on his use of the bible in his writing.</p>
+        <p>Nikolaj Frederik Severin Grundtvig (1783-1872) is one of
+        the most influential persons in Danish 19th century history.
+        A polymath and very prolific writer and <quote>a pastor,
+        author, poet, philosopher, historian, teacher and
+        politician</quote>, as <ref target="#nfsgrundtvig">Wikipedia
+        (2003)</ref> describes him.  In this paper I present some data
+        analyses on his use of the bible in his writing.</p>
+
+        <p>Grundtvig's collected works (GV) in TEI contains markup for
+        references to the Bible. The philologists at the Grundtvig
+        centre has identified 11499 bible references in the GV. They
+        refer to 4637 locations, which means that Grundtvig referred
+        to each location 2.5 times on the average.</p>
+
+        <p>A majority of his references are only used once or twice, I
+        assume they are used for some specific purpose. Then there are
+        some five to ten references (favourites) that he use
+        repeatedly through his career.  There are two different sets
+        of favourites for prose and verse.</p>
+
+        <p>Finally, when I compare Grundtvig's bible references
+        through the years, using a cluster analyses, it turns out that
+        the algorithm chooses two years 1826 and 1839 as focal points
+        for, respectively, prose and verse.</p>
+        
       </div>
     </front>
     <body>
@@ -380,6 +401,14 @@ lw(10c) lw(2c) .
         
       </div>
 
+      <figure xml:id="figure8">
+        <graphic n="(a)" url="https://github.com/siglun/bible-references/raw/main/cladogram-prose.png"/>
+        <graphic n="(b)" url="https://github.com/siglun/bible-references/raw/main/cladogram-poetry.png"/>
+        <head>Figure 9. Cladograms of a similarity matrix for years,
+        calculated for prose (a) and verse (b).</head>
+      </figure>
+
+      
       <div>
         <head>Discussion</head>
 
@@ -441,12 +470,6 @@ lw(10c) lw(2c) .
       I believe that the differences are due to what Grundtvig is actually writing;
       both his vocabulary and the set of bible locations he refers to depend on that.</p>
 
-      <figure xml:id="figure8">
-        <graphic n="(a)" url="https://github.com/siglun/bible-references/raw/main/cladogram-prose.png"/>
-        <graphic n="(b)" url="https://github.com/siglun/bible-references/raw/main/cladogram-poetry.png"/>
-        <head>Figure 9. Cladograms of a similarity matrix for years,
-        calculated for prose (a) and verse (b).</head>
-      </figure>
 
       </div>
 

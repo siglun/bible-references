@@ -20,6 +20,18 @@ Denmark
 Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential persons in Danish 19th century history. A polymath and very prolific writer and \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
 .pdfhref L -D nfsgrundtvig Wikipedia (2003)
 \&describes him. In this paper I present some data analyses on his use of the bible in his writing.
+.LP
+.vs -2
+.ps -2
+Grundtvig's collected works (GV) in TEI contains markup for references to the Bible. The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, which means that Grundtvig referred to each location 2.5 times on the average.
+.LP
+.vs -2
+.ps -2
+A majority of his references are only used once or twice, I assume they are used for some specific purpose. Then there are some five to ten references (favourites) that he use repeatedly through his career. There are two different sets of favourites for prose and verse.
+.LP
+.vs -2
+.ps -2
+Finally, when I compare Grundtvig's bible references through the years, using a cluster analyses, it turns out that the algorithm chooses two years 1826 and 1839 as focal points for, respectively, prose and verse.
 .AE
 .SH
 Introduction
@@ -439,6 +451,28 @@ In the \fIIntroduction\fP  I described how I was inspired to this paper through
 .sp
 .KE
 .sp
+.KF  
+.pdfhref M -N figure8
+.in 2c
+.ps -2
+(a)
+.in
+.ps
+.PDFPIC cladogram-prose.pdf 12.0c 7.2c
+.in 2c
+.ps -2
+(b)
+.in
+.ps
+.PDFPIC cladogram-poetry.pdf 12.0c 7.2c
+.sp
+.QP
+.vs -2
+\s-2Figure 9. Cladograms of a similarity matrix for years, calculated for prose (a) and verse (b).\s+2
+.vs
+.sp
+.KE
+.sp
 .SH
 Discussion
 .LP
@@ -475,28 +509,6 @@ The cluster analyses chooses 1826 as the focal year for prose, and 1839 as the o
 \&also mention these two years, and in addition they and characterises the dynamics of Grundtvig's language in that period as having \(lqShort memory.\(rqThis means that Grundtvig's vocabulary diversity is temporally uncorrelated between years.
 .LP
 It seems to me that my cluster analysis is related to the time series analys in as much as we compare points in time with each other. My similarity matrices do, however, ignore the \fIseries\fP  and concentrate upon the \fIpoints in time.\fPIt regards the years as individual objects. 1839 is most similar to 1832 which is a bit like 1814. If the texts we compare are written in verse, that is. However, if the text is prose it is different; then 1839 is more like 1836 and bears hardly any similarities with 1832. I believe that the differences are due to what Grundtvig is actually writing; both his vocabulary and the set of bible locations he refers to depend on that.
-.KF  
-.pdfhref M -N figure8
-.in 2c
-.ps -2
-(a)
-.in
-.ps
-.PDFPIC cladogram-prose.pdf 12.0c 7.2c
-.in 2c
-.ps -2
-(b)
-.in
-.ps
-.PDFPIC cladogram-poetry.pdf 12.0c 7.2c
-.sp
-.QP
-.vs -2
-\s-2Figure 9. Cladograms of a similarity matrix for years, calculated for prose (a) and verse (b).\s+2
-.vs
-.sp
-.KE
-.sp
 .SH
 References
 .XP
