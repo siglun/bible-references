@@ -250,7 +250,7 @@ T};52
 .sp
 .QP
 .vs -2
-\s-2Figure 1. The number of words written per year, for verse (solid curve) and in prose (dashed curve). As I point in the main text, the version of GV used in this analysis contains only 47% of his printed \fIoeuvre,\fPwith a bias towards earlier part of Grundtvig's career. This is the major reason for his seemingly lower text production between 1850 #8211; 1872.\s+2
+\s-2Figure 1. The number of words written per year, for verse (solid curve) and in prose (dashed curve). As I point in the main text, the version of GV used in this analysis contains only 47% of his printed \fIoeuvre,\fP  with a bias towards earlier part of Grundtvig's career. This is the major reason for his seemingly lower text production between 1850 – 1872.\s+2
 .vs
 .sp
 .KE
@@ -264,7 +264,7 @@ Grundtvig was an active and prolific author over a period of close to 70 years
 .LP
 The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large numbers of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus.
 .LP
-The current version of GV has grown from 47% to 52% of Grundtvig's printed \fIoeuvre,\fPand the number of known references has grown to 13700 (Katrine Frøkjær Baunvig, pers. comm). The total number of references increases as the work on GV continues, hence all conclusions here are tentative.
+The current version of GV has grown from 47% to 52% of Grundtvig's printed \fIoeuvre,\fP  and the number of known references has grown to 13700 (Katrine Frøkjær Baunvig, pers. comm). The total number of references increases as the work on GV continues, hence all conclusions here are tentative.
 .KF  
 .pdfhref M -N figure1
 .PDFPIC distribution.pdf 12.0c 7.2c
@@ -500,15 +500,15 @@ Instead I looked at the number of each of the 2663 bible locations he used each 
 .LP
 This sounds much more complicated than it is; for prose the algorithm selects \fB1826\fP  as a start year, and find that the year which is most like it in terms of bible references is 1817, which in turn is very much like 1858 and 1840. It should not surprise you that this procedure is often used in biological taxonomy for inferring relations between species. For verse, the algorithm starts at \fB1839\fP  and go from there to 1832, 1814, 1817 etc.
 .LP
-1826–1837 are the years Grundtvig was censured by a court order (see
+1826 – 1837 are the years Grundtvig was censured by a court order (see
 .pdfhref L -D censuring above)
 \&and 1839 when he became pastor at Vartov. That job was apparently not very demanding
 .pdfhref L -D petersen (Petersen, 2009).
-\&1837-1839 were the years when he finally could print his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared. 1839 he printed volume 2. From 1839 onwards he had a stable income.
+\&1837 – 1839 were the years when he finally could print his \fISang-Værk til den Danske Kirke\fP, with psalms and songs appeared. 1839 he printed volume 2. From 1839 onwards he had a stable income.
 .LP
 The cluster analyses chooses 1826 as the focal year for prose, and 1839 as the one for verse. There is a pattern in this, which I feel could be significant.
 .pdfhref L -D entropicdecay Nielbo et al. (2019)
-\&also mention these two years, and in addition they and characterises the dynamics of Grundtvig's language in that period as having \(lqShort memory.\(rqThis means that Grundtvig's vocabulary diversity is temporally uncorrelated between years.
+\&also mention these two years, and in addition they characterises the dynamics of Grundtvig's language in that period as having \(lqShort memory.\(rqThis means that Grundtvig's vocabulary diversity is temporally uncorrelated between years in that period.
 .LP
 It seems to me that my cluster analysis is related to the time series analys in as much as we compare points in time with each other. My similarity matrices do, however, ignore the \fIseries\fP  and concentrate upon the \fIpoints in time.\fPIt regards the years as individual objects. 1839 is most similar to 1832 which is a bit like 1814. If the texts we compare are written in verse, that is. However, if the text is prose it is different; then 1839 is more like 1836 and bears hardly any similarities with 1832. I believe that the differences are due to what Grundtvig is actually writing; both his vocabulary and the set of bible locations he refers to depend on that.
 .SH
