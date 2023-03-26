@@ -43,14 +43,7 @@ lw(10c) lw(2c) .
         </address>
       </docAuthor>
       <div type="abstract">
-        <p>Nikolaj Frederik Severin Grundtvig (1783-1872) is one of
-        the most influential persons in Danish 19th century history.
-        A polymath and very prolific writer and <quote>a pastor,
-        author, poet, philosopher, historian, teacher and
-        politician</quote>, as <ref target="#nfsgrundtvig">Wikipedia
-        (2003)</ref> describes him.  In this paper I present some data
-        analyses on his use of the bible in his writing.</p>
-
+    
         <p>Grundtvig's collected works (GV) in TEI contains markup for
         references to the Bible. The philologists at the Grundtvig
         centre has identified 11499 bible references in the GV. They
@@ -74,7 +67,15 @@ lw(10c) lw(2c) .
       <div>
         <head>Introduction</head>
 
-        <p xml:id="para1">Nikolaj Frederik Severin Grundtvig's use of bible references in his writings varied a lot over time.
+        <p>Nikolaj Frederik Severin Grundtvig (1783-1872) is one of
+        the most influential persons in Danish 19th century history.
+        A polymath and very prolific writer and <quote>a pastor,
+        author, poet, philosopher, historian, teacher and
+        politician</quote>, as <ref target="#nfsgrundtvig">Wikipedia
+        (2003)</ref> describes him.  In this paper I present some data
+        analyses on his use of the bible in his writing.</p>
+        
+        <p xml:id="para1">Grundtvig's use of bible references in his writings varied a lot over time.
         I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020) <ref target="#grundtvig-texter"><title>Grundtvigs Værker</title>,</ref>
         a part of the Royal Danish Library's Text Collections.
         It turned out that Grundtvig referred to <hi rend='monospaced'>1 Corinthians 13:12</hi> <hi rend="italic"><quote>For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known</quote></hi> <note><ref target="https://biblehub.com/1_corinthians/13-12.htm"/></note> in more works than any other bible reference,
@@ -154,6 +155,11 @@ lw(10c) lw(2c) .
         target="#grundtvig-vaerker">Grundtvigs Værker.</ref>
         (I refer to the scientific edition of Grundtvig's works as GV in the following.)</p>
 
+        <p>GV is a work-in-progress. This analysis is based on release
+        1.17 of GV. Katrine Frøkjær Baunvig (pers. comm) points out
+        that it contains only 47% of Grundtvig's printed works,
+        and that this fraction is biased towards the earlier half of his career.</p>
+
         <p>The texts are encoded <ref
         target="#teiguidelines">according to TEI P5
         guidelines.</ref>
@@ -225,6 +231,10 @@ lw(10c) lw(2c) .
           <head>Figure 1. The number of words written per year,
           for verse (solid curve)
           and in prose (dashed curve).
+          As I point in the main text,
+          the version of GV used in this analysis contains only 47% of his printed <hi rend="italic">oeuvre,</hi>
+          with a bias towards earlier part of Grundtvig's career.
+          This is the major reason for his seemingly lower text production between 1850 #8211; 1872.
         </head>
         </figure>
 
@@ -250,6 +260,12 @@ lw(10c) lw(2c) .
         i.e., Grundtvig referred to each location 2.5 times on the average.
         In reality there are large numbers of bible locations that just appear once in a reference,
         whereas he had a number of favourites which is cited 60 to 70 times in the corpus.</p>
+
+        <p>The current version of GV has grown from 47% to 52% of
+        Grundtvig's printed <hi rend="italic">oeuvre,</hi> and the number of known references
+        has grown to 13700 (Katrine Frøkjær Baunvig, pers. comm).
+        The total number of references increases as the work on GV continues,
+        hence all conclusions here are tentative.</p>
       
         <figure xml:id="figure1">
           <graphic url="https://github.com/siglun/bible-references/raw/main/distribution.png"/>
@@ -471,7 +487,18 @@ lw(10c) lw(2c) .
       both his vocabulary and the set of bible locations he refers to depend on that.</p>
 
 
-      </div>
+    </div>
+
+    <div>
+      <head>Acknowledgements</head>
+
+      <p>This contribution would have been impossible without access to the TEI source of GV,
+      provided through our collaboration with <ref target="#grundtvig-vaerker">Center for Grundtvigforskning.</ref>
+      Its head, Katrine Frøkjær Baunvig, and her colleagues the philologists working with the texts,
+      have provided valuable and very important comments on an earlier version of the manuscript.
+      All remaining mistakes are mine.</p>
+
+    </div>
 
       <!--
 

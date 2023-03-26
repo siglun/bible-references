@@ -17,12 +17,6 @@ Denmark
 .LP
 .vs -2
 .ps -2
-Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential persons in Danish 19th century history. A polymath and very prolific writer and \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
-.pdfhref L -D nfsgrundtvig Wikipedia (2003)
-\&describes him. In this paper I present some data analyses on his use of the bible in his writing.
-.LP
-.vs -2
-.ps -2
 Grundtvig's collected works (GV) in TEI contains markup for references to the Bible. The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, which means that Grundtvig referred to each location 2.5 times on the average.
 .LP
 .vs -2
@@ -36,9 +30,13 @@ Finally, when I compare Grundtvig's bible references through the years, using a 
 .SH
 Introduction
 .LP
+Nikolaj Frederik Severin Grundtvig (1783-1872) is one of the most influential persons in Danish 19th century history. A polymath and very prolific writer and \(lqa pastor, author, poet, philosopher, historian, teacher and politician\(rq, as
+.pdfhref L -D nfsgrundtvig Wikipedia (2003)
+\&describes him. In this paper I present some data analyses on his use of the bible in his writing.
+.LP
   
 .pdfhref M -N para1
-Nikolaj Frederik Severin Grundtvig's use of bible references in his writings varied a lot over time. I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
+Grundtvig's use of bible references in his writings varied a lot over time. I discovered this when testing the bible reference faceted search for the Center for Grundtvigforskning's and Det Kgl. Bibliotek's (2020)
 .pdfhref L -D grundtvig-texter Grundtvigs Værker,
 \&a part of the Royal Danish Library's Text Collections. It turned out that Grundtvig referred to \f(CR\s-11 Corinthians 13:12\s+1\fP \fI \(lqFor now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known\(rq\fP\**
 .FS
@@ -141,6 +139,8 @@ The Grundtvig data for the portal comes from the Århus university's (2009)
 \&the publisher of
 .pdfhref L -D grundtvig-vaerker Grundtvigs Værker.
 \&(I refer to the scientific edition of Grundtvig's works as GV in the following.)
+.LP
+GV is a work-in-progress. This analysis is based on release 1.17 of GV. Katrine Frøkjær Baunvig (pers. comm) points out that it contains only 47% of Grundtvig's printed works, and that this fraction is biased towards the earlier half of his career.
 .LP
 The texts are encoded
 .pdfhref L -D teiguidelines according to TEI P5 guidelines.
@@ -250,7 +250,7 @@ T};52
 .sp
 .QP
 .vs -2
-\s-2Figure 1. The number of words written per year, for verse (solid curve) and in prose (dashed curve).\s+2
+\s-2Figure 1. The number of words written per year, for verse (solid curve) and in prose (dashed curve). As I point in the main text, the version of GV used in this analysis contains only 47% of his printed \fIoeuvre,\fPwith a bias towards earlier part of Grundtvig's career. This is the major reason for his seemingly lower text production between 1850 #8211; 1872.\s+2
 .vs
 .sp
 .KE
@@ -263,6 +263,8 @@ Grundtvig was an active and prolific author over a period of close to 70 years
 \&. When his productivity peaked, it often did so for both verse and prose in parallel. Sometimes the two genres peaked consecutive years. Modern readers usually think of him as a poet or author of psalms, but he did write significantly more prose of all kinds. (Swedes in my generation, and I suppose Norwegians, sang some of his psalms in school but not much else and hardly read any prose.) Even years when his production of verse is high, there always appear some prose as well; usually more than verse.
 .LP
 The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, i.e., Grundtvig referred to each location 2.5 times on the average. In reality there are large numbers of bible locations that just appear once in a reference, whereas he had a number of favourites which is cited 60 to 70 times in the corpus.
+.LP
+The current version of GV has grown from 47% to 52% of Grundtvig's printed \fIoeuvre,\fPand the number of known references has grown to 13700 (Katrine Frøkjær Baunvig, pers. comm). The total number of references increases as the work on GV continues, hence all conclusions here are tentative.
 .KF  
 .pdfhref M -N figure1
 .PDFPIC distribution.pdf 12.0c 7.2c
@@ -509,6 +511,12 @@ The cluster analyses chooses 1826 as the focal year for prose, and 1839 as the o
 \&also mention these two years, and in addition they and characterises the dynamics of Grundtvig's language in that period as having \(lqShort memory.\(rqThis means that Grundtvig's vocabulary diversity is temporally uncorrelated between years.
 .LP
 It seems to me that my cluster analysis is related to the time series analys in as much as we compare points in time with each other. My similarity matrices do, however, ignore the \fIseries\fP  and concentrate upon the \fIpoints in time.\fPIt regards the years as individual objects. 1839 is most similar to 1832 which is a bit like 1814. If the texts we compare are written in verse, that is. However, if the text is prose it is different; then 1839 is more like 1836 and bears hardly any similarities with 1832. I believe that the differences are due to what Grundtvig is actually writing; both his vocabulary and the set of bible locations he refers to depend on that.
+.SH
+Acknowledgements
+.LP
+This contribution would have been impossible without access to the TEI source of GV, provided through our collaboration with
+.pdfhref L -D grundtvig-vaerker Center for Grundtvigforskning.
+\&Its head, Katrine Frøkjær Baunvig, and her colleagues the philologists working with the texts, have provided valuable and very important comments on an earlier version of the manuscript. All remaining mistakes are mine.
 .SH
 References
 .XP
