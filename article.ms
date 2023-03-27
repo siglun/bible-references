@@ -17,11 +17,11 @@ Denmark
 .LP
 .vs -2
 .ps -2
-Grundtvig's collected works (GV) in TEI contains markup for references to the Bible. The philologists at the Grundtvig centre has identified 11499 bible references in the GV. They refer to 4637 locations, which means that Grundtvig referred to each location 2.5 times on the average.
+Grundtvig's collected works (GV) in TEI, contains markup for references to the Bible. The philologists at the Grundtvig centre have identified 11499 bible references in the GV. They refer to 4637 locations, which means that Grundtvig referred to each location 2.5 times on the average.
 .LP
 .vs -2
 .ps -2
-A majority of his references are only used once or twice, I assume they are used for some specific purpose. Then there are some five to ten references (favourites) that he use repeatedly through his career. There are two different sets of favourites for prose and verse.
+A majority of his references are only used once or twice, I assume they are used for some specific purposes. Then there are some five to ten references (favourites) that he use repeatedly through his career. There are two different sets of favourites for prose and verse.
 .LP
 .vs -2
 .ps -2
