@@ -212,6 +212,8 @@
     <p><xsl:apply-templates/></p>
   </xsl:template>
 
+  <xsl:template match="t:lb"><br/></xsl:template>
+  
   <xsl:template match="t:ref">
     <xsl:element name="a">
       <xsl:if test="@target">
