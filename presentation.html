@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>part A: the service and the data</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+	<section>
+	  <h2 style="text-transform: none;">A. the service and the data</h2>
+	  <ol style="list-style-type: lower-roman;">
+	  <li  class="fragment grow"><a href="#functions">a demonstration. the functions and architecture</a></li>
+	  <li  class="fragment grow"><a href="#modelling">the modelling of text</a></li>
+	  <li  class="fragment grow"><a href="#data-source">the text-service data sources</a></li>
+          </ol>
+	</section>
+        <section id="functions" >
+	  <section>
+            <h2 style="text-transform: none;">a demonstration</h2>
+            <a target="_blank" href="https://tekster.kb.dk"><img src="tekst-service-screen-shot.png" alt="text service screen shot"/></a>
+          </section>
+          <section>
+            <h2 style="text-transform: none;">result set and facets</h2>
+            <p><a href="https://tekster.kb.dk/text?editorial=no&amp;match=phrase&amp;search_field=Alt">Result set</a></p>
+            <p><a href="text-service-facets.png"><img width="25%" src="text-service-facets.png" alt="facets"/></a></p>
+          </section>
+          <section>
+            <h2 style="text-transform: none;">architecture</h2>
+            <img src="architecture.png" width="50%" alt="text service architecture"/>
+          </section>
+        </section>
+        <section id="modelling">
+          <section>
+            <h2 style="text-transform: none;">modelling text as a tree</h2>
+            <a href="tree.jpg"><img src="tree.jpg" width="60%" alt="the content tree"/></a><br/>
+	    <a href="https://sigfrid-lundberg.se/2002/Laurentius/laurentius.pdf">Mh 35</a>
+          </section>
+
+          <section>
+            <h2>excurse</h2>
+            <p>Heterogeneity, Granularity and Aggregation</p>
+            <p><img src="heterogeneity-aggregation-granularity.png"
+	    alt="a hand"
+	    title="Heterogeneity, Granularity and aggregation"/></p>
+            <p><a href="https://en.wikipedia.org/wiki/Solvay_Conference#Fifth_conference">https://en.wikipedia.org/wiki/Solvay_Conference#Fifth_conference</a></p>
+          </section>
+          
+          <section>
+            <h2 style="text-transform: none;">modelling work as a twig</h2>
+            <img src="leaf_node.png" alt="the content twig"/>
+            <p>why we use milestones and containers<br/>
+            OHCO, GODDAG structures and TexMECS</p>
+          </section>
+
+          <section>
+            <h2 style="text-transform: none;">OHCO</h2>
+            <ul>
+              <li><a href="https://pittsburgh-neh-institute.github.io/Institute-Materials-2017/schedule/week_2/ohco.html">https://pittsburgh-neh-institute.github.io/Institute-Materials-2017/schedule/week_2/ohco.html</a></li>
+              <li><a href="https://pittsburgh-neh-institute.github.io/Institute-Materials-2017/schedule/week_2/balisage-tag/Bal2017dekk0505.html">https://pittsburgh-neh-institute.github.io/Institute-Materials-2017/schedule/week_2/balisage-tag/Bal2017dekk0505.html</a></li>
+              <li><a href="https://cds.library.brown.edu/resources/stg/monographs/ohco.html">https://cds.library.brown.edu/resources/stg/monographs/ohco.html</a></li>
+            </ul>
+          </section>
+          
+          <section>
+            <h2 style="text-transform: none;">Jeppe &amp; Nille</h2>
+	    <pre data-id="code-animation">
+              <code class="hljs tag" data-trim="data-trim" data-line-numbers="data-line-numbers">
+&lt;sp xml:id="idm139796482829056">
+  &lt;speaker xml:id="idm139796482828800">JEPPE.&lt;/speaker>
+  &lt;p xml:id="idm139796482828384">Har du lagt Mester Erich fra dig Nille?&lt;/p>
+&lt;/sp>
+&lt;sp xml:id="idm139796482827808">
+  &lt;speaker xml:id="idm139796482827552">NILLE.&lt;/speaker>
+  &lt;p xml:id="idm139796482827136">Ja jeg har, men jeg veed strax hvor hand er at finde igien,
+  dersom du icke er hørtig. Her hid! see hvor hand kryber. Her
+  hid! du skal til Byen at kiøbe mig to Pund grøn Sæbe; see der
+  har du Penge dertil. Men hør! hvis du inden fire Timer icke er
+  her paa Stædet igien, da skal Mester Erich dantze Polsk Dantz
+  paa din Ryg.&lt;/p>
+&lt;/sp>
+&lt;sp xml:id="idm139796482825856">
+  &lt;speaker xml:id="idm139796482825600">JEPPE.&lt;/speaker>
+  &lt;p xml:id="idm139796482825184">Hvor kand jeg gaae fire Miil i fire Timer Nille?&lt;/p>
+&lt;/sp>
+              </code>
+            </pre>
+            <a href="https://tekster.kb.dk/text/adl-texts-holberg14val-shoot-workid64787#idm139796482827808">See in context</a>
+          </section>
+	  <section  data-auto-animate="data-auto-animate">
+            <h2 style="text-transform: none;">a sonet</h2>
+	    <pre data-id="code-animation">
+              <code class="hljs tag" data-trim="data-trim" data-line-numbers="data-line-numbers">
+&lt;div decls="#biblid68251">
+  &lt;head>Jeg elsker —&lt;/head>
+  &lt;lg>
+    &lt;l>Jeg elsker Himlens høje Harmoni,&lt;/l>
+    &lt;l>dens Purpurblomst, som blaaner i det Fjærne,&lt;/l>
+    &lt;l>den Fred, som risler ned fra Nattens Stjerne,&lt;/l>
+    &lt;l>det Glimt af Gud, der glider mig forbi;&lt;/l>
+  &lt;/lg>
+  &lt;lg>
+    &lt;l>og Evighedens tavse Melodi,&lt;/l>
+    &lt;l>de svundne Slægters kaldende Orkester,&lt;/l>
+    &lt;l>et Tonehav om en usynlig Mester,&lt;/l>
+    &lt;l>en Klang af Gud, der bruser mig forbi;&lt;/l>
+  &lt;/lg>
+  &lt;lg>
+    &lt;l>en magisk Magt fra Hjertets mørke Celle,&lt;/l>
+    &lt;l>de stærke Længsler, som mod Lyset vælde,&lt;/l>
+    &lt;l>Naturens evigunge Fantasi;&lt;/l>
+  &lt;/lg>
+  &lt;lg>
+    &lt;l>det Liv, der spirer midt i selve Døden,&lt;/l>
+    &lt;l>den Sol, der stiger midt i Aftenrøden,&lt;/l>
+    &lt;l>— o Glimt af Gud, der glider mig forbi!&lt;/l>
+  &lt;/lg>
+  &lt;p>
+    &lt;date>12. Septbr. 1893.&lt;/date>
+  &lt;/p>
+&lt;/div>
+            </code>
+            </pre>
+            <a href="https://tekster.kb.dk/text/adl-texts-michs_03-shoot-workid68251">See in context</a><br/>
+            <a href="https://raw.githubusercontent.com/siglun/danish-sonnets/main/sonnet-analysis.pdf">about sonnets in ADL</a>
+	  </section>
+
+        <section>
+          <h2 style="text-transform: none;">Søren mentions Mester Erich</h2>
+    <pre data-id="code-animation">
+              <code class="hljs tag" data-trim="data-trim" data-line-numbers="data-line-numbers">
+  &lt;p xml:id="id0de40d26-9fde-4fc5-8615-345990236698"
+  rendition="#ind">Endelig er der endnu en Side af det ægteskabelige
+  Liv, som ofte har givet Dig Anledning til Angreb. Du siger, »den
+  ægteskabelige Kjærlighed skjuler noget ganske Andet i sig; den synes
+  saa mild og skjøn, og øm; men naar først Døren er lukket efter
+  Ægteparret, saa inden man veed et Ord deraf saa kommer &lt;ref
+  type="commentary" target="kom.xml#ee2-530" xml:id="ee2-530">Mester
+  Erik&lt;/ref> frem, saa hedder det, det er Pligt, og nu kan I pynte mig
+  dette Scepter ud saa meget som I vil, gjøre det til et
+  Fastelavns-Riis, det bliver dog en &lt;persName
+  xml:id="id6754c65f-a258-4b33-9afd-87ceab52ccc9" key="Mester
+  Erich">Mester Erik&lt;/persName>.« &lt;pb xml:id="s149" n="149"/> Denne
+  Indvending behandler jeg her, fordi den ogsaa væsentlig beroer paa
+  en Misforstaaelse af det Historiske i den ægteskabelige
+  Kjærlighed. Du vil enten lade dunkle Magter eller Lune være det
+  Constituerende i Kjærligheden. Saasnart en Bevidsthed træder til,
+  saa forsvinder dette Trylleri; men denne Bevidsthed har den
+  ægteskabelige Kjærlighed. For nu at udtrykke det ret grelt, saa
+  viser Du os, istedenfor den &lt;ref type="commentary"
+  target="kom.xml#ee2-531" xml:id="ee2-531">Concertmester-Stav&lt;/ref>,
+  hvis Bevægelser angive Takten i den første Kjærligheds gratieuse
+  Stillinger, Pligtens ubehagelige &lt;ref type="commentary"
+  target="kom.xml#ee2-532" xml:id="ee2-532">Corporal-Stok&lt;/ref>. Det
+  maa Du nu for det Første indrømme mig, at saa længe den første
+  Kjærlighed, hvilken jo, efter hvad vi ere komne overeens om, den
+  ægteskabelige Kjærlighed har i sig, forbliver uforandret, saa længe
+  kan der ikke være Tale om Pligtens strenge Nødvendighed. Du troer
+  altsaa ikke paa den første Kjærligheds Evighed. Seer Du, &lt;pb
+  xml:id="idc84a31ac-c666-4354-a932-03771306822e" edRef="#SV1"
+  n="132"/>der har vi Dit gamle Kjætteri, det er Dig, der dog saa ofte
+  opkaster Dig til dens Ridder, og dog troer Du ikke paa den, ja
+  profanerer den. Fordi Du altsaa ikke troer paa den, derfor tør Du
+  ikke indgaae en Forbindelse, der, naar Du ikke længer er &lt;hi
+  xml:id="id3500e280-1fcc-453c-b1ab-6c0025565ace"
+  rendition="#ant">&lt;ref type="commentary" target="kom.xml#ee2-533"
+  xml:id="ee2-533">volens&lt;/ref>, &lt;/hi> kan tvinge Dig til &lt;hi
+  xml:id="id69625f16-e60d-419b-9568-89f52ce18333"
+  rendition="#ant">&lt;ref type="commentary" target="kom.xml#ee2-534"
+  xml:id="ee2-534">nolens&lt;/ref>&lt;/hi> at blive i den. Kjærligheden er
+  Dig derfor aabenbart ikke det Høieste; thi ellers vilde Du være
+  glad, om der var en Magt, der var istand til at tvinge Dig til at
+  &lt;pb xml:id="id3ed6f920-ca99-4da7-a068-0aed09f6a352" edRef="#SV3"
+  n="138"/>blive i den. Du vil maaskee svare, at dette Middel er intet
+  Middel, men dertil vil jeg bemærke, at det beroer paa, hvorledes man
+  seer Sagen.&lt;/p>
+              </code>
+    </pre>
+    <a href="https://tekster.kb.dk/text/sks-ee2-txt-root#id0de40d26-9fde-4fc5-8615-345990236698">See in context</a>
+        </section>
+      </section>
+      <section id="data-sources">
+        <section>
+            <h2 style="text-transform: none;">text-service data sources</h2>
+          <ul>
+            <li><a href="https://github.com/kb-dk/gv-mirror">https://github.com/kb-dk/gv-mirror</a></li>
+            <li><a href="https://github.com/kb-dk/SKS_tei">https://github.com/kb-dk/SKS_tei</a></li>
+            <li>
+              ADL
+              <ul>
+                <li><a href="https://github.com/kb-dk/public-adl-text-sources">https://github.com/kb-dk/public-adl-text-sources</a></li>
+                <li><a href="https://github.com/kb-dk/adl-text-sources">https://github.com/kb-dk/adl-text-sources</a></li>
+              </ul>
+            </li>
+            <li><a href="https://github.com/kb-dk/letter-corpus">https://github.com/kb-dk/letter-corpus</a></li>
+            <li>ALTO based projects
+            <ul>
+              <li><a href="https://github.com/kb-dk/trykkefrihedens-skrifter">https://github.com/kb-dk/trykkefrihedens-skrifter</a></li>
+              <li>lh</li>
+            </ul>
+            </li>
+	    <li><a href="https://github.com/kb-dk/dab-lovforarbejder">https://github.com/kb-dk/dab-lovforarbejder</a></li>
+
+          </ul>
+        </section>
+        <section>
+          <h2 style="text-transform: none;">Conversion tools</h2>
+          <p><a href="https://github.com/kb-dk/alto-to-tei-tools">https://github.com/kb-dk/alto-to-tei-tools</a></p>
+        </section>
+      </section>
+    </div>
+  </div>
+
+    <script src="dist/reveal.js" type=""></script>
+    <script src="plugin/notes/notes.js" type=""></script>
+    <script src="plugin/markdown/markdown.js" type=""></script>
+    <script src="plugin/highlight/highlight.js" type=""></script>
+    <script>
+      //<!--
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+      hash: true,
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+      //-->
+    </script>
+  </body>
+</html>
