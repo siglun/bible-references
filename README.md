@@ -124,7 +124,7 @@ $SAXON table-all.xml clustering_data.xsl  > clustering-data.text
 ```
 
 The [clustering-data.text](clustering-data.text) contains one line per
-year and 4637 columns, one for each bible location Grundtvig ever
+year and 4637 columns, one for each bible location Grundtvig 
 referred to. The values in the table refer to the number of times he
 referenced that locations. Most entries are zero, obviously. The
 [do-cluster-analysis.r](do-cluster-analysis.r) does the calculations.
