@@ -36,7 +36,7 @@ lw(10c) lw(2c) .
         <name>Sigfrid Lundberg</name>
         <address>
           <addrLine>Digital Transformation</addrLine>
-          <addrLine>Royal Danish Library<note>This work was completed while the author still had not yet retired from his position at the Royal Danish Library.</note></addrLine>
+          <addrLine>Royal Danish Library<note>This work was completed Jan 4, 2023, when the author had not yet retired from his position at the Royal Danish Library.</note></addrLine>
           <addrLine>Post box 2149</addrLine>
           <addrLine>1016 Copenhagen K</addrLine>
           <addrLine>Denmark</addrLine>
@@ -186,8 +186,8 @@ lw(10c) lw(2c) .
         haven't used these categories yet.</p>
 
         <p>Most of the analyses presented are inspired by Kenneth Ward
-        Church and his brilliant <ref target="#kennethchurch"><title
-        level="m">Unix™ for Poets</title>.</ref> The <ref
+        Church and his brilliant <title
+        level="m"><ref target="#kennethchurch">Unix™ for Poets</ref></title>. The <ref
         target="#rlanguage">cluster analyses was made using the
         language R,</ref> see <ref target="#similarity">Altuna Akalin (2020)</ref>
         <title>Computational Genomics with R.</title></p>

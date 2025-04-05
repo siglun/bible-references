@@ -17,6 +17,8 @@ rm shit.html
 xsltproc teip5toms.xsl  article.xml | grep -v '^$' >  article.ms
 groff -U  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms  article.ms >  article.pdf
 
+groff -U  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tps parameters.ms  article.ms >  article.ps
+
 
 
 

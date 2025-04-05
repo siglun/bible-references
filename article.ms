@@ -8,7 +8,7 @@ Sigfrid Lundberg
 Digital Transformation
 Royal Danish Library\**
 .FS
-This work was completed while the author still had not yet retired from his position at the Royal Danish Library.
+This work was completed Jan 4, 2023, when the author had not yet retired from his position at the Royal Danish Library.
 .FE
 Post box 2149
 1016 Copenhagen K
@@ -165,9 +165,9 @@ Which is a reference to
 .LP
 The references are categorized into categories which can be found in the @rend attribute. In this case it is an \fIallusion\fP. The more generic   \fIreference\fP  is more common, and there are some other variants like \fIquote\fP. I haven't used these categories yet.
 .LP
-Most of the analyses presented are inspired by Kenneth Ward Church and his brilliant
-.pdfhref L -D kennethchurch Unix™ for Poets.
-\&The
+Most of the analyses presented are inspired by Kenneth Ward Church and his brilliant \fI
+.pdfhref L -D kennethchurch Unix™ for Poets
+\&\fP. The
 .pdfhref L -D rlanguage cluster analyses was made using the language R,
 \&see
 .pdfhref L -D similarity Altuna Akalin (2020)
