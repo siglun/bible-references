@@ -1,4 +1,4 @@
-SAXON_JAR="/usr/share/java/Saxon-HE.jaR"
+SAXON_JAR="/usr/share/java/Saxon-HE.jar"
  
 SAXON="java -jar $SAXON_JAR "
 
