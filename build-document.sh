@@ -15,9 +15,10 @@ rm shit.html
 # ./to-markdown.sh
 
 xsltproc teip5toms.xsl  article.xml | grep -v '^$' >  article.ms
-groff -U  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms  article.ms >  article.pdf
+groff -U  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tpdf parameters.ms  article.ms >  article-1.pdf
 
-# groff -U  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tps parameters.ms  article.ms >  article.ps
+pdfroff -U  -m pdfpic -m pdfmark -ms -k  -s -t -P-pa4 -Tps parameters.ms fam.ms  article.ms >  article-2.pdf
+
 
 
 
