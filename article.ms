@@ -5,14 +5,10 @@ Musings of a software developer
 .AU
 Sigfrid Lundberg
 .AI
-Digital Transformation
-Royal Danish Library\**
+Independent\**
 .FS
 This work was completed Jan 4, 2023, when the author had not yet retired from his position at the Royal Danish Library.
 .FE
-Post box 2149
-1016 Copenhagen K
-Denmark
 .AB
 .LP
 .vs -2

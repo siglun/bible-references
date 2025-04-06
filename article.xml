@@ -35,11 +35,13 @@ lw(10c) lw(2c) .
       <docAuthor>
         <name>Sigfrid Lundberg</name>
         <address>
-          <addrLine>Digital Transformation</addrLine>
-          <addrLine>Royal Danish Library<note>This work was completed Jan 4, 2023, when the author had not yet retired from his position at the Royal Danish Library.</note></addrLine>
+	  <addrLine>Independent
+	  <note>This work was completed Jan 4, 2023, when the author had not yet retired from his position at the Royal Danish Library.</note></addrLine>
+          <!--addrLine>Digital Transformation</addrLine>
+          <addrLine>Royal Danish Library</addrLine>
           <addrLine>Post box 2149</addrLine>
           <addrLine>1016 Copenhagen K</addrLine>
-          <addrLine>Denmark</addrLine>
+          <addrLine>Denmark</addrLine -->
         </address>
       </docAuthor>
       <div type="abstract">
